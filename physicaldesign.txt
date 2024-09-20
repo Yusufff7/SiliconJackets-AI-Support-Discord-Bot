@@ -1,0 +1,1999 @@
+==============================================================
+Guild: SiliconJackets
+Channel: physical design / discussions
+==============================================================
+
+[10/7/2023 11:51 PM] sharkyguo
+Hi, hope you guys are enjoying your break! We will sent out an official on-boarding email after the break. In the mean time please feel free to start reviewing some Python / TCL scripting basics and bookmark any online resources that can be useful.
+
+
+[10/16/2023 5:05 PM] sharkyguo
+@Physical Design Please fill out the meeting time survey https://lettucemeet.com/l/Aq43E and join our github team if you have not done so following our previous email.
+
+{Embed}
+https://lettucemeet.com/l/Aq43E
+LettuceMeet - Easy Group Scheduling
+The easiest way to schedule group meetings.
+
+
+[10/17/2023 12:01 PM] sharkyguo
+Thanks everyone for filling out the meeting survey! The most popular meeting appears to be Tuesday 6-7pm. I have booked the room Skiles 271 for the weekly meeting.
+
+
+[10/17/2023 12:02 PM] sharkyguo
+Since this is a last-minute notice, we will not meet in person today. We will reschedule another online meeting time on Friday 5:30pm to 6:30pm for this week only.
+
+
+[10/17/2023 12:12 PM] sharkyguo
+Although we encourage in-person meeting in the upcoming weeks, we will also provide an online link that you can join in case you cannot make it
+
+
+[10/17/2023 8:27 PM] sharkyguo
+For those who cannot access the slides for timing report format and theory should refer to this https://www.vlsi-backend-adventure.com/sta.html. Concepts covered in the first half of page is the recommended reading
+
+{Reactions}
+👍 (3)
+
+[10/18/2023 12:08 PM] multimetere_52331
+You can access the slide linked in the readme on the internet archive: https://web.archive.org/web/20220215024855/https://www.eng.biu.ac.il/temanad/files/2018/12/Lecture-5-STA.pdf
+
+{Reactions}
+👍
+
+[10/18/2023 5:48 PM] mhden1
+Hi, we have up until next Tuesday to finish with the Github test-assignment, correct?
+
+
+[10/18/2023 10:54 PM] sharkyguo
+Next Wednesday will ideally be the deadline
+
+
+[10/20/2023 12:21 AM] akoul180
+Has anyone tried running the run_designs.py for doing multiple combinations of configurations? I’m following the open lane documentation but I still can’t seem to get it working
+
+
+[10/20/2023 9:53 AM] akoul180
+Nvmd I figured it out!
+
+{Reactions}
+👍
+
+[10/20/2023 2:32 PM] sharkyguo
+@Physical Design A reminder of our 5:30-6:30 online meeting today! I will post the link here before the meeting
+
+
+[10/20/2023 3:43 PM] mhden1
+Is it online only?
+
+
+[10/20/2023 3:59 PM] sharkyguo
+For this week yes
+
+{Reactions}
+👍
+
+[10/20/2023 4:43 PM] multimetere_52331
+i'm having a little trouble with my phone, I might not be able to make the meeting
+
+
+[10/20/2023 5:02 PM] sharkyguo
+We might be able to record the meeting
+
+{Reactions}
+👍
+
+[10/20/2023 5:24 PM] sharkyguo
+Meeting link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDY3OTkyMTQtODg3Yi00YjkwLWIxMDAtNzViYmIwZGUyNDQz%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2214752561-0488-44ea-b531-835c5b6a0250%22%7d
+
+{Embed}
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDY3OTkyMTQtODg3Yi00YjkwLWIxMDAtNzViYmIwZGUyNDQz%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2214752561-0488-44ea-b531-835c5b6a0250%22%7d
+https://images-ext-1.discordapp.net/external/iXrQu-R2TQJ815Inzx5Oof-h7iqGLD4ZGdzaWVdSzvs/https/statics.teams.cdn.office.net/hashedassets-launcher/favicon/favicon-96x96.png
+
+
+[10/20/2023 8:03 PM] akoul180
+When will we start using the cadence tools?
+
+
+[10/20/2023 8:06 PM] sharkyguo
+Right now we are starting to test it with some template codes. Probably the week after most onboarding is done and we have gone through an overview of the EDA tools, so probably the week after next week (the latest)
+
+
+[10/20/2023 8:12 PM] sharkyguo
+Pinned a message.
+
+
+[10/20/2023 8:12 PM] sharkyguo
+Here is the recorded meeting https://gtvault-my.sharepoint.com/:v:/g/personal/jguo366_gatech_edu/Ec9oyfmwyGlGrl9HqbKyhr0BBtL5rXz-3C_A7lECvkT4-A
+
+
+[10/20/2023 8:13 PM] sharkyguo
+We plan to meet in-person as normal on next Tuesday
+
+
+[10/22/2023 9:53 PM] mhden1
+On Q2: "What the average depth, or number of gates, on paths with the least positive slack?"
+
+how do you define the "paths with the least positive slack?"
+Shall we get an arbitrary number of paths from the slow corner and calculate on those?
+
+
+[10/22/2023 10:15 PM] sharkyguo
+At the end of the timing report for each path it reports a slack value. You should identify all the path(s) with the least positive slack value and calculate for those
+
+
+[10/24/2023 5:14 PM] sharkyguo
+A reminder that we have our first in-person meeting at Skiles 271 from 6-7pm, we will also provide some treats for yall!
+
+
+[10/24/2023 5:15 PM] auxx
+@Physical Design
+
+
+[10/31/2023 4:54 PM] akoul180
+Is there a meeting today?
+
+
+[10/31/2023 5:23 PM] sharkyguo
+Yes, we encourage you to come if you have completed the onboarding, but it will be a short one
+
+{Reactions}
+👍
+
+[11/1/2023 6:49 PM] sharkyguo
+@Physical Design Please be aware of the resume book collection we are gathering (message in general channel), and please let us know if you are having any difficulties with onboarding.
+
+
+[11/1/2023 11:06 PM] akoul180
+Where do we send our resumes?
+
+
+[11/2/2023 10:59 AM] zachellis
+Once you complete onboarding your lead will send you a link to the resume book submission form
+
+{Reactions}
+👍
+
+[11/2/2023 2:07 PM] mhden1
+I finished the on-boarding project, can I get a link? 😀
+
+{Reactions}
+❤️ (2)
+
+[11/2/2023 3:32 PM] sharkyguo
+I will get them ready by the end of the day, don't yall worry 😁
+
+{Reactions}
+👍
+
+[11/6/2023 11:02 AM] sharkyguo
+The github repo containing our synthesis and apr scripts are out on the main SJ github page and accessible for members on the github PD team. If you have problem accessing an ECE linux machine, please refer to Zach Ellis's messages on the general channel.
+
+{Reactions}
+👍 (2)
+
+[11/6/2023 5:16 PM] mhden1
+Do we have a meeting tomorrow? 
+If so, I am out of town and cannot participate unfortunately. 😦
+
+
+[11/6/2023 5:16 PM] mhden1
+Also, do we have any updates on the process technology we are going to use? 🙂
+
+
+[11/6/2023 6:21 PM] zachellis
+We are still working on process might stick with 130nm for now but starting to use the commercial tools rather than openlane
+
+{Reactions}
+🔥
+
+[11/7/2023 5:37 PM] auxx
+@Physical Design Hello All, as a reminder our weekly meeting is in 30 mins or so, this will be another quick session as we still have background work in progress while we determine our process node. This meeting will also be online, as there was a scheduling conflict with our usual in-person location.
+
+
+[11/7/2023 5:49 PM] auxx
+Meeting link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjhmZjljOTgtN2IyOS00YjIxLWE4NzQtNzFiNzE4ZjgyZjgw%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%228aa7d76e-9c68-43a9-b7e8-5cf1737a1a02%22%7d
+
+{Embed}
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjhmZjljOTgtN2IyOS00YjIxLWE4NzQtNzFiNzE4ZjgyZjgw%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%228aa7d76e-9c68-43a9-b7e8-5cf1737a1a02%22%7d
+https://images-ext-1.discordapp.net/external/iXrQu-R2TQJ815Inzx5Oof-h7iqGLD4ZGdzaWVdSzvs/https/statics.teams.cdn.office.net/hashedassets-launcher/favicon/favicon-96x96.png
+
+
+[11/7/2023 6:10 PM] hiddenfyre
+I’ll be a bit late, I’m still at my 2031 lab
+
+
+[11/7/2023 6:21 PM] auxx
+All good, I will be posting a recording of this session later. This one was rather brief
+
+{Reactions}
+👍 (2)
+
+[11/7/2023 7:54 PM] auxx
+Here is that recording! https://gtvault-my.sharepoint.com/:v:/g/personal/tpeterson47_gatech_edu/ETedIQpZIlRGrHGslieSxsgB89rHVjbOT66D_tCFFJtHCQ?e=AQwUXW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
+
+{Reactions}
+👍 (3)
+
+[11/14/2023 5:41 PM] sharkyguo
+We will have a meeting as scheduled tonight
+
+
+[11/14/2023 5:59 PM] jp_1234.
+is it an online meeting?
+
+
+[11/14/2023 6:01 PM] akoul180
+I’ll be a little late!
+
+
+[11/14/2023 6:02 PM] sharkyguo
+It is in person in Skiles
+
+{Reactions}
+👍
+
+[11/14/2023 6:32 PM] pmcoolboy10
+Which room
+
+
+[11/14/2023 6:46 PM] sharkyguo
+The message is pinned in this channel
+
+
+[11/15/2023 12:56 AM] akoul180
+is there a synopsys pdf or guide we can look at?
+
+
+[11/15/2023 12:57 AM] akoul180
+and how do we access innovus through the eve linux servers?
+
+
+[11/15/2023 12:57 AM] akoul180
+ece*
+
+
+[11/15/2023 7:46 AM] sharkyguo
+I will update the GitHub with a more specific instruction
+
+{Reactions}
+👍
+
+[11/15/2023 8:15 PM] sharkyguo
+GitHub page has been updated with paths to the user manuals and other documents
+
+{Reactions}
+👍 (2)
+
+[11/16/2023 5:13 PM] sharkyguo
+Innovus is now opening as expected, instructions updated
+
+{Reactions}
+👍
+
+[11/17/2023 10:18 AM] auxx
+@Physical Design Due to Thanksgiving Break and how it potentially affects student availability, we will be cancelling next Tuesdays Meeting. Enjoy your time off and Happy Thanksgiving 🦃
+
+{Reactions}
+🗿 (2) 👽 🏠 👿
+
+[11/17/2023 12:22 PM] sharkyguo
+Yall are still welcome to contact me during the break if any help is needed
+
+
+[11/28/2023 12:02 PM] jp_1234.
+will we have a meeting today?
+
+
+[11/28/2023 1:22 PM] sharkyguo
+Has anyone successfully cloned the environment from github and tried it on the ECE linux machines？
+
+
+[11/28/2023 1:34 PM] jp_1234.
+I have been trying to clone into the environment, but every time I put in my GT login it says failed to authenticate
+
+
+[11/28/2023 2:14 PM] akoul180
+I have
+
+
+[11/28/2023 2:18 PM] sharkyguo
+Ok we will meet today in person as more of a trouble shooting session and an opportunity for you to ask any questions regarding the flow
+
+
+[11/28/2023 5:52 PM] mhden1
+Sorry, I didn't have enough time.
+My pipeline is full for a paper deadline I have on Dec 7.
+
+
+[11/28/2023 5:53 PM] mhden1
+Also, I'll have to skip today, I need to submit my presentation for ECE6135 by 11:00 pm today 🥲
+
+
+[11/30/2023 3:34 PM] sharkyguo
+No worries, that was amazing work and presentation!
+
+{Reactions}
+this (2) 💕
+
+[11/30/2023 4:36 PM] mhden1
+Wow, thanks boys! 🙂
+
+
+[12/5/2023 6:19 PM] mhden1
+Missing today, paper deadline in 2 days and 12 hours 😟 
+Sorry 😦
+
+
+[12/5/2023 6:29 PM] akoul180
+I will have to miss as well 😞
+
+
+[12/11/2023 5:37 PM] mhden1
+Do we have a meeting tomorrow?
+
+
+[12/11/2023 5:39 PM] auxx
+No we do not, sorry for the lack of announcements!
+
+{Reactions}
+👍
+
+[12/11/2023 5:39 PM] auxx
+@Physical Design Meetings will resume next semester, good luck with your remaining finals and enjoy your breaks!
+
+
+[12/11/2023 5:41 PM] mhden1
+Thanks @Taylor P. !
+Do we have any updates regarding the PDK? 🙂
+
+
+[12/11/2023 5:43 PM] auxx
+Unfortunately not yet, but Shaun and I will be looking into getting something finalized over the break
+
+{Reactions}
+👍
+
+[12/11/2023 5:44 PM] mhden1
+Cool, thnx for the info!
+
+
+[12/14/2023 5:17 PM] mhden1
+FYI, TSMC has lifted the restriction for not accessing other foundry PDKs if you have NDA for their process nodes bellow 40nm. Verified by GT Office of Sponsored Programs and MUSE.
+
+
+[1/9/2024 5:15 PM] sharkyguo
+Hi everyone, happy new year! We will forward our semester schedule (or survey) soon, but we don't expect to have a sub-team meeting this week. We are currently making progress on the PDK access and will provide the details once we have settled on a solution. 
+In the meantime if you have concerns or would like to talk about particular areas you would like to focus on this semester please feel free to reach out
+
+{Reactions}
+🔥 (4)
+
+[1/16/2024 5:34 PM] jp_1234.
+Has the schedule been sent out yet?
+
+
+[1/16/2024 6:02 PM] auxx
+Not yet, I will work on getting that meeting-time survey sent out tonight 
+
+Apologies for the delay
+
+{Reactions}
+👍 (2)
+
+[1/16/2024 8:13 PM] auxx
+@Physical Design  Hello SiliconJackets PD members,
+
+Hope the semester is going well so far/you all are staying warm! We wanted to reach out and ask about everyone's meeting availability for the spring semester via LettuceMeet, please fill it out at your earliest convenience. https://lettucemeet.com/l/rWDGG 
+
+Otherwise, we have some PDK news. Due to the timeline we are following, as well as the interesting issues regarding member PDK-access. For the time being we will use the Sky130 PDK and wait for the Cadence enhanced version to come out. Which should be shortly.  We have also met with the Digital Design/RTL team to determine their status and try to put together a roadmap for our eventual tapeout. We will try to go into those topics in more detail at our first meeting!
+
+Thanks and see you soon!
+
+{Embed}
+https://lettucemeet.com/l/rWDGG
+LettuceMeet - Easy Group Scheduling
+The easiest way to schedule group meetings.
+
+{Reactions}
+❤️
+
+[1/18/2024 11:57 AM] sharkyguo (pinned)
+From the current schedule survey seems like Thursday 6-7pm will be the best time for everyone. I have booked the John Lewis Student Center Room 3227 (Krog Boardroom) as our in-person meeting location.
+
+{Reactions}
+👍 (2)
+
+[1/18/2024 11:58 AM] sharkyguo
+Pinned a message.
+
+
+[1/18/2024 9:39 PM] sharkyguo
+@Physical Design  A quick post on the deliverable for next week
+You will be tasked with reading and understanding the essential Innovus scripts for the first parts of the PD process. Please refer to our PD flow github page https://github.gatech.edu/SiliconJackets/Physical-Design-Flow and review the `src/apr` scripts. Start with` top.tcl` and go over all the stage scripts until the end of placement flow. Please also use resources linked on the same page like our previous presentations, official Cadence documentations, or Google to help you understand important commands and steps (what does the command `setDesignMode` do? What is Halo? What are tie hi & lo cells? etc.).
+
+We expect each member to provide at least half-page of notes explaining the important steps of the scripts to show your understanding. Linking those concepts to what we have covered earlier last semester would be very helpful. We are also expecting to have an one-on-one meeting with each of our members for a mid-school year feedback and sync-up. This will help us to hear from you individually about the club / our work and distribute actual design workloads later this semester.
+
+Please dm or email us for an appointment and note submission by next Thursday when we meet. Our availability is posted on the previous LettuceMeet link. Please also don't hesitate to reach out if you have questions, access issues, or time conflicts.
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flow
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flow
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flow
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+{Reactions}
+👍 (2)
+
+[1/19/2024 8:04 PM] sharkyguo
+Candence Innovus might not work rn due to lincense setup. I am reaching out for a fix
+
+
+[1/22/2024 9:57 PM] sharkyguo
+@Physical Design It is also recommended for you to go through the related design stages from this Python-base OpenLane tool (Thanks Taylor). It really helps you to visualize each step of an example PD process (The display commands). https://colab.research.google.com/github/efabless/openlane2/blob/main/notebook.ipynb#scrollTo=8QN38qxmLbjQ
+
+I will post an updated FreePDK45 standard cell library on the Github and synthesis flow soon. We will talk in detail on Thursday.
+
+{Embed}
+https://colab.research.google.com/github/efabless/openlane2/blob/main/notebook.ipynb
+Google Colaboratory
+https://images-ext-1.discordapp.net/external/_K27snML6r0M3SI7nsBI0ZQHiyOFMrKc_HQm1RpU95o/https/colab.research.google.com/img/colab_favicon_256px.png
+
+
+[1/24/2024 4:16 PM] auxx
+https://www.linkedin.com/posts/activity-7156015538618486785-yCd2?utm_source=share&utm_medium=member_android
+
+{Embed}
+https://www.linkedin.com/posts/activity-7156015538618486785-yCd2?utm_source=share&utm_medium=member_android
+Sign Up | LinkedIn
+500 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.
+
+
+[1/24/2024 4:16 PM] auxx
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158825947332608062/1199825166448992296/Screenshot_20240124-161640.png?ex=66ed3d83&is=66ebec03&hm=9bbebd2b39df2562871e76fec1ba281f686a09aedc5731d4fdb7befc05fdfa30&
+
+
+[1/24/2024 7:03 PM] auxx
+@Physical Design Pinging to remind everyone about our meeting tomorrow,  6-7pm in John Lewis Student Center Room 3227 (Krog Boardroom)
+
+
+[1/25/2024 5:43 PM] little.northhmg
+Is the meeting location on the third floor of student center?
+
+
+[1/25/2024 5:43 PM] little.northhmg
+Don’t know where Krog Boardroom is😵‍💫
+
+
+[1/25/2024 5:47 PM] sharkyguo
+No worries, I'm also trying to find it
+
+
+[1/25/2024 5:57 PM] little.northhmg
+Emmm is there any chances to move this to online?
+
+
+[1/25/2024 5:57 PM] little.northhmg
+It’s literally pouring outside
+
+
+[1/29/2024 12:08 AM] mhden1
+Are we having the meeting on Thursdays 6:00pm-7:00pm this semester?
+
+
+[1/29/2024 10:23 AM] sharkyguo
+Yes
+
+{Reactions}
+👍
+
+[1/30/2024 1:50 PM] jp_1234.
+when looking at the scripts, do we use the Innovus user manuals or DC user manual?
+
+
+[1/30/2024 2:06 PM] jp_1234.
+also in a typical PD flow, does CTS come before place and route or after?
+
+
+[1/30/2024 2:41 PM] sharkyguo
+I updated the readme, src/apr contains scripts for Innovus, so you should use the documentation for Cadence as listed in the PD file wiki
+
+{Reactions}
+👍
+
+[1/30/2024 2:42 PM] sharkyguo
+CTS should be done after placement but before (signal) routing. Consider it has a prioritized routing stage.
+
+{Reactions}
+👍
+
+[1/30/2024 3:55 PM] auxx
+Im stealing another persons format word for word, but @Physical Design 
+
+Nvidia is coming to GT and holding "office hours" on Feb 15th 2024. The event is supposed to be a casual networking event and they will be raffling off an RTX 4080. You can register here: https://events.nvidia.com/nvgtspring2024
+
+Nvidia said that you should do research/come prepared by going through their career portal/job packet(http://bit.ly/nvur-jd) for teams that fit your skillset and applying in advance (they will not be accepting paper resumes)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158825947332608062/1201994226330501130/image.png?ex=66ed389b&is=66ebe71b&hm=dac8fb22e9712f2ed71c877b32cb5e3b695293ecfcc8bcb2877962a5dd5e9eef&
+
+{Reactions}
+👍 (5)
+
+[1/30/2024 4:46 PM] jp_1234.
+fye
+
+
+[1/31/2024 11:50 PM] auxx
+@Physical Design Pinging to remind everyone about our meeting tomorrow,  6-7pm in John Lewis Student Center Room 3227 (Krog Boardroom)
+
+
+[2/1/2024 5:58 PM] jp_1234.
+Coming from culc, might be a couple minutes late
+
+
+[2/1/2024 6:08 PM] sharkyguo
+Onboarding project https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+
+[2/1/2024 6:43 PM] auxx
+https://github.com/mflowgen/freepdk-45nm/blob/master/rtk-typical.captable
+
+{Embed}
+https://github.com/mflowgen/freepdk-45nm/blob/master/rtk-typical.captable
+freepdk-45nm/rtk-typical.captable at master · mflowgen/freepdk-45nm
+ASIC Design Kit for FreePDK45 + Nangate for use with mflowgen - mflowgen/freepdk-45nm
+https://images-ext-1.discordapp.net/external/CTuR0VZ1xoDeHfuT8U8vAtPti8OC8PewY4GRuyOQ-4g/https/opengraph.githubassets.com/2d5c8f9dcc603681db0fc85ca46b0e840bada18b2c25fcbd9b3e7e6f20a43653/mflowgen/freepdk-45nm
+
+
+[2/1/2024 6:55 PM] little.northhmg
+https://kinsta.com/knowledgebase/what-is-github/
+
+{Embed}
+Brian Jackson
+https://kinsta.com/knowledgebase/what-is-github/
+What Is GitHub? A Beginner's Introduction to GitHub
+GitHub is a for-profit company offering a cloud-based Git repository that helps developers store, manage, track and control changes to their code.
+https://images-ext-1.discordapp.net/external/nTv8eRZOdeAuAtWVADXuaCuS4rBOdmjhgESQLjfkx5k/https/kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png
+
+
+[2/1/2024 6:56 PM] little.northhmg
+https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/
+
+{Embed}
+https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/
+First steps with git: clone, add, commit, push
+Learn basic git commands, including clone, add, commit, and push.
+https://images-ext-1.discordapp.net/external/j90t6DuoUYjLRSmS1GUr54zDVPzW-WrDDvnki5H7fv4/https/earthdatascience.org/images/earth_sm_twit.png
+
+
+[2/1/2024 6:56 PM] little.northhmg
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
+
+{Embed}
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
+Creating and deleting branches within your repository - GitHub Docs
+https://images-ext-1.discordapp.net/external/GknnCjizMYMXTf7AxtPGiAkqk1cGv6dwIUxYVc4g3cA/https/github.githubassets.com/images/modules/open_graph/github-logo.png
+
+
+[2/1/2024 9:32 PM] vinni2938
+Can I ask when will the new members be added to the team's github? I already filled the subteam interest form but I couldn't access the onboarding project
+
+
+[2/1/2024 9:36 PM] auxx
+Hello, send me your GT username and I can add you manually
+
+
+[2/1/2024 9:36 PM] vinni2938
+vnguyen360
+
+
+[2/1/2024 9:38 PM] vinni2938
+I saw it, thanks @Taylor P.
+
+
+[2/1/2024 9:38 PM] zachellis
+I will be adding everyone who fills out the subteam interest form in the coming days
+
+{Reactions}
+👍 (3) 🐝
+
+[2/1/2024 11:46 PM] sharkyguo
+The synthesis flow instructions have been updated on the repo
+
+{Reactions}
+👍
+
+[2/1/2024 11:46 PM] sharkyguo
+Also please change your server names to your actual name
+
+
+[2/2/2024 5:05 PM] esclown
+im getting a 404 error
+
+
+[2/2/2024 7:06 PM] auxx
+For those who are new, here is another self-guided resource to gain some background knowledge. This free course was made in collaboration between Purdue, UT Austin and Intel, and gives you a certificate you can put on linkedin etc... 
+
+https://engineering.purdue.edu/online/programs/masters-degrees/semiconductors/semiconductor-fabrication-101
+
+{Embed}
+https://engineering.purdue.edu/online/programs/masters-degrees/semiconductors/semiconductor-fabrication-101
+Semiconductor Fabrication 101
+Discover semiconductor fabrication's secrets in a free online course by Purdue University, in collaboration with Intel, the University of Texas at Austin, and industry leaders. Tailored for students and professionals, delve into digital age building blocks through engaging lectures, hands-on vFabLab experience, and video tutorials. Elevate your ...
+https://images-ext-1.discordapp.net/external/VC-j_D1VkPtWFC24Bi7p5sta_cvVwTb0Kl4lUlwL0h4/https/engineering.purdue.edu/online/%40%40site-logo/Purdue-Engr2.jpg
+
+
+[2/4/2024 2:38 PM] maxzhu123
+can I get access to the onboarding project
+
+
+[2/4/2024 4:30 PM] liles036
+^
+
+
+[2/4/2024 4:30 PM] auxx
+Send your GT usernames and I can add you when I get the chance
+
+
+[2/4/2024 4:33 PM] liles036
+lphonekeo3
+
+
+[2/4/2024 4:52 PM] auxx
+added!
+
+
+[2/4/2024 4:55 PM] liles036
+Thank you!
+
+
+[2/4/2024 5:42 PM] mcleodblount_11419
+jblount36
+
+
+[2/4/2024 6:05 PM] auxx
+added
+
+
+[2/4/2024 6:26 PM] sharkyguo
+Please double check anyone added to the PD team should have access to the onboarding project now
+
+
+[2/4/2024 10:41 PM] sketchh.
+rtran40
+
+
+[2/4/2024 10:55 PM] auxx
+added
+
+
+[2/4/2024 10:55 PM] sketchh.
+thank you!
+
+
+[2/5/2024 3:27 PM] severelybored
+jthong30
+
+
+[2/5/2024 3:35 PM] jakethecake6718
+jburchfield6
+
+
+[2/5/2024 3:35 PM] aaronm8117
+amarlin6
+
+
+[2/5/2024 4:00 PM] remuj6
+jaremu3
+
+
+[2/5/2024 4:43 PM] djang62
+djang62
+
+
+[2/5/2024 4:45 PM] auxx
+Added
+
+
+[2/5/2024 5:35 PM] esclown
+srb32
+
+
+[2/5/2024 9:50 PM] sodiumelevators
+npoche3
+
+
+[2/7/2024 10:26 AM] sharkyguo
+Gatech Github was unstable yesterday, check if you could access the repo now if you had problems
+
+
+[2/7/2024 8:36 PM] akoul180
+What was discussed at last weeks meeting?
+
+
+[2/8/2024 12:15 AM] mhden1
+Is there a file path to the ICC old mmmc file?
+Or the name  of the mmmc file used with the ICC flow?
+I can't seem to find one.
+
+
+[2/8/2024 12:26 AM] mhden1
+Hmm I think I found where the corners for ICC are defined:
+`Physical-Design-Flow/src/syn_new/config.tcl`
+
+
+[2/8/2024 12:27 AM] auxx
+I can't speak to this with absolute certainty, but I believe a dedicated mmmc file is a thing cadence does and not synopsys
+
+{Reactions}
+👍
+
+[2/8/2024 12:28 AM] auxx
+Coverage was similar to the meeting two weeks ago, we did some talk of tasking/deliverables + onboarding for new people
+
+{Reactions}
+👍
+
+[2/8/2024 12:31 AM] auxx
+@Physical Design  Pinging to remind everyone about our meeting tomorrow, come join us  6-7pm in John Lewis Student Center Room 3227 (Krog Boardroom)
+
+{Reactions}
+👍 ❤️
+
+[2/8/2024 1:03 AM] akoul180
+I wont be able to make it tomorrow for the meeting but ill be sure to read through the cadence scripts!
+
+{Reactions}
+‼️ (3)
+
+[2/8/2024 1:52 AM] mhden1
+I made a MCMM file based on Cadence's flow.
+slow corner: 0.95V / 125C
+fast corner: 1.25V / 0C
+typical corner: 1.1V / 25C
+
+However, there was only a `captable `for the typical corner, so I used it for all three corners.
+Instead of a `captable`, in a real process we can use the `qrctechfile ` which is more detailed.
+
+I tried to upload my script to the Github repo we have, but I wasn't able. Do we have access rights to upload?
+
+
+[2/8/2024 1:55 AM] mhden1
+That is the error I am getting:
+
+> fatal: unable to access 'https://github.gatech.edu/SiliconJackets/Physical-Design-Flow.git/: The requested URL returned error: 403'
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flow.git/:
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flow.git/:
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flow.git/:
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+
+[2/8/2024 2:47 AM] zachellis
+you do not have direct push access to the main branch but you can create a new branch on the repo and make a pull request with your changes
+
+{Reactions}
+👍
+
+[2/8/2024 11:09 AM] sharkyguo
+syn_new contains only the synthesis files, the corner definitions should be in src/icc_apr/setup_nangate.tcl
+
+{Reactions}
+👍
+
+[2/8/2024 11:14 AM] auxx
+Might be at both because some synthesis tools do early analysis and would need process corners /mmmc data, I guess at the end of the day hopefully they match
+
+
+[2/8/2024 11:18 AM] sharkyguo
+Yeah they should match exactly, icc commands might be slightly different
+
+
+[2/8/2024 3:32 PM] sharkyguo
+https://www.linkedin.com/posts/zheliu0_georgiatech-gatech-ece-activity-7161412313059672064-468J
+
+For those interested in Micron on-campus hiring events
+
+{Embed}
+https://www.linkedin.com/posts/zheliu0_georgiatech-gatech-ece-activity-7161412313059672064-468J
+Zhe Liu on LinkedIn: #georgiatech #gatech #ece #engineering
+Back at my alma mater! Our team is hiring design verification engineers in Atlanta and we are coming to Georgia Tech campus, Tuesday, February 13th from 1pm -…
+https://images-ext-1.discordapp.net/external/UNkUmNE_qAb2N6OkwDmgXUMMPI0yMPD-n7ma7tIOa90/https/static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7
+
+
+[2/8/2024 4:46 PM] mhden1
+Sounds good, I'll check it out to see if it aligns with the one I made.
+And then do a pull request.
+
+
+[2/8/2024 4:46 PM] mhden1
+Also, I have an interview at 6:00 so I won't be able to make it today 😦
+
+
+[2/8/2024 4:47 PM] auxx
+Good luck!, Ill send this over early
+
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow/
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow/
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow/
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow/
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+
+[2/8/2024 4:47 PM] auxx
+if you want to clone and mess with that feel free
+
+
+[2/8/2024 5:14 PM] mhden1
+Thank you @Taylor P. !
+
+
+[2/8/2024 5:14 PM] bladny
+Hey I’m not sure if I can come to the meeting today but I’m continuing to work on the onboarding project 👍🏽 anything i should read through to get a general gist of what’s being discussed this week?
+
+
+[2/8/2024 5:29 PM] sharkyguo
+We will start posting meeting notes afterwards
+
+{Reactions}
+❤️
+
+[2/8/2024 5:51 PM] sharkyguo
+For our new members starting on the onboarding project, I have updated the repo readme to include a link to our previous meeting slides / recording. This should give you a gentle yet comprehensive context for physical design. Going through week 1 & 2 slides are highly recommended
+
+{Reactions}
+❤️
+
+[2/8/2024 8:36 PM] auxx
+@Physical Design Here is the sharepoint site with resources that I mentioned during the meeting, let me know if you have any access issues with the site
+
+Main Site: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Home.aspx?csf=1&web=1&share=EXigMeiyEFBIuK3wx-lU-KcBZT_nQq0AiY5_FVcLqkxBEA&e=ipYQ74
+PD wiki: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Physical-Design-Resources.aspx?csf=1&web=1&share=EVpD0CQWi0FFpLZ-dIJYRkwBxl5XOsnTxmTON6L8Z5eriw&e=Ln92YN
+
+Once again thank you all for coming, here are the meeting notes as well
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158825947332608062/1205326411074895892/image.png?ex=66ed7a72&is=66ec28f2&hm=6822831dbbe2079a56ab30488f494b4a55ccfc51ac85faaab78a66634a184ad0&
+
+{Reactions}
+❤️ (5)
+
+[2/8/2024 8:49 PM] auxx
+In addition to those resources, this lecture series is excellent https://www.youtube.com/watch?v=RbZ3BXbd6_k
+
+{Embed}
+Adi Teman
+https://www.youtube.com/watch?v=RbZ3BXbd6_k
+DVD - Lecture 1:  Introduction
+Bar-Ilan University 83-612: Digital VLSI Design
+
+This is Lecture 1 of the Digital VLSI Design course at Bar-Ilan University. In this course, I cover the basics of Chip Implementation, from designing the logic (RTL) to providing a layout ready for fabrication (GDS).
+
+Lecture 1 covers the motivation for the course and an introduction to the chip d...
+https://images-ext-1.discordapp.net/external/BAiHSPV9L8mtJt2svZxvBoJvSYwz_QgEyZKLDIP6XMg/https/i.ytimg.com/vi/RbZ3BXbd6_k/maxresdefault.jpg
+
+
+[2/8/2024 11:09 PM] krithdude
+Hey, thank you for the resources. I wasn't able to access the site but I requested access for it.
+
+
+[2/8/2024 11:10 PM] auxx
+just to double check, the link doesnt work for either the main site or the physical design wiki?
+
+
+[2/8/2024 11:11 PM] krithdude
+yeah, it says i need permission for both
+
+
+[2/8/2024 11:12 PM] auxx
+Gotcha, try this real quick
+
+https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Physical-Design-Resources.aspx?csf=1&web=1&share=EVpD0CQWi0FFpLZ-dIJYRkwBxl5XOsnTxmTON6L8Z5eriw&e=Ln92YN
+
+
+[2/8/2024 11:12 PM] auxx
+otherwise Ill look into granting permission to people
+
+
+[2/8/2024 11:12 PM] krithdude
+ah cool that worked thank you
+
+
+[2/8/2024 11:13 PM] auxx
+Thanks for the help, I just updated the link in the main post.
+
+
+[2/8/2024 11:13 PM] krithdude
+can you also add a link for the main site too, or is that meant to be restricted?
+
+
+[2/8/2024 11:14 PM] auxx
+https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Home.aspx?csf=1&web=1&share=EXigMeiyEFBIuK3wx-lU-KcBZT_nQq0AiY5_FVcLqkxBEA&e=ipYQ74 , assuming this works
+
+
+[2/8/2024 11:15 PM] krithdude
+yep that works
+
+{Reactions}
+👍
+
+[2/10/2024 5:16 PM] deansprinkle
+hello. I’m wanting to onboard with y’all. But I couldn’t make. The introduction meeting. If y’all are still taking people, could I get those steps to onboard?
+
+
+[2/11/2024 6:24 PM] auxx (pinned)
+Sure, the instructions are as follows 
+
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+
+[2/11/2024 6:24 PM] auxx
+Sorry for the delay
+
+
+[2/13/2024 5:04 PM] mrman90806
+Is there a due date for the onboarding project?
+
+
+[2/14/2024 2:13 PM] mrman90806
+nevermind I see it
+
+
+[2/14/2024 3:22 PM] krithdude
+sorry when is it?
+
+
+[2/14/2024 3:25 PM] mrman90806
+1-2 weeks from the first meeting I think, so next thursday is my guess
+
+
+[2/14/2024 3:27 PM] krithdude
+ah i c, thank u
+
+{Reactions}
+👍
+
+[2/14/2024 5:26 PM] antonius_kennedon
+yo my github is akennedy76
+
+
+[2/14/2024 5:27 PM] antonius_kennedon
+add my blud @Taylor P.
+
+
+[2/14/2024 6:33 PM] auxx
+added
+
+
+[2/15/2024 1:49 PM] jrodpepp
+Is there a meeting today?
+
+
+[2/15/2024 4:02 PM] little.northhmg
+Same question 🙋
+
+
+[2/15/2024 4:16 PM] sharkyguo
+Yes we do, I will post the details in a bit
+
+{Reactions}
+👍 (2)
+
+[2/15/2024 5:04 PM] sharkyguo
+We will be having a work session today 6-7pm in the Klaus 1448 Linux lab. New members are also welcome to come and work on the onboarding project
+
+
+[2/15/2024 5:04 PM] auxx
+@Physical Design
+
+
+[2/15/2024 5:43 PM] bladny
+o shit klaus ok
+
+
+[2/15/2024 6:50 PM] auxx (pinned)
+@Physical Design 
+
+Hello Physical Design Team
+
+I wanted to reach out and have you fill out this form, so we can register you for cadence support accounts
+
+The form is as follows:https://forms.gle/AG2Cy4EXJXGwvPPm8
+
+Please complete this at your earliest convenience
+Thanks
+
+{Embed}
+https://forms.gle/AG2Cy4EXJXGwvPPm8
+SiliconJackets Cadence Account Registration
+Please send the following information to be registered for a Cadence Support/Documentation Account
+https://images-ext-1.discordapp.net/external/5U8fdc5k-puwknb1vpQuIPdDNmk-52mEfhbxTtm-bbM/https/lh6.googleusercontent.com/79H4tb5Y8_G44Xh8hVG78IiEDst594KGDVO5whaUgDHUDpKN3M5egzcbkr5kLmSsAAjjHLu_GXA%3Dw1200-h630-p
+
+
+[2/15/2024 7:01 PM] sharkyguo
+General overview of the flowtool kit
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158825947332608062/1207839099223015548/Innovus_Foundation_Flow_to_Stylus_Flowkit.pdf?ex=66ed6411&is=66ec1291&hm=3d302aaa27594ceaab0867cebc41dccbff690e65c5a9e735ea53e7601d67812e&
+
+
+[2/15/2024 10:15 PM] akoul180
+If anyone has a mac, I found an easy way to open innovus through terminal (and with ssh keys!)
+
+
+[2/15/2024 10:17 PM] akoul180
+What is the command we use to see the chip in innovus after running the flow?
+
+
+[2/15/2024 10:19 PM] auxx
+innovus -stylus -db dbs/(whatever db you wanna look at)
+
+assuming route
+
+innovus -stylus -db dbs/route.enc
+
+{Reactions}
+👍
+
+[2/15/2024 10:55 PM] akoul180
+Should we do our script reading deliverable on this new stylus flow?
+
+
+[2/15/2024 11:07 PM] sharkyguo
+Maybe not, because the new flow still has errors probably caused by the preview PDK. We'd like to make sure our implementation can run on a stable design first
+
+{Reactions}
+👍
+
+[2/15/2024 11:08 PM] sharkyguo
+After sky130 becomes stable, migrate over should be pretty easy
+
+
+[2/15/2024 11:11 PM] sharkyguo
+So for now use the apr scripts in src folder (waiting for new 45nm PDK integration). We will update you guys when it is ready
+
+
+[2/21/2024 10:00 PM] akoul180
+Should we e-mail our script reading or should we review it with you guys? @Shaun Guo @Taylor P.
+
+
+[2/21/2024 10:43 PM] sharkyguo
+We can review it in person
+
+
+[2/21/2024 10:44 PM] sharkyguo
+I might not be able to make it to the meeting tomorrow, so I will hand off the agenda to Taylor
+
+
+[2/22/2024 12:16 AM] akoul180
+Alright sounds good! I wont be able to make it to tomorrows meeting either but next week i can do it
+
+
+[2/22/2024 1:30 PM] auxx
+@Physical Design Pinging to remind everyone about our meeting today,  6-7pm in John Lewis Student Center Room 3227 (Krog Boardroom)
+
+{Reactions}
+👍 (7)
+
+[2/22/2024 6:42 PM] timtemm
+Hi! I'm a new member, and I'm looking to get added to the github. My username is tduong63. @Taylor P.
+
+
+[2/22/2024 7:52 PM] auxx (pinned)
+Hey @Physical Design  here is a collection of resources for Physical Design/TCL/Unix, as mentioned in the meeting 
+
+Our "EDA 101" Slides: https://gtvault.sharepoint.com/:p:/s/SiliconJackets/EZOzK_TdlI9PpuQCjSbue4EB4aDzIrR8g52RNhyvw2cXqA?e=PPgyUn
+
+ "EDA 101" From Cadence : https://youtu.be/HkT363NUOBA?feature=shared 
+
+A good way to search for information in unix/many programming languages, RegEX is one of the most powerful languages around: https://regexone.com 
+
+Unix basics, for those are unfamiliar with unix/bash : https://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_Basics.html 
+
+Here is the Openlane2 Colab notebook for those who are unable to do part2 of the onboarding due to mac compatibility issues: https://colab.research.google.com/github/efabless/openlane2/blob/main/notebook.ipynb  
+
+Physical Design learning resources: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Physical-Design-Resources.aspx?csf=1&web=1&share=EVpD0CQWi0FFpLZ-dIJYRkwBxl5XOsnTxmTON6L8Z5eriw&e=Ln92YN 
+
+Tcl Reference: https://www.guru99.com/tcl-tutorial.html 
+Tcl Practice: https://www.vlsi-expert.com/2018/11/tcl-practice-task-1.html 
+Tcl Online Compilers: https://www.tutorialspoint.com/execute_tcl_online.php 
+                                         https://replit.com/new/tcl
+
+Edit: Tech and Semiconductor Common Acronyms https://semiengineering.com/knowledge_centers/acronyms/
+
+{Embed}
+Cadence Design Systems
+https://www.youtube.com/watch?v=HkT363NUOBA
+EDA101 - Introduction to Electronic Design Automation
+Hear Electronics Design Automation (EDA) industry veteran, Paul McLellan, explain the basics of electronics design, the technology in design automation. From semiconductors to System on Chip, and the systems they power. Intended for those who have some technology awareness but not the details of the why and how of EDA software.
+
+Find more great ...
+https://images-ext-1.discordapp.net/external/L73472y6bnlFl9x3AKfdWZ-91ibAzJnj9U0EmtnJ7TA/https/i.ytimg.com/vi/HkT363NUOBA/maxresdefault.jpg
+
+{Embed}
+https://regexone.com/
+RegexOne - Learn Regular Expressions - Lesson 1: An Introduction, a...
+RegexOne provides a set of interactive lessons and exercises to help you learn regular expressions
+
+{Embed}
+https://colab.research.google.com/github/efabless/openlane2/blob/main/notebook.ipynb
+Google Colaboratory
+https://images-ext-1.discordapp.net/external/_K27snML6r0M3SI7nsBI0ZQHiyOFMrKc_HQm1RpU95o/https/colab.research.google.com/img/colab_favicon_256px.png
+
+{Reactions}
+❤️ (2)
+
+[2/22/2024 7:54 PM] auxx
+added, you should be able to access the github!
+
+
+[2/23/2024 12:36 PM] esclown
+is there a standard for the rpt file format?
+
+
+[2/23/2024 6:03 PM] auxx
+Just wanted to double check, what did you mean by this:
+- Standard format in terms of what you turn in?
+- Standard formatting for timing reports themselves?
+
+
+[2/23/2024 6:05 PM] esclown
+standard formstting for the timing reports themselves. ie is there a standardized way to parse the reports if, for example, i wanted to write a library for parsing timing reports and doing analysis
+
+
+[2/23/2024 6:19 PM] auxx
+Sure, the formatting between All EDA tools ive seen is similar to eachother 
+- nets are denoted with net in some way with the associated delay value(s) (tool dependent) 
+- standard cells/instances (logic) are denoted with a standard cell, input port (A), output port(y), and delay value(s) 
+In order the path from clock to some capture flip-flop
+
+
+[2/23/2024 6:20 PM] auxx
+but I think its personal preference on how you parse, I personally typically store the report line by line and do some regex/string operations to find what I want
+
+
+[2/23/2024 6:24 PM] esclown
+got it, thanks. and is 
+`report_checks -path_delay max (Setup)`
+relevant to the analysis?
+
+
+[2/23/2024 6:27 PM] auxx
+Not for onboarding, but in general yes. Max paths are typically the paths you want to double check, when looking to see if your design meets setup checks, Min paths are the ones you want to look at for hold checks.
+
+
+[2/23/2024 6:27 PM] auxx
+The values will be different etc.. based on some parameters like process,voltage and temperature
+
+
+[2/23/2024 6:28 PM] auxx
+https://www.vlsi-backend-adventure.com/sta.html
+
+{Embed}
+https://www.vlsi-backend-adventure.com/sta.html
+Static Timing Analysis | Physical Design | VLSI Back-End Adventure
+Effective methodology for verifying the timing characteristics of a design without the use of test vectors Static Timing Analysis can be done only for Register-Transfer-Logic (RTL) designs Functionality of the design must be cleared before the design is subjected to STA. STA approach typically takes a fraction of the time it takes to run logic s...
+
+
+[2/23/2024 6:28 PM] esclown
+thank you
+
+
+[2/28/2024 7:28 PM] auxx
+AMD is still hiring for the summer apparently and will be in the Klaus lobby taking resumes 11a-3p tomorrow
+
+
+[2/28/2024 7:28 PM] auxx
+They're also gonna post fall internship/co-ops on April 15th
+
+{Reactions}
+❤️ (2)
+
+[2/29/2024 5:26 PM] auxx
+@Physical Design  Pinging once again to remind everyone about our meeting today,  6-7pm in John Lewis Student Center Room 3227 (Krog Boardroom)
+
+{Reactions}
+👍 (2)
+
+[2/29/2024 5:32 PM] esclown
+i wont be able to make it to todays meeting, as i am feeling a little under the weather
+
+
+[2/29/2024 5:33 PM] auxx
+All good, get well soon
+
+
+[2/29/2024 5:34 PM] esclown
+thank you
+
+
+[2/29/2024 5:58 PM] bladny
+can't pull up either bc of an exam tomorrow 😔
+
+
+[2/29/2024 5:58 PM] bladny
+feel better soon bro
+
+
+[2/29/2024 6:02 PM] esclown
+thanks
+
+
+[2/29/2024 6:03 PM] mhden1
+I am running with research, spent too much time with interviews the past weeks. So I'll need to skip. 😦
+
+On a side note, I have downloaded the Skywater PDK from Cadence and I am in the process of integrating it in my flow (Genus/Innovus/Tempus) to check its performance or any incompatibilities with the CDN tools.
+
+{Reactions}
+👍
+
+[2/29/2024 8:17 PM] shaanmukherjee
+Hi I am new and I wanted to join the github to do the onboarding, here is my username: smukherjee95
+
+
+[2/29/2024 8:31 PM] sharkyguo
+To all the new team members who have submitted the onboarding projects, this is the reading assignment I mentioned in the meeting today. Also try to follow the setup instructions and see if you could open up the Innovus tool window. Let us know if you encounter any difficulties or if you are not an EE/CE major!
+
+
+[2/29/2024 8:33 PM] sharkyguo
+Added!
+
+
+[2/29/2024 9:06 PM] lecardo_
+also new psatarian3
+
+{Reactions}
+👍 (2)
+
+[3/1/2024 1:17 AM] akoul180
+I made a pretty simple makefile that changes some parameters in the config.tcl
+
+
+[3/1/2024 1:19 AM] akoul180
+What are all the parameters that should be changed for synthesis? For now i just put clock period and input/output delay
+
+
+[3/1/2024 1:13 PM] sharkyguo
+Yeah that should be good enough for now
+
+{Reactions}
+👍
+
+[3/5/2024 9:56 AM] cynicalcape0
+Hey y'all in the makefile section of the onboarding there is just a makefile and questions. Can you recommend any resources to help understand what a makefile is and some of the basics for make files before we launch into analysing one and answering questions? Thanks! @Shaun Guo @Taylor P.
+
+
+[3/5/2024 3:43 PM] sharkyguo
+https://makefiletutorial.com/ This one looks decent. Feel free to use any relevant online resources
+
+{Embed}
+https://makefiletutorial.com/
+Makefile Tutorial by Example
+Makefile Tutorial by Example
+
+
+[3/6/2024 9:30 AM] cynicalcape0
+Oh ok!! Thanks
+
+
+[3/7/2024 5:01 PM] sharkyguo
+We will have our meeting today as usual
+
+
+[3/8/2024 3:51 PM] auxx
+It looks like Cadence has maybe started processing those accounts, if you get an email from them let me know below
+
+
+[3/8/2024 4:12 PM] mcleodblount_11419
+I got an email
+
+{Reactions}
+✅
+
+[3/8/2024 4:18 PM] jp_1234.
+I also got an email
+
+
+[3/8/2024 4:21 PM] auxx
+Gotcha, sounds good
+
+
+[3/8/2024 4:21 PM] auxx
+wasnt sure if I got an email early b/c I had an account with them before, or if they were processing the sheet
+
+
+[3/8/2024 4:21 PM] auxx
+thanks
+
+
+[3/8/2024 5:28 PM] akoul180
+I got one as well
+
+
+[3/8/2024 5:30 PM] esclown
+i got one too
+
+
+[3/8/2024 6:50 PM] zachellis
+@Physical Design You may have received an email from cadence today if you signed up for a support account. Please log in and reset your password when you get the chance.
+
+{Reactions}
+👍 (5) ♥️ (2)
+
+[3/9/2024 1:15 AM] jrodpepp
+I received an email
+
+{Reactions}
+‼️
+
+[3/9/2024 8:08 PM] cynicalcape0
+I got mine!
+
+
+[3/10/2024 7:07 PM] akoul180
+I made a couple of commits to my akoul branch since I kinda messed up naming on some stuff, but everything in the "Changed Makefile to output Terminal" commit should be good and functional
+
+
+[3/10/2024 7:22 PM] akoul180
+I also added the tcl script that reads from a .include, but it doesnt actually do anything in the flow yet
+
+
+[3/11/2024 3:21 PM] sharkyguo
+Yeah once you read the .include file, it should also change the file names in config.tcl
+
+
+[3/11/2024 4:49 PM] akoul180
+Alright cool I can make that change
+
+{Reactions}
+👍
+
+[3/13/2024 9:08 PM] sharkyguo
+@Physical Design We will have a work session in Klaus 1448 instead of the normal meeting tomorrow at the usual time. I also linked more Innovus docs on the flow repo that you can access more conveniently via your Cadence account. Try to make sure you can access them before you come in tomorrow
+
+{Reactions}
+👍 (2)
+
+[3/14/2024 9:04 AM] auxx
+https://www.linkedin.com/jobs/view/3853062063
+
+{Embed}
+https://www.linkedin.com/jobs/view/3853062063
+Intel Corporation hiring Physical Design Engineer – Graduate Intern...
+Posted 3:33:33 PM. Job DescriptionRole and Responsibilities:The world is transforming - and so is Intel. Here at…See this and similar jobs on LinkedIn.
+
+
+[3/25/2024 6:47 PM] auxx
+@Physical Design as @Zach Ellis said a couple weeks back, we are collecting questions to compile and send to Cadence for an info/QnA session if you have any questions regarding implementation of things/tool capabilities/ or Electronic design automation in general feel free to reply to this post with them
+
+
+[3/28/2024 4:49 PM] jp_1234.
+Is there a meeting today?
+
+
+[3/28/2024 5:06 PM] auxx
+@Physical Design Hello all, we have recently found that students are experiencing intermittent issues with both launching the Cadence tools as well as accessing the ECE linux servers due to some changes made during spring break (And our room is booked). We have submitted a couple IT tickets, but are opting to skip this weeks meeting as it may be hard to work on deliverables until these issues are resolved. Feel free to attempt to work on your tasking via the linux servers (but there is a chance it may not work) or an online TCL IDE like replit.com. Otherwise per-usual @Shaun Guo and I will be available online if you have any questions.
+
+{Reactions}
+👍 (2) 😢 (3)
+
+[4/4/2024 3:29 PM] auxx
+@Physical Design Pinging to confirm our meeting today,  6-7pm ~~ in John Lewis Student Center Room 3227 (Krog Boardroom)~~ Klaus 1448 , we do have some news and workarounds if you are encountering issues running the tools.
+
+
+[4/4/2024 3:53 PM] auxx
+@Physical Design Correction, The meeting will actually be in Klaus 1448 as this is one of the weeks where someone pre-booked our usual room way in advance
+
+{Reactions}
+👍
+
+[4/4/2024 8:15 PM] auxx (pinned)
+Also, as today was more of a work session we forgot to give announcements, but the primary news is as follows:
+
+Cadence has updated the Sky130 flow and fixed the majority/all of the errors we've been seeing, when you get the chance please familiarize and experiment with running the flow here: https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow 
+
+Cadence also got back to us with answers for the Q&A
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158825947332608062/1225599609922125864/Cadence_QA.pdf?ex=66ed6755&is=66ec15d5&hm=2a57f5953377e520b4fc39fd4fa79af14b37486f1ad080916da8db4a0e5d875f&
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+{Reactions}
+❤️ (2)
+
+[4/6/2024 11:49 AM] _evren
+https://ig.ft.com/microchips/
+
+
+[4/6/2024 11:49 AM] _evren
+Very cool animated article on semiconductors and backside power delivery
+
+{Reactions}
+❤️ (3)
+
+[4/10/2024 6:27 PM] antonius_kennedon
+When is the next meeting?
+
+
+[4/10/2024 10:46 PM] auxx
+Tomorrow!
+
+
+[4/10/2024 10:47 PM] auxx
+@Physical Design  Pinging to confirm our meeting tomorrow,  6-7pm in John Lewis Student Center Room 3227 (Krog Boardroom). See you there!
+
+
+[4/11/2024 6:03 PM] auxx
+Currently dealing with some room issues, we will keep you posted
+
+{Reactions}
+🫡
+
+[4/13/2024 7:25 PM] abdumofel
+Meeting is on Sunday??
+
+
+[4/14/2024 9:47 PM] sharkyguo
+No, the meeting details are pinned in the channel, and we will announce any changes before the meeting
+
+
+[4/17/2024 11:04 PM] auxx
+@Physical Design   Pinging to let everyone know that tomorrow's meeting will be a work session,  6-7pm in Klaus 1448, see you there!
+
+
+[4/25/2024 2:14 PM] auxx
+@Physical Design hello all, we will be having our last meeting of the semester today 6-7pm in John Lewis student center room 3227 (Krog boardroom). 
+
+We intend for this to be a brief meeting going over what was presented last week  in our design review with Apple and Cadence, as well as their feedback for us.
+
+{Reactions}
+❤️ (2)
+
+[7/10/2024 12:45 PM] .bionics
+@Zach Ellis idk who can remove these but it’s in several channels ^
+
+
+[7/10/2024 12:47 PM] auxx
+im deleting them but i cant kick him
+
+
+[7/10/2024 12:47 PM] auxx
+also changing/double checking that we perms to get rid of @ everyone for non leads
+
+
+[7/10/2024 12:48 PM] auxx
+/ perms to send message in some channels for non leads
+
+
+[8/27/2024 4:41 PM] auxx
+@Physical Design as you know one of our leads @Shaun Guo has graduated and we are looking for a new lead for our upcoming tapeout. Please reach out if you are interested in being a lead starting this semester.
+
+Similarly I am graduating this semester, so we are also looking for someone who would be interested in being a lead the following spring semester. 
+
+For this semester, as it is the tapeout cycle we would prefer someone with tapeout and/or more in depth PD experience, but for those starting the Spring any experience level is welcome.
+
+{Reactions}
+♥️ (8)
+
+[9/6/2024 10:44 AM] numinal
+any updates on the next meeting? is the physical project already on the github
+
+
+[9/6/2024 12:01 PM] auxx
+Giving some time for folks to fill out the form, as "end of the week" was the deadline during the info session.
+
+
+[9/6/2024 12:02 PM] auxx
+will likely send out the lettucemeet this evening
+
+
+[9/8/2024 9:22 AM] auxx
+@Physical Design Hello New and Current SiliconJackets PD members,
+
+Hope the semester is going well so far! We wanted to reach out and ask about everyone's meeting availability for the fall semester via LettuceMeet, please fill it out at your earliest convenience
+https://lettucemeet.com/l/a0WPM
+
+Here are some logistical tasks for that you all should try to complete early, as well as some resources to help everyone ramp-up. 
+
+Sign the Cadence and Synopsys EDAS Tool EULAs: https://eulas.ece.gatech.edu (must be on VPN or on an on campus lab machine, put down Prof Visvesh Sathe as your research advisor and SiliconJackets as your research project)  **Current members double check this, as your EULAs might have expired**
+
+Sign-up for a Cadence Support Account: https://docs.google.com/forms/d/e/1FAIpQLSc3yqmJYB4wjiAB5G3pvlV0BbVl0AsP6tEg88ts9Kvun-8kwg/viewform
+
+--------------------------------------------------------------------------------------------------------------------
+New Member Specific: 
+
+Take a look at these two repositories if you have access: 
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow 
+
+--------------------------------------------------------------------------------------------------------------------
+Resources: 
+
+Main Site: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Home.aspx?csf=1&web=1&share=EXigMeiyEFBIuK3wx-lU-KcBZT_nQq0AiY5_FVcLqkxBEA&e=ipYQ74
+PD wiki: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Physical-Design-Resources.aspx?csf=1&web=1&share=EVpD0CQWi0FFpLZ-dIJYRkwBxl5XOsnTxmTON6L8Z5eriw&e=Ln92YN
+
+Our "EDA 101" Slides: https://gtvault.sharepoint.com/:p:/s/SiliconJackets/EZOzK_TdlI9PpuQCjSbue4EB4aDzIrR8g52RNhyvw2cXqA?e=PPgyUn
+
+ "EDA 101" From Cadence : https://youtu.be/HkT363NUOBA?feature=shared 
+
+A good way to search for information in unix/many programming languages, RegEX is one of the most powerful languages around: https://regexone.com/  
+Unix basics, for those are unfamiliar with unix/bash : https://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_Basics.html 
+
+Here is the Openlane2 Colab notebook for those who are unable to do part 2 of the onboarding due to mac compatibility issues: https://colab.research.google.com/github/efabless/openlane2/blob/main/notebook.ipynb
+
+Physical Design learning resources: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Physical-Design-Resources.aspx?csf=1&web=1&share=EVpD0CQWi0FFpLZ-dIJYRkwBxl5XOsnTxmTON6L8Z5eriw&e=Ln92YN 
+
+Tcl Reference: https://www.guru99.com/tcl-tutorial.html  
+Tcl Practice: https://www.vlsi-expert.com/2018/11/tcl-practice-task-1.html  
+Tcl Online Compilers: https://www.tutorialspoint.com/execute_tcl_online.php https://replit.com/new/tcl
+Tech and Semiconductor Common Acronyms https://semiengineering.com/knowledge_centers/acronyms/
+
+Thanks for your interest, feel free to ping/email me with any questions and ill get back to you when I am able!
+
+{Embed}
+https://lettucemeet.com/l/a0WPM
+LettuceMeet - Easy Group Scheduling
+The easiest way to schedule group meetings.
+
+{Embed}
+https://docs.google.com/forms/d/e/1FAIpQLSc3yqmJYB4wjiAB5G3pvlV0BbVl0AsP6tEg88ts9Kvun-8kwg/viewform
+SiliconJackets Cadence Account Registration
+Please send the following information to be registered for a Cadence Support/Documentation Account
+https://images-ext-1.discordapp.net/external/5U8fdc5k-puwknb1vpQuIPdDNmk-52mEfhbxTtm-bbM/https/lh6.googleusercontent.com/79H4tb5Y8_G44Xh8hVG78IiEDst594KGDVO5whaUgDHUDpKN3M5egzcbkr5kLmSsAAjjHLu_GXA%3Dw1200-h630-p
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+{Reactions}
+❤️ (4)
+
+[9/8/2024 9:23 AM] auxx
+One disclaimer, I may make one small change to the onboarding project in the next 24hrs, I will keep you posted on that
+
+
+[9/9/2024 9:47 AM] wehaveagod2005
+@Taylor P. For the EULA form, what do we put for the professor/advisor?
+
+
+[9/9/2024 10:39 AM] auxx
+Dr Visvesh Sathe
+
+{Reactions}
+❤️
+
+[9/10/2024 12:25 AM] auxx
+@Physical Design Our regular meeting time is still TBD, but we will do an interim meeting Thursday 6-7pm in Klaus 1448. The first half will briefly cover onboarding(As well as vote on a final meeting time) and the second half will be to start tasking for returning members.
+
+{Reactions}
+❤️ (2) 👍 (3)
+
+[9/10/2024 12:44 AM] jasonhi
+Will info abt onboarding/meeting time be released on discord if we cant make it?
+
+{Reactions}
+⬆️
+
+[9/10/2024 2:57 PM] auxx
+Hello, yes I will get that prepared as well
+
+
+[9/10/2024 2:57 PM] auxx
+Also, ignore the email lettucemeet just sent out if you received it. It seems to have done something by itself
+
+
+[9/10/2024 6:36 PM] little.northhmg
+Is the first meeting this Thursday?
+
+
+[9/10/2024 6:46 PM] auxx
+Correct, but I don't think it will be the recurring time
+
+{Reactions}
+👍
+
+[9/10/2024 10:51 PM] wehaveagod2005
+I have class during the recurring meeting time, so is there any workaround for that?
+
+
+[9/10/2024 10:57 PM] auxx
+The recurring meeting time hasn't been set yet
+
+
+[9/10/2024 11:53 PM] havocgamer49
+I have a class during this, will notes be available?
+
+
+[9/11/2024 11:31 AM] auxx
+yes
+
+
+[9/11/2024 9:29 PM] obikenobi21
+I realize y'all have been using OpenLane, but does anyone here use Cadence Innovus for P&R through TCL scripts? My lab would like to set up scripts to more efficiently synthesize some of our digital but suffer from a case of not knowing anything. Any pointers in the right direction would be appreciated.
+
+
+[9/11/2024 9:30 PM] auxx
+Nah we switched, I can point you to the our repo using Innovus/Cadence's flowtool
+
+
+[9/11/2024 9:31 PM] obikenobi21
+That would be sick, thank you
+
+
+[9/11/2024 9:31 PM] auxx
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow, I may need to add you to the repo but here that is
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow,
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow,
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow,
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+
+[9/11/2024 9:34 PM] obikenobi21
+Yeah I think you'll have to add me (pmathews30). No rush, the help is greatly appreciated
+
+
+[9/11/2024 9:53 PM] auxx
+@Physical Design New Members, do you have a preference between tomorrows meeting being a brief introduction an coverage of the onboarding project (:1_DG: ) or should it be that AND a short introduction to EDA and the chip design process (:2_DG: )
+
+{Reactions}
+1_DG 2_DG (20)
+
+[9/11/2024 9:54 PM] auxx
+Also, I think it would be easier to do the introductory meeting online, as it will be hard to present and record without a projector/screen in klaus 1448
+
+
+[9/11/2024 9:55 PM] auxx
+so I think we will go for online, apologies for the last minute change
+
+
+[9/11/2024 9:56 PM] auxx
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDljM2I1N2MtNTAyOS00YzBiLWIwNWItZWQ4YmEzMjk2NzE3%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%228aa7d76e-9c68-43a9-b7e8-5cf1737a1a02%22%7d
+
+{Embed}
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDljM2I1N2MtNTAyOS00YzBiLWIwNWItZWQ4YmEzMjk2NzE3%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%228aa7d76e-9c68-43a9-b7e8-5cf1737a1a02%22%7d
+https://images-ext-1.discordapp.net/external/iXrQu-R2TQJ815Inzx5Oof-h7iqGLD4ZGdzaWVdSzvs/https/statics.teams.cdn.office.net/hashedassets-launcher/favicon/favicon-96x96.png
+
+
+[9/12/2024 11:49 AM] auxx
+@Physical Design as a reminder, todays meeting from 6-7pm has been swapped to Online, to make presentation and recording easier
+
+Teams link: https://teams.microsoft.com/l/meetup-join/19%3Ameeting_ZDljM2I1N2MtNTAyOS00YzBiLWIwNWItZWQ4YmEzMjk2NzE3%40thread.v2/0?context=%7B"Tid"%3A"482198bb-ae7b-4b25-8b7a-6d7f32faa083"%2C"Oid"%3A"8aa7d76e-9c68-43a9-b7e8-5cf1737a1a02"%7D
+
+{Embed}
+https://teams.microsoft.com/l/meetup-join/19%3Ameeting_ZDljM2I1N2MtNTAyOS00YzBiLWIwNWItZWQ4YmEzMjk2NzE3%40thread.v2/0?context=%7B%22Tid%22%3A%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2C%22Oid%22%3A%228aa7d76e-9c68-43a9-b7e8-5cf1737a1a02%22%7D
+https://images-ext-1.discordapp.net/external/iXrQu-R2TQJ815Inzx5Oof-h7iqGLD4ZGdzaWVdSzvs/https/statics.teams.cdn.office.net/hashedassets-launcher/favicon/favicon-96x96.png
+
+
+[9/12/2024 6:19 PM] auxx
+@Physical Design :1_DG:  For Monday 6pm-7pm Meeting time or :2_DG:  For Friday 5-6pm meeting
+
+{Reactions}
+1_DG (18) 2_DG (11)
+
+[9/12/2024 6:39 PM] auxx (pinned)
+@Physical Design  Reposting this as well, just in case
+
+Here are some logistical tasks for that you all should try to complete early, as well as some resources to help everyone ramp-up. 
+
+Sign the Cadence and Synopsys EDAS Tool EULAs: https://eulas.ece.gatech.edu/ (must be on VPN or on an on campus lab machine, put down Prof Visvesh Sathe as your research advisor and SiliconJackets as your research project)  Current members double check this, as your EULAs might have expired
+
+Sign-up for a Cadence Support Account: https://docs.google.com/forms/d/e/1FAIpQLSc3yqmJYB4wjiAB5G3pvlV0BbVl0AsP6tEg88ts9Kvun-8kwg/viewform
+
+--------------------------------------------------------------------------------------------------------------------
+New Member Specific: 
+
+Take a look at these repositories if you have access: 
+https://github.gatech.edu/SiliconJackets/Physical-Design-Onboarding-Project 
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flowtool-SKY130-Flow 
+https://github.gatech.edu/SiliconJackets/Physical-Design-Flow
+--------------------------------------------------------------------------------------------------------------------
+Resources: 
+
+Main Site: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Home.aspx?csf=1&web=1&share=EXigMeiyEFBIuK3wx-lU-KcBZT_nQq0AiY5_FVcLqkxBEA&e=ipYQ74
+PD wiki: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Physical-Design-Resources.aspx?csf=1&web=1&share=EVpD0CQWi0FFpLZ-dIJYRkwBxl5XOsnTxmTON6L8Z5eriw&e=Ln92YN
+
+Our "EDA 101" Slides: https://gtvault.sharepoint.com/:p:/s/SiliconJackets/EZOzK_TdlI9PpuQCjSbue4EB4aDzIrR8g52RNhyvw2cXqA?e=PPgyUn
+
+ "EDA 101" From Cadence : https://youtu.be/HkT363NUOBA?feature=shared 
+
+
+Digital VLSI Design Course(Adam Teman): https://www.eng.biu.ac.il/temanad/digital-vlsi-design/
+
+IC Design Course Playlists:
+https://www.youtube.com/playlist?list=PL0-xus8sJBCRXKoj2vLLnOK8KDWKpC_HH 
+
+https://www.youtube.com/playlist?list=PLZU5hLL_713x0_AV_rVbay0pWmED7992G
+
+https://www.youtube.com/playlist?list=PLZU5hLL_713yF0Lkwjj9O3ttVIuhPV-me
+
+https://www.youtube.com/playlist?list=PLZU5hLL_713x1w0kaMFXA7k2SGQQZOO-G 
+
+
+A good way to search for information in unix/many programming languages, RegEX is one of the most powerful languages around: https://regexone.com/
+Unix basics, for those are unfamiliar with unix/bash : https://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_Basics.html 
+
+Here is the Openlane2 Colab notebook for those who are unable to do part 2 of the onboarding due to mac compatibility issues: https://colab.research.google.com/github/efabless/openlane2/blob/main/notebook.ipynb
+
+Physical Design learning resources: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Physical-Design-Resources.aspx?csf=1&web=1&share=EVpD0CQWi0FFpLZ-dIJYRkwBxl5XOsnTxmTON6L8Z5eriw&e=Ln92YN 
+
+Tcl Reference: https://www.guru99.com/tcl-tutorial.html
+Tcl Practice: https://www.vlsi-expert.com/2018/11/tcl-practice-task-1.html
+Tcl Online Compilers: https://www.tutorialspoint.com/execute_tcl_online.php https://replit.com/new/tcl
+Tech and Semiconductor Common Acronyms https://semiengineering.com/knowledge_centers/acronyms/
+
+
+[9/12/2024 6:41 PM] hiddenfyre
+i came late to todays meeting, where will the recording be posted?
+
+
+[9/12/2024 6:41 PM] auxx
+Here, once microsoft finishes processing it
+
+{Reactions}
+👍
+
+[9/12/2024 6:42 PM] juleslop
+Is it possible for you to pin this message?
+
+
+[9/12/2024 6:42 PM] auxx
+Pinned a message.
+
+
+[9/12/2024 6:42 PM] juleslop
+Thanks!
+
+
+[9/12/2024 8:35 PM] auxx
+@Physical Design Here is the meeting recording: https://gtvault-my.sharepoint.com/:v:/g/personal/tpeterson47_gatech_edu/Eaa8Gdg9JtVMqiAdtfJXsbMBgQZzrNYJUejR2LetStkWnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qva37M
+
+
+The main action items for new members is to complete the onboarding by 9/27 and read through our script repositories if possible
+
+Meeting Time looks like it will be Mondays:  ~~6-7 PM~~
+Edit: Shifted to 6:30-8pm due to classroom availability
+
+
+[9/12/2024 9:09 PM] ryuuqt
+Is it best to stay on physical design if we cannot make the meeting time? I don't think I would be able to attend any Monday meetings until ~late October.
+
+
+[9/13/2024 3:43 PM] auxx
+Thats perfectly fine, but I would ask if self-teaching/asynchronous work and communication works well for your work/learning style to make sure you get the most benefit
+
+
+[9/14/2024 7:49 PM] wehaveagod2005
+Where are the details for the onboarding task?
+
+
+[9/14/2024 7:50 PM] akoul180
+It’s listed in the onboarding GitHub
+
+
+[9/14/2024 7:54 PM] wehaveagod2005
+Thanks, I didnt see that
+
+{Reactions}
+❤️
+
+[9/15/2024 3:06 PM] numinal
+am i misunderstanding something or do none of the slacks have negative values?
+
+
+[9/15/2024 3:14 PM] numinal
+do we have to look through both rpt files?
+
+
+[9/15/2024 4:55 PM] auxx
+perhaps :hmm:
+
+
+[9/15/2024 4:55 PM] auxx
+either works, but multi should is the intended one
+
+
+[9/15/2024 4:55 PM] auxx
+one is a synopsys report from 4804, the other one I believe is a timing report that comes from the openlane tool
+
+
+[9/15/2024 4:55 PM] numinal
+im confused lol cause it says to usemulti_corner_sta
+
+
+[9/15/2024 4:55 PM] numinal
+okay
+
+
+[9/15/2024 4:55 PM] numinal
+so i should check both?
+
+
+[9/15/2024 4:55 PM] numinal
+cause one has them and the other doesnt
+
+
+[9/15/2024 4:57 PM] numinal
+ah
+
+
+[9/15/2024 4:57 PM] numinal
+wait
+
+
+[9/15/2024 4:57 PM] numinal
+i see waht you mean now
+
+
+[9/15/2024 4:57 PM] numinal
+lol
+
+
+[9/15/2024 4:57 PM] numinal
+okay
+
+
+[9/15/2024 11:08 PM] auxx
+@Physical Design Welcome or new lead for this semester @Aman Koul to the team @Josh Perez will also be a lead this following spring, In interest of giving you all some time to do the onboarding, managing room scheduling conflicts, and giving us some time to prep for upcoming work.
+
+The first full meeting will be on 9/23/24 6:30pm-7:30pm in Klaus 1448,  then weekly at that same time on Mondays in Van Leer E341 (apart from days the room was pre-booked, we will keep you posted) 
+
+This first meeting will be a work/Q&A session regarding the onboarding project. Once again the Onboarding Project is due on Friday the 27th.
+
+{Reactions}
+🎉 (8)
+
+[9/16/2024 6:30 PM] .co2fe
+Where is this meeting
+
+
+[9/16/2024 6:30 PM] wehaveagod2005
+I’m at Klaus 1448 but seems like there is no meeting
+
+
+[9/16/2024 6:31 PM] auxx
+Hello all, see the latest announcement
+
+
+[9/16/2024 6:31 PM] auxx
+No meeting this week to give new members time to do the onboarding
+
+
+[9/16/2024 6:31 PM] wehaveagod2005
+Oh shoot alright
+
+
+[9/16/2024 6:46 PM] auxx
+Apologies for the confusion!
+
+
+[9/19/2024 8:45 AM] akoul180
+@Physical Design Hey Everyone, make sure you all sign up for a cadence account using the link below!
+https://forms.gle/XYhUBMCb3vfWccTb6
+
+{Embed}
+https://forms.gle/XYhUBMCb3vfWccTb6
+SiliconJackets Cadence Account Registration
+Please send the following information to be registered for a Cadence Support/Documentation Account
+https://images-ext-1.discordapp.net/external/ZcGdENg2hU9xjcw8RIMIDMUclsppAxh-_knXv6N3RQE/https/lh4.googleusercontent.com/Qts01J5dz9SrTTrz55gpzAGkNdd7kdiO9z8cH-XWGJGZ2_xs3mP59EJ-vcEOobpioSiKIMbPjA4%3Dw1200-h630-p
+
+
+[9/19/2024 10:53 AM] alphabail
+I am pretty sure that I have already submitted this form, but is there anywhere I can check to confirm?
+
+
+[9/19/2024 10:54 AM] akoul180
+You’re good, I see your submission!
+
+
+[9/19/2024 10:55 AM] alphabail
+ok, cool! Thanks!
+
+
+==============================================================
+Exported 338 message(s)
+==============================================================

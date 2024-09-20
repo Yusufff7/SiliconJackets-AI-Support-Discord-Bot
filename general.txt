@@ -1,0 +1,722 @@
+==============================================================
+Guild: SiliconJackets
+Channel: Text Channels / general
+==============================================================
+
+[10/11/2023 3:40 PM] twistietwister.
+I love you all
+
+{Reactions}
+❤️
+
+[10/11/2023 3:47 PM] technolithic
+I love you especially
+
+
+[10/11/2023 4:35 PM] twistietwister.
+Ok
+
+
+[10/15/2023 1:37 PM] zachellis
+Hi @everyone we will be having our first full team monthly meeting this wednesday from 6:30 to 7:30. While we plan to have these meetings in person in the future, we will be doing it online this time. We will be discussing in more detail the plans we have for the semester which I hope will get you more excited about the work to come and help you decide what team to join if you are still on the fence. The link for the meeting is here: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNiODgzOTctOWRjNS00MzU2LTkyMmItMDZjMjllZDZhYjM2%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%225a3e622b-1c8b-46b0-b239-0d9575a39f45%22%7d
+
+{Embed}
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNiODgzOTctOWRjNS00MzU2LTkyMmItMDZjMjllZDZhYjM2%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%225a3e622b-1c8b-46b0-b239-0d9575a39f45%22%7d
+https://images-ext-1.discordapp.net/external/iXrQu-R2TQJ815Inzx5Oof-h7iqGLD4ZGdzaWVdSzvs/https/statics.teams.cdn.office.net/hashedassets-launcher/favicon/favicon-96x96.png
+
+{Reactions}
+👏 (6)
+
+[10/17/2023 7:09 PM] chmch
+Is there any chance that you could record this meeting and post it somewhere after? I would love to attend but my ECE 2031 Lab starts right at 6:30.
+
+
+[10/17/2023 8:28 PM] zachellis
+I will see what we can do. At the very least I can post the slides afterwards
+
+{Reactions}
+👍
+
+[10/18/2023 3:43 PM] zachellis
+Reminder @everyone we have our first monthly general club meeting today at 6:30. See meeting link in the message above
+
+
+[10/18/2023 5:16 PM] mhden1
+Is it again in Skilles 271?
+
+
+[10/18/2023 5:17 PM] zachellis
+Nope it’s a virtual meeting this time. We want to try to book a bigger space for you all but couldn’t get one in time for this month’s meeting
+
+{Reactions}
+👍 (2)
+
+[10/18/2023 6:46 PM] raviolisolo
+HI, Im having issue with my teams rn, may I request a copy of the slides afterwards?
+
+
+[10/18/2023 7:07 PM] zachellis
+https://gtvault.sharepoint.com/:p:/s/SiliconJackets/ESTFBSocnchNjaAc1RdW1qwBJbdj84bG9pJZE3Y5ipvPNg?e=klE5kU
+
+
+[10/18/2023 7:07 PM] zachellis
+Slides from today's meeting
+
+
+[10/18/2023 7:13 PM] zachellis
+https://gtvault-my.sharepoint.com/:v:/g/personal/zellis7_gatech_edu/EdR-c2zR3gdGquHdDw-hZOMBtuI3XcCCzMZIWsuCNOvvKw
+Recording of today's meeting
+
+
+[10/19/2023 9:14 AM] _evren
+If it would be helpful to anyone, I made a skeleton/template system verilog file for coding an FSM
+
+
+[10/19/2023 12:08 PM] shunmi.
+i am interested in joining this club in Spring 2024. Will new sign ups open at the beginning of next semester?
+
+{Reactions}
+👌
+
+[10/19/2023 3:35 PM] additup23
+Sure, share it in the digital design channel!
+
+{Reactions}
+👍
+
+[10/19/2023 5:04 PM] zachellis
+We will not have an official info meeting in the spring but if you want to join you can send me an email /discord message
+
+
+[10/19/2023 5:48 PM] shunmi.
+I have sent u a discord message!
+
+
+[10/25/2023 11:58 AM] zachellis
+Hi @everyone please make sure that you can access the  ECE linlab server we are using for this club. I have been receiving some requests for access but I want to make sure we get everyone so I can send them all in one request to ECEhelp. Thanks!
+
+
+[10/26/2023 11:13 AM] zachellis
+Hi @everyone we are going to start collecting resumes for a resume book that we will distrubute to sponsors of our club. This is an incentive for sponsors who want to gain access to you guys as you represent a subset of students at GT with semiconductor experience. I am hoping it will also help some of you with the recruitment process for internships and full time offers in the future. Your lead will give you access to this form once you have completed your onboarding project and we will be checking submissions to make sure only onboarding finishers are included.
+
+{Reactions}
+👍 (8)
+
+[10/31/2023 7:23 PM] zachellis
+Hi @everyone I hope you are all doing well so far with onboarding and any new projects you may have been assigned. For those who had problems connecting to linlab, you should have access to the ece research servers if you are an ece student. If you are not an ece student and can't access them let me know. The two severs are
+
+ece-rschsrv01.ece.gatech.edu
+ece-rschsrv02.ece.gatech.edu
+
+
+[11/6/2023 9:57 AM] zachellis
+Hi @everyone just a reminder we will have our monthly meeting on **Wednesday November 15th in person in Skiles 271 from 6:30 to 7:30PM**. For those who have conflicts these meeting are just general status meetings for the club where you can learn about what some of the other teams are doing and be informed about upcoming events. Hope to see a lot of you there!
+
+
+[11/15/2023 2:07 PM] zachellis
+Hi @everyone we will have our monthly meeting in person today from 6:30 to 7:30. See the above message for more details
+
+{Reactions}
+👍 (2)
+
+[11/16/2023 3:48 PM] arroganttechnician
+Hi
+
+
+[11/16/2023 3:49 PM] arroganttechnician
+I am interested in joining the Digital Design team
+
+
+[11/16/2023 3:49 PM] arroganttechnician
+what's the process for contributing ?
+
+
+[11/17/2023 1:57 PM] zachellis
+Hi @Alan Tao we are not currently onboarding at this point in the semester but we will have another round of recruiting in the spring where we will be able to walk you through the process
+
+{Reactions}
+👍 (2) ‼️
+
+[1/10/2024 7:06 PM] zachellis
+Hi @everyone welcome back to GT and thanks for sticking around for the second ever semester of SiliconJacket's existence. We will be having our first general club meeting of the semester a week from today January 17th from 6:30-7:30PM in Van Leer C456. Looking forward to seeing you all there!
+
+{Reactions}
+🐝 (6)
+
+[1/31/2024 9:57 PM] zachellis
+Hi @everyone I received this flyer link from one of our members who is going to intern at Nvidia. Seems like a good opportunity for you guys to check out and maybe even win a 4080!
+https://nvgtspring2024.splashthat.com
+
+{Reactions}
+🔥
+
+[2/5/2024 6:30 PM] zachellis
+Hi @everyone I have added all new members who filled out the subteam interest form to our GitHub. Those of you who did not have accounts set up should have received an email from me. In the coming days you should receive more communication from your respective team lead about the next steps to get integrated into the team
+
+{Reactions}
+👍 (5) ♥️
+
+[2/5/2024 6:32 PM] zachellis
+Additionally I’d like to let @everyone know that micron is hosting a resume review session and mock interviews on February 13th from 1-3PM in the Ponce de Leon room in the student center and there will be snacks provided!
+
+{Reactions}
+👍 (3)
+
+[2/10/2024 9:30 AM] deansprinkle
+I wasn’t able to make it to the interest meeting, but I’m interested in materials and hardware design. What are the steps I should take to get onboarded?
+
+
+[2/10/2024 3:19 PM] additup23
+reach out on the individual discussion channel of the subteam you want to join, and the leads can get you set up for the onboarding project
+
+
+[2/10/2024 3:26 PM] zachellis
+Yep also feel free to dm me so I can set you up on our GitHub and stuff
+
+
+[2/15/2024 9:27 AM] maxzhu123
+anyone that’s going to the nvidia office hours, what’s the dress code like
+
+
+[2/15/2024 10:17 AM] crono.gt
+from what i could tell, same as career fair
+
+
+[2/15/2024 10:17 AM] crono.gt
+i might be wrong tho
+
+
+[2/15/2024 11:47 AM] deansprinkle
+I’m wearing a relatively nice button up (untucked), khakis, and my docksiders.  Still contemplating whether to undo the second button and look like a fuckboy or not
+
+
+[2/15/2024 12:19 PM] technolithic
+I mean idk the reps are just gonna wear nvidia shirts
+
+
+[2/18/2024 4:17 PM] murtazanomani
+Is Spring recruiting over or still going on?
+
+
+[2/18/2024 4:18 PM] zachellis
+@Murt we are still accepting members for the next week or so. Please send me an email at zellis7@gatech.edu to get you set up
+
+
+[2/18/2024 4:20 PM] murtazanomani
+Ok, I am trying to find the open projects the club works on, where can I find that? @Zach Ellis
+
+
+[2/18/2024 4:24 PM] zachellis
+Once I add you to our github you will be able to see all of the repos
+
+
+[2/18/2024 5:06 PM] murtazanomani
+Ok I’m just wondering what the chip we r making is for if that makes sense
+
+
+[2/18/2024 5:06 PM] murtazanomani
+My email is mnomani7@gatech.edu
+
+
+[2/18/2024 5:49 PM] lejackster
+The chip is a RISC-V 32-bit IMA CPU
+
+
+[2/18/2024 8:44 PM] murtazanomani
+So are we building a computer then?
+
+
+[2/18/2024 8:45 PM] murtazanomani
+I’m wondering if the chip is for a flgiht computer or something.
+
+
+[2/18/2024 8:46 PM] murtazanomani
+Can I join the team as a mechE @Zach Ellis
+
+
+[2/18/2024 8:53 PM] zachellis
+We’re not necessarily going to chip in anything. But we will take measurements to benchmark it’s performance. There is no restriction against any majors for joining the team. Also just FYI we are not planning to have any physical chips until next spring as we are still in the design phase
+
+
+[2/20/2024 2:17 PM] nealson_
+Hi @everyone, we will not be having a full team meeting for Feb. I encourage you to attend the AMD event next Wednesday which would occur during our meeting time instead. See detail in the #industry-corner  channel. Cheers!
+
+
+[3/11/2024 2:18 PM] auxx
+@ar492 hello, @Zach Ellis told me he can help get you directed to the correct team repository etc..
+
+Once again sorry for the delay
+
+
+[3/12/2024 1:01 PM] zachellis
+Hi @everyone sorry for the short notice. We will be having a general body meeting **Tommorow at 6:30PM in Skiles 254** Hope to see you there!
+
+
+[3/13/2024 4:45 PM] zachellis
+Hi @everyone Reminder of our general body meeting tonight at 6:30PM. We are also working on setting up a Q&A session with Cadence. Reply to this message with questions you have that you think they might be able to answer. This is mostly for PD folks but don't hesitate to reply with questions about any topic you think they might be able to help with
+
+
+[3/26/2024 2:06 PM] zachellis
+Hi @everyone Sorry for not getting this out before the break. For those of you who are interested in contributing to our resume book that we distribute to sponsors here is the link to submit. https://gatech.campuslabs.com/engage/submitter/form/start/613450
+
+
+[3/26/2024 2:06 PM] zachellis
+Also don't forget to submit your questions to cadence. You can either respond to the message above or send them to me directly
+
+
+[5/3/2024 2:11 PM] vardhan_hu_mai
+Hi, I am interested in joining the physical design team, How can I contribute?
+
+
+[5/6/2024 3:22 PM] zachellis
+Hey @Vardhan⚡ we are not doing much over the summer as all of the leads have internships. We will start bringing on new members in early fall
+
+
+[5/21/2024 3:35 PM] big_badal
+when does recruiting start for the fall semester
+
+
+[5/22/2024 10:52 PM] zachellis
+Should be in the first couple of weeks (late August or early September)
+
+
+[8/2/2024 1:03 AM] drakowu
+Are there any requirements?
+
+
+[8/2/2024 1:04 AM] drakowu
+I’m an incoming freshman doing CompE and this looks pretty interesting to me
+
+
+[8/2/2024 1:15 AM] auxx
+No hard requirements, ramping up may take some time depending on your background though
+
+
+[8/7/2024 2:19 AM] drakowu
+I see I see
+
+
+[8/7/2024 2:19 AM] drakowu
+I definitely would like to join, seems fun af
+
+
+[8/13/2024 6:22 PM] saad.amin
+I am a first year computer engineering student and I would like to join
+what is the process?
+
+
+[8/13/2024 10:14 PM] zachellis
+Hi @saada we will be having an info session shortly after the start of the semester. We will be posting info about it soon. If you attend the info session and let us know you are interested in joining we will make sure you get placed on your preferred subteam. Keep an eye out for flyers around campus, an email annoucment on the ECE email list if you are in ECE as well as posts on the GT subreddit and some discords.
+
+
+[8/14/2024 1:30 PM] drakowu
+Hey I’m also a first year CompE 🤝
+
+
+[8/14/2024 1:30 PM] drakowu
+Where r u staying?
+
+
+[8/14/2024 1:35 PM] saad.amin
+Woodruff south
+
+
+[8/14/2024 1:35 PM] saad.amin
+Wbu?
+
+
+[8/14/2024 1:58 PM] drakowu
+Matheson
+
+
+[8/14/2024 1:58 PM] drakowu
+Global leadership LLC
+
+
+[8/14/2024 3:42 PM] saad.amin
+is that west or east?
+
+
+[8/14/2024 4:18 PM] ralphnortham
+East
+
+
+[8/14/2024 4:18 PM] ralphnortham
+Same bldg as Perry
+
+
+[8/14/2024 4:30 PM] drakowu
+Yup
+
+
+[8/15/2024 8:21 PM] 0x6f69
+least friendly Week of Welcome conversation
+
+
+[8/16/2024 8:20 AM] ralphnortham
+Every week of welcome conversation
+
+
+[8/16/2024 8:20 AM] ralphnortham
+Hi my name is X: 
+Im a Y major. 
+Whats your name?
+
+
+[8/16/2024 8:21 AM] ralphnortham
+I’m Z, also Y major!
+
+
+[8/16/2024 8:21 AM] ralphnortham
+Nice!
+
+
+[8/16/2024 8:21 AM] ralphnortham
+Then they never speak to eachother ever again
+
+{Reactions}
+🤣 (10)
+
+[8/16/2024 9:47 AM] drakowu
+😭😭😭
+
+
+[8/16/2024 5:09 PM] antonius_kennedon
+Like completing a questline
+
+
+[8/16/2024 5:18 PM] 0x6f69
+I went on a scavenger hunt during WoW (fetch quest) and never spoke to those people again
+
+
+[8/16/2024 7:31 PM] antonius_kennedon
+"College is for forming connections!"
+
+
+[8/16/2024 8:37 PM] sharkyguo
+Even working as a full time, I had to shamelessly ask a group of interns to join them for lunch
+
+
+[8/16/2024 8:37 PM] sharkyguo
+I enjoyed talking to college students way more than experienced guys
+
+
+[8/16/2024 8:49 PM] drakowu
+R u an alumni?
+
+
+[8/16/2024 8:57 PM] sharkyguo
+Yes, I am the former PD lead
+
+{Reactions}
+🐐 (6) 💀
+
+[8/17/2024 2:09 PM] Deleted User
+Is Silicon Jackets having an info session?
+
+
+[8/17/2024 2:16 PM] zachellis
+Hi @Deleted User  we will be having an info session shortly after the start of the semester. We will be posting info about it soon. If you attend the info session and let us know you are interested in joining we will make sure you get placed on your preferred subteam. Keep an eye out for flyers around campus, an email annoucment on the ECE email list if you are in ECE as well as posts on the GT subreddit and some discords.
+
+
+[8/19/2024 12:28 AM] ogilvy0700
+This is so facts
+
+
+[8/21/2024 3:45 PM] zachellis
+Hi @everyone! Welcome back and I hope you are all excited to get started up for the year. We will begin to have subteam meetings so look out for info on scheduling from your subteam leads. We will also be having our info session for new members on September 4th, 7:30-8:30PM in Van Leer C456. Looking forward to seeing some of you there who have expressed interest and get started as SiliconJackets members!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1161749783476719686/1275903727915761725/info_session_land.png?ex=66ed2831&is=66ebd6b1&hm=978f3be30dbfe8443d6ef44619dbca30d605274cb2f3a1e81361dc140ff88f7d&
+
+{Reactions}
+🎉 (36)
+
+[8/28/2024 2:19 PM] pillowedprincess
+What day of the week do you guys typically meet?
+
+
+[8/30/2024 9:44 PM] zachellis
+@nate we only have monthly full team meetings. The individual subteams will meet weekly though so depending on which one you join that may be a different date / time
+
+
+[9/4/2024 10:04 AM] towofu
+if we can’t make it to the info meeting today, will that info be sent out afterwards?
+
+
+[9/4/2024 5:47 PM] drakowu
+just a quick question, what kinda free food will there be because i need to know if i should get dinner before the info session
+
+yesterday i skipped dinner for a networking event bcs they said "free food" but it was just a donut 😭
+
+
+[9/4/2024 5:48 PM] drakowu
+dolphin emu is goated btw
+
+{Reactions}
+‼️
+
+[9/4/2024 6:09 PM] zachellis
+We ordered 20 pizzas
+
+{Reactions}
+❤️ (3) 🔥 (2)
+
+[9/4/2024 6:09 PM] zachellis
+Yes I will send everyone the slides and other info who filled out the RSVP form
+
+{Reactions}
+👍
+
+[9/4/2024 6:12 PM] drakowu
+goat activity right here
+
+
+[9/4/2024 6:12 PM] drakowu
+🙏
+
+
+[9/4/2024 6:58 PM] twistietwister.
+There was an RSVP form?
+
+
+[9/4/2024 7:00 PM] twistietwister.
+My dumbass just saw the QR Code
+
+
+[9/4/2024 7:01 PM] zachellis
+yep the QR code. Here is the link if you don't want to scan https://gatech.campuslabs.com/engage/submitter/form/start/649099
+
+
+[9/4/2024 11:03 PM] zay_lol
+it says not accepting submissions... i believe i did the RSVP but im not sure
+
+
+[9/4/2024 11:03 PM] zay_lol
+can you email them to me anyway?
+
+
+[9/4/2024 11:04 PM] zay_lol
+i can DM you my email address
+
+
+[9/4/2024 11:05 PM] zachellis
+I will open the submissions for another day
+
+
+[9/4/2024 11:06 PM] zachellis
+should be able to submit now
+
+
+[9/4/2024 11:35 PM] zay_lol
+thanks
+
+
+[9/5/2024 12:08 AM] twistietwister.
+I don't mean to be rude, but man that classroom was too small for the info session 😭
+
+
+[9/5/2024 12:33 AM] drakowu
+one day they will give us the bobby dodd stadium for our meetings
+
+
+[9/5/2024 12:33 AM] drakowu
+🙏
+
+
+[9/5/2024 1:33 AM] icygs
+W
+
+
+[9/5/2024 1:33 AM] icygs
+one day
+
+
+[9/5/2024 11:19 AM] twistietwister.
+When will the slides from the info session be sent out?
+
+
+[9/5/2024 11:41 AM] peasantllama
+Hi I wasn't able to make it to the info session last night, if the info/slides will be posted on the discord somewhere that would be awesome 🙏
+
+
+[9/5/2024 11:42 AM] zachellis
+Please fill out the RSVP form if you haven’t already. It was the same one one the flyer. I will send all the info to your email https://gatech.campuslabs.com/engage/submitter/form/start/649099
+
+{Reactions}
+👍 (2)
+
+[9/6/2024 9:58 AM] drakowu
+I just logged into my GT GitHub account for the first time, any way to merge it with my personal GitHub? I’d rather just have one account
+
+
+[9/6/2024 10:07 AM] auxx
+It's effectively an enterprise github, so unfortunately not
+
+
+[9/6/2024 11:08 AM] drakowu
+oh alr
+
+
+[9/6/2024 11:08 AM] drakowu
+thanks
+
+
+[9/7/2024 5:02 PM] shawbone
+When is the next meeting?
+
+
+[9/7/2024 5:10 PM] zachellis
+Please check your individual subteam channels for their next weekly meeting. The monthy meeting times for the whole club will be annouced this week
+
+{Reactions}
+👍
+
+[9/7/2024 9:01 PM] far021983
+how do we join if we wanna join can we just show up to meetings
+
+
+[9/8/2024 4:06 PM] flygonial
+Hi! I'm a new MSECE student and missed the onboarding (and it seems like the subteam interest form has closed), and I was wondering if it was too late to look at getting involved? I have contributed heavily to a project to build an ASIC to emulate a Canto card game before and did almost the full workflow before (logic -> design compiler netlist -> encounter for GDS -> padframe wiring and verification at each step)
+
+
+[9/8/2024 4:07 PM] zachellis
+@fart eater and @Samuel Xu even though the form has just closed please feel free to start attending the subteam meetings of your chosen subteam. We are still accepting new members this week but will close off new membership until the spring soon so that we can get through onboarding effectively.
+
+{Reactions}
+👍 (2) 😄
+
+[9/8/2024 6:46 PM] michaeldoran_84057
+Hey all.  Glad to be a part of the group.  I am attempting to go through the oboarding setup.  I'm at the part where Im starting an `xterm` session and I receive the following error.  Please advise.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1161749783476719686/1282472127144005692/image.png?ex=66ed527e&is=66ec00fe&hm=bc18ecc13d423a63cf18d5e884ca3d2512d1dede18da0b3a77da4179d6584f1b&
+
+
+[9/8/2024 6:49 PM] arct2rus
+This is an issue that weve seen in the past, kind of random who has and doesnt have an account. if you give me/addison ur email during our meeting on tuesday we will send one email to the IT person with everyone who gets this error
+
+
+[9/8/2024 6:52 PM] zachellis
+@Michael Doran please use ece-rschsrv.ece.gatech.edu instead. linlab access is only for classes. Sorry we need to update our documentation
+
+
+[9/8/2024 7:00 PM] michaeldoran_84057
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1161749783476719686/1282475765400866836/image.png?ex=66ed55e1&is=66ec0461&hm=9bbaaff9bc961df17381e566881e6724820db8c66f3b2e4e42877efc62bbe6d9&
+
+
+[9/8/2024 7:01 PM] michaeldoran_84057
+FATAL ERROR: Remote side unexpectedly closed network connection
+
+
+[9/8/2024 7:03 PM] michaeldoran_84057
+I am connected to the vpn FWIW
+
+
+[9/8/2024 7:04 PM] zachellis
+ok in that case we can help you troubleshoot at the subteam meeting. It's possible we need to email ECEhelp. As far as I can tell you do have an account
+
+{Reactions}
+👍
+
+[9/8/2024 10:18 PM] maxzhu123
+do any senior members input as to which would be the easiest team to join? e.g how much background knowledge is required for each role
+
+
+[9/8/2024 11:20 PM] jasonhi
+do what you think is fun brodie
+
+
+[9/8/2024 11:41 PM] jp_1234.
+^
+
+
+[9/9/2024 12:53 AM] zachellis
+@federal agent I would take a look at the different onboarding projects on the GitHub to see what looks the most approachabel for you but I agree with other I would just see what looks to be the most fun. For a more in depth opinion I think if you are choosing between design and verification they both deal a lot with systemverilog but have different optimization goals. For design you must write systemverilog which is possible to synthesize into actual hardware. You are also looking to optimize your systemverilog such that it is not only functional but that it also produces hardware which is small and fast. For verification, the systemverilog you write does not need to be synthesizeable because it is basically just a test platform. Your optimization focus in this case is writing code that provides the best evaluation of the design through the fewest number of tests. I think this makes verification a bit easier to grasp at first because it is easier to come up with test inputs that are more optimized just based on logic than more optimized hardware which is based on prior knowledge of VLSI and experience. Verification can be a good start if you eventually want to get into design because it is easier to understand with less prior knowledge and you can apply your aquired systemverilog skills to design down the line. For PD it is hard to say because it is a lot different than other teams. I think it takes a lot of background knowledge to know what is fully going on but you can get integrated pretty fast if you already have a lot of scripting experience.
+
+{Reactions}
+👍
+
+[9/9/2024 12:54 AM] zachellis
+TLDR: If you have no idea what anything is your best bet is probably verification. If you already have good scripting / linux knowledge you may be able to pick up PD more quickly but you may not have much connection to the results of your work
+
+
+[9/9/2024 1:37 AM] reversecard24
+Is there a specific date for each onboarding project to be done by? Or is it just chill  for now?
+
+
+[9/9/2024 10:59 AM] maxzhu123
+i don't know what is fun yet😭
+
+
+[9/9/2024 7:05 PM] twistietwister.
+That's one interesting username lol
+
+{Reactions}
+😢
+
+[9/13/2024 5:26 PM] tyro6
+Hi guys, I saw silicon jackets at the ece rush yesterday and went to fill out the membership form today and it wouldn't work. I found the discord, do I need to apply? Where can I find new member info? Thank you!
+
+
+[9/14/2024 3:04 PM] crackedcereal
+Yea same. Is there any informations for people who just joined like meeting times or training?
+
+{Reactions}
+⏫ (2)
+
+[9/15/2024 12:37 AM] zachellis
+Hey @Tyler Roche @crackedcereal don't worry about the form since it is now closed. The next steps for you are to start attending the weekly meetings for your chosen subteam where they can help you get set up. Keep an eye on their respective channels in this server for meeting times but currently Monday 5-6 for design and verification, Tuesday 5-7 for design, and Monday 6:30-8 for PD. Locations may change week to week based on classroom availability so just keep an eye out for messages in the respective subteam channels
+
+{Reactions}
+👍 (2)
+
+[9/15/2024 12:38 AM] zachellis
+When you attend your first meeting talk to one of the leads so they can give you GitHub access. That was the main purpose of the form outside just data collectioin
+
+
+[9/15/2024 11:46 AM] tyro6
+Thank you! Is design and verification considered verification & emulation or physical or digital design?
+
+
+[9/15/2024 11:52 AM] numinal
+verification and emulation
+
+{Reactions}
+❤️
+
+[9/15/2024 12:20 PM] tyro6
+thank you
+
+
+[9/15/2024 1:07 PM] lejackster
+More accurately, it’s mainly verification’s meeting but digital design members will be there as well
+
+
+[9/16/2024 1:04 PM] drakowu
+@Zach Ellis u mentioned during the info session u were looking for ppl for the business team, im down to help start it
+
+
+[9/16/2024 1:50 PM] zachellis
+Yes @Drako ! Send me an email zellis7@gatech.edu so we can set up a time to discuss
+
+
+[9/16/2024 5:13 PM] drakowu
+sure
+
+
+[9/18/2024 2:50 PM] zachellis
+Hi @everyone we will be having our first full team meeting next September 25th from 6-7PM in the Kirkwood Room (second floor) in the GT Exhibition Hall. Some representatives from the school of ECE should also be there to hopefully take a team picture. I hope to see many of you there (we have a much bigger room this time)!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1161749783476719686/1286036738409762898/SJ_General_Meeting_0925_24Fall.jpg?ex=66ed1b4b&is=66ebc9cb&hm=32852d5960d288e055845a2b1a39d02419358582a479351667e06a7eb5afd4aa&
+
+{Reactions}
+❤️ (17)
+
+==============================================================
+Exported 157 message(s)
+==============================================================

@@ -1,0 +1,2152 @@
+==============================================================
+Guild: SiliconJackets
+Channel: Digital Design / discussions
+==============================================================
+
+[10/14/2023 8:07 PM] theyuan
+Hi guys
+
+
+[10/14/2023 8:07 PM] theyuan
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1162904595442446416/image.png?ex=66ed658d&is=66ec140d&hm=b63f85d6b6b9728328e0478489fd9814739de827c317e755344d63fcc6107ce6&
+
+
+[10/14/2023 8:07 PM] theyuan
+any1 seen this VCS error before?
+
+
+[10/14/2023 8:21 PM] additup23
+Did you sign the Synopsys EULA recently? If it's been a couple days you could email help@ece.gatech.edu and ask about it, cuz they're the ones that approve you
+
+
+[10/14/2023 8:24 PM] ogilvy0700
+did you source the source file
+
+{Reactions}
+‼️
+
+[10/15/2023 8:19 PM] theyuan
+I did not remember sourcing anything. that could be the reason :3
+
+
+[10/15/2023 8:20 PM] theyuan
+Will talk with them soon if that's the problem TY!
+
+
+[10/16/2023 11:21 AM] arct2rus
+@Digital Design Our meeting this wednesday will be in Van Leer C456 from 5:30-6:30pm. @Addison Elliott and I will primarily be helping you through the onboarding project/setup and giving some additional information/resources that might be helpful. Also,  just wanted to remind everyone who has not already done so to please change your server nickname to your real names. Hope to see you all this wednesday!
+
+
+[10/16/2023 11:23 AM] arct2rus
+Also for those working ahead/on their own we are assuming the inputs are unsigned integers so no need to consider negative numbers in your GCD algorithm
+
+
+[10/16/2023 12:20 PM] zachellis (pinned)
+Hi @Digital Design if you are facing the same problem as @Deyuan Sun you may need to add this line to your .my-cshrc in your home directory on linlab. Otherwise you can just type this line directly into your terminal after you run the `tcsh` command.
+`source /tools/software/synopsys/setup.csh`
+
+
+[10/16/2023 12:20 PM] zachellis
+I am updating the Digital Design onboarding README to include this information
+
+
+[10/16/2023 3:56 PM] theyuan
+and also I do have a class (ECE6140)from 5:00 to 6:15 🥲 Is there a way for me to get the meeting info.
+
+
+[10/16/2023 5:10 PM] additup23
+Pinned a message.
+
+
+[10/16/2023 5:35 PM] technolithic
+same (CS 3220)
+
+
+[10/17/2023 8:37 PM] knightfall19
+Same (ECE 1100)
+
+
+[10/17/2023 8:41 PM] crono.gt
+Same (ECE 2020)
+
+
+[10/17/2023 8:45 PM] _evren
+Same (ECE4180)
+
+
+[10/18/2023 3:11 PM] doctorslingshot
+Same (CS 1332)
+
+
+[10/18/2023 3:13 PM] technolithic
+Hi Colin
+
+
+[10/18/2023 3:43 PM] doctorslingshot
+Hi Colin
+
+
+[10/18/2023 4:38 PM] additup23
+Okay, we're going to make sure everything we talk about at the meeting is published, and we're going to try to figure out a meeting time moving forward that works for as many people as possible!
+
+{Reactions}
+👍 (2)
+
+[10/18/2023 5:28 PM] additup23
+https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Digital-Design-Resources.aspx?csf=1&web=1&share=ETF5m401jc5OvX5m9xzIuEABCniDWEBJgP_VHB0om6SWiQ&e=khoeqB
+
+
+[10/18/2023 5:33 PM] alirazarizvi
+Ho do we get to 4th floor?😬
+
+
+[10/18/2023 5:36 PM] _agera
+The back stairwell or the elevator
+
+
+[10/18/2023 5:46 PM] arct2rus
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+
+[10/18/2023 5:56 PM] arct2rus
+https://eulas.ece.gatech.edu/synopsys/
+
+
+[10/18/2023 6:58 PM] knightfall19
+I have connected to linlab using FastX, but I can't seem to open xterm. It's giving me this error: Failed to start the session. Home directory missing.
+
+
+[10/18/2023 7:07 PM] arct2rus
+Unfortunately this is an error on the ECE OIT side of things, email support@oit.gatech.edu with a screenshot of your error or tell them that the home directory is missing and they should fix it
+
+
+[10/18/2023 7:08 PM] knightfall19
+Could it also be something with the EULA agreement? I filled out the form over the weekend.
+
+
+[10/18/2023 7:08 PM] arct2rus
+its a separate issue, signing the eula should be realtively quick to process
+
+
+[10/18/2023 7:10 PM] knightfall19
+Ok, thanks for the help. I’ll email them soon to get the issue fixed.
+
+
+[10/18/2023 7:18 PM] additup23
+We had a great first DD subteam meeting, thanks to all the engineers who were able to come! We're going to work over the next few days to figure out a better weekly time to make sure a many people as possible can join.
+
+Summary: We went over these slides about our subteam, our main project (RISC-V core), and the onboarding project. Then for the rest of the meeting, everyone began working on the onboarding project, and we answered conceptual and logistical questions.
+
+Slides: https://gtvault.sharepoint.com/:p:/s/SiliconJackets/EQ8-a_ewYEpHk9rrcjV7DwkBUHmSQrsOEbmF-_MbekqnFw?e=qyuapH
+
+If anyone has any questions at all, about onboarding setup or RTL design or anything at all, feel free to send them in this discussion.
+
+Helpful resources for Digital Design: https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Digital-Design-Resources.aspx?csf=1&web=1&share=ETF5m401jc5OvX5m9xzIuEABCniDWEBJgP_VHB0om6SWiQ&e=khoeqB
+
+
+[10/18/2023 9:47 PM] additup23
+By the way, for Macbook users who don't like FastX because you can't copy/paste easily, and also because it's super fuzzy, I may have found a better solution.
+
+We're using the linlab servers, which requires us to remotely connect to it. We use SSH, but because we require access to GUIs on the server, Mac terminal isn't enough since it doesnt come with X-forwarding. That's why we use FastX or something similar which supports it.
+
+I haven't really tested it much, but it appears there's a way to enable X forwarding in the Mac terminal itself if you download X-Quartz (https://www.xquartz.org/). Once you download and install it, it closes all ur apps for some reason and makes u log back in. But now you can run "ssh -X (username)@ece-linlabsrv01.ece.gatech.edu" in Mac terminal and you'll be able to access the GUIs
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1164379149654315108/image.png?ex=66ed7cd6&is=66ec2b56&hm=2f94086b44152dc62efed5183faadc6d35d75989fca98fba988a8632941cf283&
+
+{Reactions}
+💯
+
+[10/18/2023 11:07 PM] 0x6f69
+For the 3%  global market share that uses a Linux distro and doesn't know this already, you are extremely likely to already use X11 as your display server in which case downloading a remote X11 viewer is pointless. However, you can forward the remote x-server easily. Remote in with `ssh -X {username}@ece-linlab01.ece.gatech.edu`.
+
+{Reactions}
+👍 (2)
+
+[10/18/2023 11:10 PM] additup23
+thx
+
+
+[10/19/2023 4:09 PM] _evren
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1164656597214167112/skeleton.sv?ex=66ed2dbb&is=66ebdc3b&hm=f0454a9d2da4f55164bb74363a0af02698353d559c13eef26f77442e60dfc084&
+https://cdn.discordapp.com/attachments/1158819200601706516/1164656597541331075/skeleton_pkg_b.sv?ex=66ed2dbb&is=66ebdc3b&hm=e70ae58ebaa56786458bca6b4b7c805774fe25d50bb30468115eeba689ee5fe4&
+
+
+[10/19/2023 4:10 PM] _evren
+These are template files for any FSM in system verilog with comments and examples that explain everything
+
+{Reactions}
+👍
+
+[10/19/2023 4:11 PM] _evren
+the pkg file is where you list your states, and the main file is where you perform your logic
+
+
+[10/20/2023 1:33 PM] additup23
+Hi @Digital Design , we're going to decide on a new weekly time for our subteam meetings.
+Please react to **every** time that works for you, and we'll choose based on the votes.
+
+
+[10/20/2023 1:33 PM] additup23
+Mondays 5pm-6pm
+
+{Reactions}
+👍 (15)
+
+[10/20/2023 1:34 PM] additup23
+Mondays 6pm-7pm
+
+{Reactions}
+👍 (21)
+
+[10/20/2023 1:34 PM] additup23
+Tuesdays 6:30pm-7:30pm
+
+{Reactions}
+👍 (24)
+
+[10/20/2023 1:34 PM] additup23
+Wednesdays 5:30pm-6:30pm
+
+{Reactions}
+👍 (10)
+
+[10/20/2023 1:34 PM] additup23
+Fridays 5pm-6pm
+
+{Reactions}
+👍 (16)
+
+[10/20/2023 1:34 PM] additup23
+Saturdays 1pm-2pm
+
+{Reactions}
+👍 (22)
+
+[10/20/2023 5:05 PM] mhden1
+Nice one!
+Attaching here also Xilinx's Moore/Mealy FSM guidelines for reference: https://www.xilinx.com/support/documents/university/ISE-Teaching/HDL-Design/14x/Nexys3/Verilog/docs-pdf/lab10.pdf
+
+{Reactions}
+👍
+
+[10/20/2023 5:32 PM] knightfall19
+I can't complete this step for the onboarding project: add the following line to your .my-cshrc file source /tools/software/synopsys/setup.csh this will allow you to run the commands for synopsys tools if you have gotten your EULA approved
+
+
+[10/20/2023 5:32 PM] knightfall19
+Here's the error I'm receiving in the terminal:
+
+
+[10/20/2023 5:33 PM] knightfall19
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1165040013415809064/image.png?ex=66ed4150&is=66ebefd0&hm=dcbfa266de534ecc1b91f29fb68d88bc0758befdd4f15847937fad8c0e1ec776&
+
+
+[10/20/2023 5:34 PM] zachellis
+can you take a screenshot of your .my-cshrc where the new line is?
+
+
+[10/20/2023 5:47 PM] mhden1
+are you on a csh shell?
+
+
+[10/20/2023 5:47 PM] mhden1
+switch to csh, it seems you are on bash which doesn't support setenv
+
+
+[10/20/2023 5:49 PM] knightfall19
+That might be the case. I'll play around with it and see where I get
+
+
+[10/20/2023 5:49 PM] zachellis
+running tcsh changes you to the csh shell. If that command is not running properly there is a problem with your .my-cshrc file which you edited
+
+
+[10/20/2023 6:19 PM] knightfall19
+Never mind, I fixed the issue. Thanks for the help.
+
+{Reactions}
+👍
+
+[10/21/2023 5:27 PM] alirazarizvi
+Can somoene explain what the parameter width = 8 means in the gcd.sv file?
+
+
+[10/21/2023 7:00 PM] arct2rus
+It sets the max number of bits that the input vectors and output will take, setting it as a parameter allows us to change that if we were to ever want to make the input a different size i,e, 32 bits or 64 bits. If you look at how the input and output logic is defined you'll see that they are instantiated as vectors of "WIDTH-1:0" so instead of going through and changing that manually from [7:0] to [31:0] if we wanted to use 32 bits instead of 16 we could just change that parameter from 8 to 16
+
+{Reactions}
+👍 (2)
+
+[10/21/2023 7:01 PM] arct2rus
+it works like a global define essentially
+
+
+[10/21/2023 7:29 PM] additup23
+in short, it's the bit-width of ur input and output numbers to ur GCD module
+
+
+[10/22/2023 11:33 PM] arct2rus
+@Digital Design  based off the indicated availabilities, we are moving our weekly subteam meetings to **Tuesdays from 6:30-7:30pm in Van Leer C456**. Hope to see everyone on tuesday!
+
+{Reactions}
+👍 (8)
+
+[10/24/2023 7:20 PM] lzy6003
+Sorry I forgot there was a meeting today. What the meeting basically covered?
+
+
+[10/24/2023 7:31 PM] arct2rus
+We went over some more RTL basics and discussed some of the larger context of how digital design fits into the ASIC design flow. Other than that we continued working on our onboarding project, we will release the slides a bit later
+
+{Reactions}
+👍
+
+[10/24/2023 8:52 PM] additup23
+Slides: https://gtvault.sharepoint.com/:p:/s/SiliconJackets/EWTKVTHW76ZKn47bh1sRmL0Bc0dKfhENJ6vakudWDqjjJQ?e=YQJ41i
+
+
+[10/24/2023 10:13 PM] wizardman28
+Whenever I try to connect to linlab as explained in the github README, it says that my home directory is missing, so I'm unable to start a session. Does anyone know how I might fix this?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1166560052879032470/homeMissing.png?ex=66ed82f6&is=66ec3176&hm=5d6ab8662e98fca9b798547d5f5a1454383fbd733061c36e754421fd16111b86&
+
+
+[10/24/2023 10:18 PM] sirdankphoenix
+This means that your linux account is not activated. You need to contact ece-csg to activate your account
+
+{Reactions}
+👍
+
+[10/24/2023 10:23 PM] zachellis
+For now use can use https://edaplayground.com send me your gatech email and I will try to get it sorted
+
+{Embed}
+https://edaplayground.com/
+EDA Playground
+Edit, save, simulate, synthesize SystemVerilog, Verilog, VHDL and other HDLs from your web browser.
+https://images-ext-1.discordapp.net/external/0QVqNe1quNJmCTGuOtaAwyfIsF7aP8NmnR3bswISB58/https/www.edaplayground.com/img/Playground-screenshot.png
+
+
+[10/25/2023 11:55 AM] additup23
+Yep, lots of people are running into this. Everyone who emails ece csg has gotten it resolved quickly
+
+
+[10/25/2023 11:56 AM] zachellis
+I will post something in the main channel
+
+
+[10/30/2023 9:36 PM] additup23
+Reminder that we have a Digital Design meeting tomorrow at 6:30-7:30pm in Van Leer C456
+
+
+[10/31/2023 4:28 PM] .bionics
+Can you guys send the slides and a quick overview after the meeting? I’ve got plans this evening and won’t be able to make it.
+
+{Reactions}
+👍
+
+[10/31/2023 7:55 PM] arct2rus
+Slides: https://gtvault.sharepoint.com/:p:/s/SiliconJackets/EVDGUZCwel5HpXcTZPAY1eQB0aTdzKo4Jqcp6JS-zD-Lig?e=LgGgx5
+
+Basic Summary:
+We covered basic computer architecture then continued work on our onboarding project. It is benficial for everyone to understand how a processor works at a basic level so that everyone is clear what modules they are building later on.
+
+Action Items:
+Complete onboarding project and let us know your project preferences after you have completed and given us the live demo of your GCD module, refer to https://gtvault.sharepoint.com/sites/SiliconJackets/SitePages/Digital-Design-Resources.aspx
+for what modules are available
+
+Happy Halloween everyone!
+
+{Reactions}
+🎃 (2)
+
+[10/31/2023 8:55 PM] additup23
+Also, anyone who still has any issues with linlab servers or VCS or anything regarding onboarding feel free to let us know in the chat
+
+
+[10/31/2023 8:56 PM] sharkyguo
+Can we make an out-of-order pipeline processor?
+
+{Reactions}
+👎 👍 🤤
+
+[10/31/2023 8:57 PM] auxx
+can we use samsung 3nm PDK :Pepega:
+
+{Reactions}
+🤮
+
+[10/31/2023 8:57 PM] sharkyguo
+At least a neural engine please
+
+{Reactions}
+🧠 (2)
+
+[10/31/2023 8:58 PM] auxx
+just gotta have GT buy IP
+
+
+[10/31/2023 8:58 PM] additup23
+I feel like PD team is bored
+
+{Reactions}
+😔 (2)
+
+[10/31/2023 8:59 PM] additup23
+SJNE (siliconjackets neural engine)
+
+
+[10/31/2023 9:00 PM] ogilvy0700
+can confirm
+
+
+[10/31/2023 9:02 PM] auxx
+:explosion:
+
+
+[10/31/2023 9:03 PM] zachellis
+Alright we’re compiling RTL by hand now
+
+{Reactions}
+😭 (2)
+
+[10/31/2023 9:03 PM] sirdankphoenix
+Can a certain pd team lead work on our 6135 project then
+
+
+[11/1/2023 3:20 AM] mhden1
+What do you do for 6135 project?
+
+
+[11/1/2023 3:41 AM] mhden1
+BOOM
+
+
+[11/1/2023 6:21 PM] padmamithra
+Do we have a general meeting today?
+
+
+[11/1/2023 6:54 PM] zachellis
+Not today. It will be the third Wednesday of the month so the 15th of November. We will have a location soon
+
+
+[11/1/2023 7:13 PM] arct2rus (pinned)
+@Digital Design  For those who missed the general announcement, once you complete your onboarding project and received your checkoff with me or @Addison Elliott please send us your resume so we can add it to our resume book if you are potentially interested in internship or full-time opportunities in the silicon design industry. We have several companies who have expressed interest in the work we are doing including companies like Micron and Apple so it could be a great opportunity to get your resume seen. 
+
+Try your best to complete the onboarding project if you haven't already before next meeting so we can get everyone assigned to modules.
+
+
+[11/1/2023 10:53 PM] additup23
+Pinned a message.
+
+
+[11/4/2023 2:45 PM] chmch
+@Addison Elliott could you let me know when you are done with your meeting so i could hop in the call and ask you a few questions about our memory module?
+
+{Reactions}
+👍
+
+[11/4/2023 2:48 PM] additup23
+sure, you can also join whenever
+
+
+[11/6/2023 6:27 PM] theyuan
+Hey, where do I do checkoffs?
+
+
+[11/6/2023 6:28 PM] theyuan
+@Alex Peng @Addison Elliott can I just discord you guys the code and result?
+
+
+[11/6/2023 6:31 PM] arct2rus
+that works, we would also like to  hear you explain your design in person either during our meeting or we can schedule some time outside of the meeting as well
+
+{Reactions}
+🔼
+
+[11/6/2023 7:03 PM] theyuan
+I made a pdf, contains the state transition diagram and result of randomized verification tb. I included the pdf and the source code in the zip file, and send to you and Addison :>
+
+
+[11/7/2023 12:53 PM] additup23
+Reminder we have our @Digital Design weekly meeting @ 6:30 pm today in Van Leer C456. A bunch of our team members are going to be telling us what they've found out about their modules so far, so try to make it to the meeting if you can!
+With any remaining time, we'll do onboarding checkoffs and help brainstorm for your projects
+
+
+[11/7/2023 12:55 PM] additup23
+btw, reminder that resources + list of projects is here:
+https://gtvault.sharepoint.com/sites/SiliconJackets/SitePages/Digital-Design-Resources.aspx
+
+
+[11/7/2023 4:25 PM] theyuan
+hey I don't have the permission to it
+
+
+[11/7/2023 4:25 PM] zachellis
+Just gave you permission
+
+
+[11/7/2023 9:29 PM] knightfall19
+Receiving this syntax error that was not present earlier;
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1171637686650535986/image.png?ex=66ed86e0&is=66ec3560&hm=56386499930bc994d258071b78aa759c59a52bbc161c8a53a9b9105eb6d3eb31&
+
+
+[11/7/2023 9:30 PM] knightfall19
+It's located in the testbench file on the first line
+
+
+[11/7/2023 9:40 PM] additup23
+are you missing a semicolon?
+
+
+[11/7/2023 9:43 PM] knightfall19
+i included the semicolon and tested that as well
+
+
+[11/7/2023 9:43 PM] knightfall19
+same error
+
+
+[11/7/2023 9:43 PM] additup23
+can u screenshot the top of the file?
+
+
+[11/7/2023 9:44 PM] knightfall19
+Sure
+
+
+[11/7/2023 9:45 PM] knightfall19
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1171641696044470322/image.png?ex=66ed8a9c&is=66ec391c&hm=978185cc50a3f809d9aa3dd958cd77e3fec5bed409e3c1bea4e6acd30c376699&
+
+
+[11/7/2023 9:57 PM] additup23
+this probably means you have something wrong at the end of ur gcd.sv file
+
+{Reactions}
+👍
+
+[11/7/2023 10:01 PM] additup23
+btw, thanks to everyone who presented today, you did a great job. We'll do another round of short presentations at next week's meeting.
+There were some people today by the end of our meeting with still lingering questions (debugging, verilog coding styles, using xquartz, etc). Let me and/or Alex know by DM or in this channel, and we can find time to meet virtually, in-person, or just message about it to figure out solutions
+
+
+[11/7/2023 10:08 PM] additup23
+hints for presentations:
+
+- What function the module performs
+- Where in the RISC pipeline does it sit
+- What are the probable input and output signals to the module and where do those signals come from/go to?
+- Which RV32IMA instructions are relevant to your module (if applicable)?
+- Brainstorm about possible ways to implement ur module
+- Anything else you find interesting or relevant about your module
+
+It would be nice to make a few slides so there's a visual. You could present for anywhere from like 5-10 minutes. It's informal
+
+
+[11/11/2023 6:30 PM] additup23
+Came across this:
+https://boards.greenhouse.io/samsungsemiconductor/jobs/5802239003
+
+{Embed}
+https://boards.greenhouse.io/samsungsemiconductor/jobs/5802239003
+Intern, Risc-V Embedded Core Design
+San Diego, California, United States
+https://images-ext-1.discordapp.net/external/DEqc228PCmwBBUsyCg3KVZRb5-u3lTnjE0gaufQavj8/%3F1682635688/https/s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/339/900/original/Greenhouse_Share_Image.png
+
+
+[11/12/2023 12:07 AM] theyuan
+Intern
+
+
+[11/12/2023 12:07 AM] theyuan
+Bachelors with 4 years of relevant industry experience
+
+
+[11/12/2023 12:07 AM] theyuan
+?
+
+
+[11/12/2023 12:13 AM] crono.gt
+something ain’t adding up
+
+
+[11/12/2023 4:20 PM] additup23
+lol true doesn't make sense
+
+
+[11/14/2023 3:56 PM] arct2rus
+@Digital Design reminder that we will be meeting in van leer c456 at 6:30 pm today, those of u that we reached out to please have your small presentations ready, let us know if there are any issues
+
+
+[11/15/2023 11:26 AM] _evren
+I dont have perms for this either
+
+
+[11/15/2023 12:14 PM] additup23
+https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Digital-Design-Resources.aspx?csf=1&web=1&share=ETF5m401jc5OvX5m9xzIuEABCniDWEBJgP_VHB0om6SWiQ&e=TKuZ6h
+
+Try this link
+
+
+[11/16/2023 7:27 PM] padgaig
+Are we meeting next week ?
+
+
+[11/17/2023 11:57 AM] arct2rus
+we will not be meeting in person, but we will be holding virtual "office hours" during our normal meeting time on discord. if there are any questions about your modules or if anyone needs to get onboarding projects checked off, addison and I will be in vc
+
+{Reactions}
+🫡 🔼
+
+[11/17/2023 12:45 PM] additup23
+specifically, the Digital Design "meeting room" on our server, at 6:30pm next Tuesday. We're doing this online cuz it's Thanksgiving week. Feel free to show up even if you don't have specific questions, and we can talk about anything you want
+
+
+[11/28/2023 2:31 PM] additup23
+Hey everyone, we'll be meeting today in VL at 6:30. It will mostly be time to work on the chip design. Come if you've been working on your modules, or if you have been busy. Either way, Alex and I are there to talk through stuff and answer questions, no matter where you are in the process!
+
+
+[11/28/2023 2:55 PM] arct2rus
+@Digital Design
+
+
+[11/28/2023 3:01 PM] ian9906
+Do we have a tentative block diagram for the processor so I know what inputs and outputs I am working with for my module?
+
+
+[11/28/2023 3:26 PM] arct2rus
+https://drive.google.com/file/d/1lO2HzK6sfsDkBCjORwg2CqIz-FX702nu/view?usp=sharing
+this is a very basic diagram, it only has the 5 stages for now and is subject to change but you can work off of this as a basic reference, we were hoping that each person would be able to define more specific inputs and outputs they would need for their module as they start implementing features. we are working on setting more specifics so we will get back to u
+
+{Embed}
+https://drive.google.com/file/d/1lO2HzK6sfsDkBCjORwg2CqIz-FX702nu/view?usp=sharing
+customRiscV.drawio
+
+
+[11/28/2023 3:51 PM] additup23
+@ianrc if you can make it to the meeting today, we can discuss what inputs/outputs to use for data forwarding
+
+
+[11/28/2023 6:32 PM] _evren
+As more specifics get defined, can we put them in a reference document?
+
+
+[11/28/2023 6:37 PM] arct2rus
+Yeah we are working on a repo rn will keep everyone updated
+
+{Reactions}
+👍
+
+[12/16/2023 5:28 PM] ian9906
+Do we have a repo to put our modules in or should we just reach out to a team lead? Have the data forwarding unit done with a basic (not comprehensive) testbench
+
+{Reactions}
+👍
+
+[12/16/2023 5:29 PM] ian9906
+@Addison Elliott @Alex Peng
+
+
+[12/31/2023 1:02 AM] doctorslingshot
+I'd also like to know if there is one. I have the register file done and somewhat of a testbench for it
+
+
+[12/31/2023 1:03 AM] zachellis
+We’ll be creating it. I can work on that for now
+
+{Reactions}
+👍
+
+[12/31/2023 2:45 AM] zachellis
+https://github.gatech.edu/SiliconJackets/23_24_Core
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/23_24_Core
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+
+[12/31/2023 2:46 AM] zachellis
+Please use this repo for now. You should be able to create a branch with your module and make a pull request. You will not have direct push access to the main branch
+
+
+[12/31/2023 2:47 AM] zachellis
+thank you all for your great work so far
+
+
+[12/31/2023 4:59 AM] additup23
+sorry, was out of the country till now. You can use zach's one for now, but we'll organize it more by the  start of the semester
+
+
+[1/9/2024 2:36 PM] ian9906
+Digital design meeting this week?
+
+
+[1/9/2024 3:05 PM] arct2rus
+no meeting this week, we will send out an announcement soon about the schedule for this semester
+
+
+[1/10/2024 12:36 PM] additup23
+@Digital Design We are planning to have our weekly digital design subteam meetings on **Tuesdays 6:30-7:30 pm**, same as last semester (location TBD).
+Please 👍  this message if this time works, and let us know if there are course conflicts at this time
+
+{Reactions}
+👍 (11)
+
+[1/10/2024 1:29 PM] kimseongjin_814
+I have class conflict at that time...
+
+{Reactions}
+👍
+
+[1/10/2024 7:49 PM] _evren
+i have conflict the first day (1/17) but should be good after that
+
+{Reactions}
+👍 (2)
+
+[1/12/2024 4:21 PM] arct2rus
+@Digital Design We will have our first meeting of the semester starting next **Tuesday 1/16 in VL C457 (6:30pm-7:30pm)**. Hope to see you all there! If you can't make these meeting times please let us know and we will work with you to do regular check-ins at a time that works better for you.
+
+{Reactions}
+👍 (6)
+
+[1/16/2024 5:05 PM] arct2rus
+@Digital Design Reminder that we have a meeting tonight ** VL C457 (6:30-7:30)**
+
+
+[1/16/2024 5:58 PM] _agera
+I wont be able to make tonight's meeting, but otherwise I will be there
+
+{Reactions}
+👍
+
+[1/16/2024 6:27 PM] arct2rus
+We will be in c456
+
+
+[1/16/2024 6:27 PM] arct2rus
+Cuz c457 is taken by hkn
+
+
+[1/16/2024 6:29 PM] additup23
+oops yep
+
+
+[1/16/2024 6:30 PM] additup23
+room 456 for today (457 rest of semester)
+
+
+[1/16/2024 6:57 PM] technolithic
+plz post slides
+
+
+[1/16/2024 7:31 PM] arct2rus
+@Digital Design Apologies for the short meeting today, there were some space conflicts due to booking a bit late on our end. Starting next week we will have C457 booked.Thanks to everyone who showed up! We are excited for the semester.
+
+Here are the slides we went over today("Jan 16 digital design meeting.pptx"). Pls let me or @Addison Elliott  know if you have any questions or trouble setting anything up. 
+https://gtvault.sharepoint.com/:f:/s/SiliconJackets/EmwGEznq0SVDvFG69MgEItQBh_McZCTRHkf6lnCOAY7RiA?e=WCp3Lf
+
+For new members work through this onboarding project and let us know whenever you are ready for check-offs. Steps to setup the ECE SSH connection are in the readme. 
+(https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project)
+Here is an additional powerpoint we went over last semester to help you get started
+(https://gtvault.sharepoint.com/:p:/s/SiliconJackets/EWTKVTHW76ZKn47bh1sRmL0Bc0dKfhENJ6vakudWDqjjJQ?e=gQGojH)
+
+Here is our Sharepoint page again which has more resources and reference docs for anyone who might be stuck while working through the onboarding or your modules.
+https://gtvault.sharepoint.com/:u:/r/sites/SiliconJackets/SitePages/Digital-Design-Resources.aspx?csf=1&web=1&share=ETF5m401jc5OvX5m9xzIuEABCniDWEBJgP_VHB0om6SWiQ&e=VZnP4b
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+
+[1/16/2024 7:41 PM] additup23
+Also, anyone who wants to chat about their module or onboarding project or just wants to talk in general, either say so in this channel or DM me or Alex, and we can plan a time to talk either over discord or we can talk during our weekly Tuesday meetings.
+
+
+[1/23/2024 2:06 PM] arct2rus
+@Digital Design Reminder that we will be meeting today from 6:30-7:30pm in Van Leer C457, be there or be a square or something
+
+{Reactions}
+👍 (6)
+
+[1/23/2024 2:22 PM] arroganttechnician
+❤️
+
+
+[1/28/2024 6:23 PM] additup23
+Hey @Digital Design if you're up for giving a short  presentation or update at the beginning of our meeting this Tuesday about what you've done/learned for your module, let me know
+
+
+[1/30/2024 3:51 PM] additup23
+Don't forget meeting today!
+
+
+[2/5/2024 12:30 PM] darth.daddy
+When I tried to click on the github link it gives me 404 error... 😦  @Alex Peng @Addison Elliott
+
+
+[2/5/2024 12:36 PM] arct2rus
+We are working on adding people to the github, apologies for the delay, everyone should have access by tomorrow, if u send your gatech email i can try and add you now
+
+
+[2/5/2024 12:45 PM] darth.daddy
+Rgoel68@gatech.edu thanks!
+
+
+[2/5/2024 9:38 PM] darth.daddy
+I'm on mac and im trying to connect to ece-linlabsrv01.ece.gatech.edu in ssh but the connection keeps closing when i put in my gt password. Does anyone know how to fix this?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1204254747742314526/Screenshot_2024-02-05_at_9.38.10_PM.png?ex=66ed88e1&is=66ec3761&hm=eca4067c3ed1e6318cfce2723d8c8c2306dddb00fdd0e40db65fa2ddbb93f36d&
+
+
+[2/5/2024 9:44 PM] zachellis
+@Darth Daddy can you try connecting to ece-rschsrv01.ece.gatech.edu
+
+
+[2/5/2024 10:01 PM] darth.daddy
+still same error
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1204260638730362910/Screenshot_2024-02-05_at_10.01.44_PM.png?ex=66ed8e5e&is=66ec3cde&hm=70f18584a2c5d4cc783b44035b6753855adb2819e20c765f71988ec2b4da13d1&
+
+
+[2/6/2024 9:37 AM] _evren
+thats a message ece-help problem, it seems like you dont have an account set up on the server for some reason
+
+{Reactions}
+👍 (2)
+
+[2/6/2024 2:34 PM] additup23
+^
+
+
+[2/6/2024 2:34 PM] additup23
+ECE help are usually pretty quick to get it working
+
+
+[2/6/2024 2:37 PM] additup23
+Van Leer C457 meeting today 6:30! @Digital Design
+
+
+[2/6/2024 5:55 PM] richard_29879
+Is this meeting for everyone in Digital Design ?
+
+
+[2/6/2024 5:57 PM] additup23
+Yep, anyone can come. One of the Design leads will talk to any new people who come. Everyone else will work together on their current modules along with the other lead
+
+
+[2/6/2024 6:12 PM] richard_29879
+It's not mandatory right ?
+Because I have another meeting scheduled at 6:30 today.
+
+
+[2/6/2024 6:13 PM] additup23
+Not mandatory, we just ask to come to as many as you can.
+
+
+[2/6/2024 6:32 PM] additup23
+I'm stuck in traffic, almost there
+
+
+[2/6/2024 6:43 PM] arct2rus
+https://gtvault.sharepoint.com/sites/SiliconJackets/SitePages/Digital-Design-Resources.aspx
+
+
+[2/7/2024 10:03 AM] darth.daddy
+Is Ece-help a channel in this server?
+
+
+[2/7/2024 10:03 AM] darth.daddy
+Or do I email someone
+
+
+[2/7/2024 10:04 AM] zachellis
+please email help@ece.gatech.edu
+
+{Reactions}
+❕ (2)
+
+[2/9/2024 6:03 PM] mihirdg
+Is the linlab server down? Not able to connect at the moment, although it worked last night
+
+
+[2/12/2024 11:55 PM] additup23
+Did it start working again?
+
+
+[2/12/2024 11:57 PM] additup23 (pinned)
+Btw, for anyone who is trying to get a better idea of what the design of a pipelined processor looks like, "COMPUTER ORGANIZATION AND DESIGN" by Patterson and Hennessy does a really good job introducing it in detail in chapter 4. I think that's the ECE 3058 textbook. It's not RISC-V specific but it describes a pipelined processor architecture which can apply to us
+
+
+[2/12/2024 11:57 PM] additup23
+Pinned a message.
+
+
+[2/13/2024 12:18 AM] additup23
+Here are example datapaths from that P&H textbook and from another textbook called "Digital Design and Computer Architecture: RISC-V Edition"
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1206831859833634856/image.png?ex=66edae81&is=66ec5d01&hm=cd662185fa0afe32c2c544822c02ff676c18bab9f01340f87afe1fc0d1b4fbad&
+https://cdn.discordapp.com/attachments/1158819200601706516/1206831860110594100/image.png?ex=66edae81&is=66ec5d01&hm=3035544a27ab43f55a069c445753eea6936a3765128cec345b289cf61c08ca3f&
+
+
+[2/13/2024 12:49 AM] sharkyguo
+Is there an exact block schematic of the architecture we are currently implementing?
+
+{Reactions}
+this
+
+[2/13/2024 12:49 AM] sharkyguo
+Or are we currently just based on the ISA
+
+
+[2/13/2024 10:23 AM] additup23
+@Shaun Guo @Taylor P.  We are working on a high level block diagram of our own design now - if more people finish their interfaces then we will have a more accurate version but for now I'm guessing signals based on typical typical pipelined cpu datapath.
+The modules being implemented are listed here: http://tinyurl.com/28j548s3
+
+{Reactions}
+👍
+
+[2/13/2024 10:32 AM] additup23
+Also, the pipelining registers are integegrated on the outputs of our F,D,E, and M stage modules
+
+
+[2/13/2024 1:10 PM] arct2rus
+@Digital Design Reminder that we have a meeting tonight at 6:30pm in Van Leer C457! We will be continuing work on our modules. As a separate reminder, as you finish your modules please write up some documentation as well as a basic test bench to demonstrate it's functionality.
+
+
+[2/13/2024 4:59 PM] additup23 (pinned)
+https://drive.google.com/file/d/1ByVrJl0Cu-I6rZHA5evJVwcy7cC_gyLi/view?usp=sharing
+
+@Digital Design @Physical Design @Verification / Emulation 
+
+Here is a first version of our high level architecture diagram.
+We expect everyone working on these modules to give input, i.e. talk to us about adding/removing/renaming/moving signals.
+We also still expect design team members working on modules to create schematics of the inner workings of your own module.
+
+Anyone involved on this project feel free to comment on the design or ask questions
+
+{Embed}
+https://drive.google.com/file/d/1ByVrJl0Cu-I6rZHA5evJVwcy7cC_gyLi/view?usp=sharing
+23_24_core.drawio
+
+{Reactions}
+👍🏼 (3)
+
+[2/13/2024 5:00 PM] additup23
+Pinned a message.
+
+
+[2/13/2024 7:23 PM] ramen.10
+help@ece.gatech.edu
+
+
+[2/14/2024 12:38 AM] additup23
+https://gtvault.sharepoint.com/:f:/s/SiliconJackets/EtAjUBo8IBJNjFa6UVnacHoBZXlPSJcx-Ai2KHaIHru66A?e=nzqvh3
+
+Just a reminder that there's a super good, readable textbook about writing synthesizable systemverilog code for ASIC design by Stuart Sutherland in this folder. Any questions you have about how to write good/correct systemverilog are almost definitely answered by this book.
+
+
+[2/14/2024 1:07 PM] mhden1
+Out of curiosity, what tool do you use to implement these schematics?
+
+
+[2/14/2024 1:13 PM] 0x6f69
+draw.io
+
+{Reactions}
+👍 💯
+
+[2/14/2024 2:09 PM] additup23
+yep
+
+
+[2/15/2024 7:19 PM] sharkyguo
+Are you guys running any synthesis flows at this point
+
+
+[2/16/2024 12:10 AM] additup23
+not yet
+
+
+[2/16/2024 12:11 AM] additup23
+Within the next week we're going to have at least ~3 modules ready to be verified and passed to PD
+
+{Reactions}
+👍
+
+[2/20/2024 10:48 AM] arct2rus
+@Digital Design What's up people, sending out another quick reminder that we will be meeting in Skiles 314 tonight starting at 6:30pm as usual. Hopefully everyone is starting/continuing to make progress in your modules/onboarding project, please reach out to me or addison with any questions feel free to shoot us a dm or ask in person. Great job so far, we are excited to see your modules start to take form
+
+
+[2/20/2024 1:47 PM] arct2rus
+@Digital Design apologies for the double ping, but **very IMPORTANT, we are meeting in Skiles 314** tonight **not** our usual room in van leer due to booking overlaps.
+
+
+[2/27/2024 3:46 PM] arct2rus
+@Digital Design Reminder that we will be meeting in Van Leer C457 @6:30pm tonight. We will have a brief discussion/announcement with updates and get some progress checks before continuing working on our modules.
+
+
+[2/28/2024 4:52 PM] additup23
+Hi, please reach out to us if you're feeling like you need or want a new module to work on. 
+Or if you've finished your systemverilog, sanity-check testbench, and test plan, let us know and we can review it and merge into main
+
+
+[3/5/2024 2:00 PM] arct2rus
+@Digital Design Today is tuesday. That means we will be meeting in **Van Leer C457 @6:30pm** tonight. Great job to everyone who has started wrapping up their modules. Verification members will be in contact with you if they haven't already to get started on testing. Once your module has been merged with main please let me or addison know if you need a new module/haven't been assigned a new one.
+
+
+[3/12/2024 1:01 PM] arct2rus
+@Digital Design Today is once again tuesday. We will be meeting in **Van Leer C457 @6:30pm** as usual, hope to see you there!
+
+{Reactions}
+👍
+
+[3/26/2024 1:21 PM] arct2rus
+@Digital Design Welcome back from spring break, this is reminder that we will be meeting in **Van Leer C457@6:30pm ** tonight
+
+{Reactions}
+👍 (3)
+
+[4/2/2024 5:00 AM] shaanmukherjee
+Hi can I be added to this teams GitHub, Id like to try the onboarding, my email is smukherjee95@gatech.edu. Thanks so much!
+
+
+[4/2/2024 10:43 AM] zachellis
+Hi @shaan mukherjee unfortunately we are no longer accepting new members at this point in the semester. Please look out for our recruitment sessions in the fall
+
+
+[4/2/2024 1:26 PM] arct2rus
+@Digital Design Meeting today in Van Leer C457@6:30pm we have 4 meetings left in total before the end of the semester including this one!
+
+{Reactions}
+👍
+
+[4/2/2024 11:18 PM] shaanmukherjee
+Ok I’ll keep an eye out.
+
+
+[4/9/2024 1:57 PM] arct2rus
+@Digital Design reminder that we have a meeting today in Van Leer C457 at 6:30pm, hope to see you there!
+
+
+[4/16/2024 3:33 PM] arct2rus
+@Digital Design today, Van Leer C457 6:30pm, meeting 👍
+
+{Reactions}
+🎉 (3)
+
+[4/16/2024 11:58 PM] additup23 (pinned)
+@Digital Design Guess what? 
+Boom. Add instruction.
+r3 + r4 -> r1.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1230004508852093019/image.png?ex=66ed9bb7&is=66ec4a37&hm=c455c82905ee7e8e15ccbc59bb13d6a43df82436f29668dee55165ab1cd24a70&
+
+{Reactions}
+🎉 (10) 👍
+
+[4/16/2024 11:59 PM] arct2rus
+Sheeesh
+
+
+[4/16/2024 11:59 PM] additup23
+Thx to everyone who's been working on this throughout the semester!
+
+
+[4/17/2024 12:07 AM] additup23
+But don't worry, we still have plenty to work on
+
+
+[4/17/2024 12:37 AM] zachellis
+Congrats everyone. Great work!
+
+
+[4/17/2024 1:31 AM] technolithic
+oh the register gets written back to in the first half cycle of writeback?
+
+
+[4/17/2024 1:31 AM] technolithic
+nice
+
+
+[4/17/2024 9:07 AM] additup23
+Yep exactly
+
+
+[4/17/2024 11:53 AM] additup23
+Pinned a message.
+
+
+[4/21/2024 1:13 AM] kevinstark0159
+Hello! May I know if anyone here have Zynq board or Pynq board? May I borrow it for several days or rent it for certain price? Thank you!
+
+
+[4/21/2024 10:44 AM] zachellis
+Hi @Kevin Stark unfortunately as a club we don’t own any of these boards. However it is possible some of the members do
+
+
+[4/21/2024 8:58 PM] kevinstark0159
+Yes, I can possibly pay for the rent if anyone can help me. Thanks Zach btw.
+
+
+[4/23/2024 12:05 PM] additup23
+Hey @Digital Design we’ll have our last sub team meeting today, same time and place. We’ll talk about our progress, plans for next semester, and we’ll take a look at the flow that the Physical Design team gave us
+
+
+[4/27/2024 10:46 PM] sharkyguo
+I have a PYNQ board, if you still need it I can let you borrow for a few days
+
+
+[7/10/2024 12:41 PM] is_0012
+Nah I'm good
+
+
+[7/10/2024 12:41 PM] brenman32
+Uh chat?
+
+
+[7/10/2024 12:41 PM] ralphnortham
+Nice
+
+
+[7/10/2024 12:41 PM] policeman
+O
+
+
+[7/10/2024 12:41 PM] ralphnortham
+Joining now
+
+
+[7/10/2024 12:41 PM] ralphnortham
+Free girlfriend for me
+
+
+[7/10/2024 12:41 PM] fredfu.gatech
+haha
+
+
+[7/10/2024 12:41 PM] hatslapper
+Must've been hacked
+
+
+[7/10/2024 12:41 PM] ralphnortham
+Yep
+
+
+[7/10/2024 12:41 PM] .andrewluo
+💀
+
+
+[7/10/2024 12:42 PM] auxx
+Delet
+
+
+[7/10/2024 12:42 PM] susha.
+Sus
+
+
+[7/10/2024 12:42 PM] ian9906
+Is it pipelined
+
+
+[7/10/2024 12:42 PM] ralphnortham
+He clicked on the nude server link and now he became one
+
+
+[7/10/2024 12:42 PM] ralphnortham
+Like zombies
+
+
+[7/10/2024 12:42 PM] is_0012
+Is it out of order
+
+
+[7/10/2024 12:42 PM] is_0012
+Real
+
+
+[7/10/2024 12:42 PM] auxx
+Lemme kick em just in case
+
+
+[7/10/2024 12:42 PM] ralphnortham
+Ban
+
+
+[7/10/2024 12:42 PM] crono.gt
+nooooooooooooo i didnt click in time!!!!!!!!!!!!!!!!!!
+
+
+[7/10/2024 12:42 PM] auxx
+oh wait I cant kick wtf
+
+
+[7/10/2024 12:43 PM] timtemm
+im joining
+
+
+[7/10/2024 12:44 PM] ramen.10
+i see u
+
+
+[7/10/2024 12:44 PM] timtemm
+erm
+
+
+[7/10/2024 12:44 PM] timtemm
+im entering a higher goon state dont interfere
+
+
+[7/10/2024 12:45 PM] ramen.10
+😭😭
+
+
+[7/10/2024 12:45 PM] auxx
+@Zach Ellis can you kick Shiv, his account has been compromised
+
+
+[7/10/2024 12:45 PM] auxx
+I dont have perms
+
+
+[7/10/2024 12:45 PM] timtemm
+💀
+
+
+[7/10/2024 1:26 PM] zachellis
+Yeah kicking now
+
+
+[7/10/2024 1:26 PM] zachellis
+RIP
+
+
+[7/10/2024 3:22 PM] ozena
+Did everyone just get pinged
+
+
+[8/23/2024 1:23 PM] additup23
+@Digital Design  Our team will be meeting for work sessions at Van Leer C457 on Tuesdays from 5pm-7pm!
+
+{Reactions}
+🎉 (9)
+
+[8/23/2024 1:23 PM] arct2rus
+So excited!
+
+
+[8/23/2024 1:23 PM] arct2rus
+omg!
+
+
+[8/23/2024 1:26 PM] arct2rus
+starting next tuesday btw
+
+
+[8/23/2024 1:59 PM] _agera
+as in tuesday the 27th?
+
+
+[8/23/2024 2:12 PM] arct2rus
+yup
+
+{Reactions}
+👍
+
+[8/23/2024 3:19 PM] __nana__.
+woohoo
+
+
+[8/27/2024 11:56 AM] additup23
+Hey @Digital Design by the way, today and next week we're going to be informally going over our progress from last semester and our plans for this year. We won't be going over the basics of our team / general frontend design / architecture for new members until after the general interest meeting.
+So new people are welcome today and next week to attend, but not necessary until our 3rd meeting. 
+Returning members, pls attend if you can
+
+
+[8/27/2024 12:29 PM] big_badal
+where and when is this meeting today
+
+
+[8/27/2024 3:01 PM] arct2rus
+Van leer C457 from 5-7pm
+
+
+[8/27/2024 7:47 PM] saad.amin
+rip I can't make the meeting time because I have diff eq at the same time
+
+
+[9/3/2024 3:42 PM] arct2rus
+@Digital Design 
+There is a meeting today from 5-7pm in Van Leer C457, again mostly just for returning members to get back in the flow of work but we are happy to get new members started with onboarding as well , we will do official onboarding next week after our general interest that we are holding tmrw
+
+
+[9/3/2024 5:12 PM] arct2rus
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+
+[9/4/2024 6:57 PM] cynicalcape0
+Hey Y'all I was a member of the physical design team last semester as a freshman but after more ECE experiance I think Digital Design is more what I'm passionate about. What can I do to get involved?
+
+
+[9/4/2024 7:20 PM] arct2rus
+Feel free to come to our meetings we can get you started on onboarding
+
+
+[9/4/2024 11:44 PM] jack__8012
+This link is taking me to the Github 404 error page
+
+
+[9/4/2024 11:48 PM] arct2rus
+if you want to give me your gt username i can add you to the github, but you can also wait until our meeting we will add everyone then as well
+
+
+[9/4/2024 11:49 PM] jack__8012
+Sure, DMed you
+
+
+[9/5/2024 11:07 AM] additup23 (pinned)
+@Digital Design We're introducing a 2nd (optional) weekly meeting day for RETURNING MEMBERS ONLY (not onboarding) !
+
+Mondays from 5pm-6pm in Van Leer 241.
+
+We'll be joining the Verification Team on their weekly meetings from now on. This is intended as a time for design members to work together with verification members. Also, this provides a 2nd meeting time for those who have conflicts with our Tuesday meetings.
+
+{Reactions}
+👍🏼 (8)
+
+[9/5/2024 11:07 AM] additup23
+Pinned a message.
+
+
+[9/8/2024 12:23 AM] josema060603
+can I have this DMed as well please? Thank you!
+
+
+[9/8/2024 12:24 AM] zachellis
+Since the form just closed I will be adding everyone over the next couple of days
+
+
+[9/8/2024 12:27 AM] josema060603
+okay, thanks Zach
+
+
+[9/8/2024 12:29 AM] zachellis
+Np. Unfortunately I have to do it one by one and there’s around 120 of you so it takes a sec
+
+
+[9/8/2024 12:48 AM] brenman32
+Is the meeting for the onboarding happening this Tuesday?
+
+
+[9/8/2024 12:53 AM] arct2rus
+yup, tuesday 5pm in van leer c457 is when the design subeam meets, we usually send reminders the day of as well
+
+{Reactions}
+🙏
+
+[9/8/2024 4:30 AM] kkkkskkskks
+What's gonna be covered in the meeting this week ?
+
+
+[9/8/2024 11:06 AM] arct2rus
+@Digital Design 
+Hey everyone, @Addison Elliott and I are excited to see so much interest in the design subteam! Our first new member meeting will be this coming **Tuesday 9/10 in Van Leer C457 from 5-7pm**
+
+Agenda:
+Introductions
+Asic Design Flow Overview
+Digital Design Overview
+Onboarding introduction
+Environment walkthrough/setup
+Begin Onboarding Project
+
+Hope to see you there!
+
+{Reactions}
+🎉 (5)
+
+[9/8/2024 1:45 PM] brenman32
+Will we be able to get some help for the onboarding project there? Like rn I’m having some logistical problems with cloning the git repo
+
+
+[9/8/2024 3:00 PM] arct2rus
+yup once we get everyone setup and started we'll go around and help answer any questions
+
+
+[9/8/2024 5:07 PM] additup23
+Btw someone sent me this website for learning/practicing systemverilog. Seems pretty cool, it makes you implement something in HDL then simulates your design and compares against solution
+https://hdlbits.01xz.net/wiki/Main_Page
+
+{Embed}
+https://hdlbits.01xz.net/wiki/Main_Page
+Main Page
+
+
+[9/8/2024 5:10 PM] additup23
+Also, I really like this book for learning SystemVerilog: https://gtvault.sharepoint.com/:b:/s/SiliconJackets/EbxCET5NlPtMu3aUb6LRpQ8BvPQVkJjA3sXMsZEofq5taQ?e=0XET80
+
+I recommend reading chapter 1, then skip around as much as you need. The "Best Practice Coding Guidelines" are sprinkled throughout the book, and also enumerated in Appendix A. Those guidelines are super helpful & important
+
+
+[9/9/2024 1:44 AM] justbasics
+HDL bit is neat, you can work through it on ur phone, skip around at ur own pace, cool site
+
+
+[9/9/2024 1:47 AM] justbasics
+afaik hdlbit is just verilog, not sv, but if somebody wants correct me on that feel free
+
+
+[9/9/2024 1:52 AM] big_badal
+If we just logged into GT Github do we have to wait before getting access to the repo
+
+
+[9/10/2024 1:09 PM] zeros.and.ones
+Hello I never got an email with onboarding info, what do I need to know, sorry if this is the wrong place.
+
+
+[9/10/2024 2:14 PM] arct2rus
+@Digital Design Reminder that the first new member meeting is today!
+
+{Reactions}
+👍 (2)
+
+[9/10/2024 2:14 PM] arct2rus
+no worries, we never sent out an email but maybe we should have in hindsight, sorry about that, but this is the right place to ask, our main communications are through discord
+
+
+[9/10/2024 2:26 PM] twistietwister.
+I have class from 5 to 6:15 ):
+
+
+[9/10/2024 2:26 PM] technolithic
+me too!
+
+
+[9/10/2024 2:45 PM] justbasics
+I have to TA from 5-7 💀
+
+
+[9/10/2024 3:10 PM] zeros.and.ones
+Probably worth it to send out an email right now, its not to late yet.
+
+
+[9/10/2024 3:29 PM] kkkkskkskks
+Is there a zoom link or something so people that cannot make it today can join the meeting or watch the recording later?
+
+
+[9/10/2024 3:35 PM] michaeldoran_84057
+are the front doors to vanleer going to be open?  Even though I'm in the ECE program I can't seem to access the buildings in the evening
+
+
+[9/10/2024 3:37 PM] michaeldoran_84057
+Maybe not so much of a big deal before 5pm
+
+
+[9/10/2024 3:40 PM] arct2rus
+They should be open at 5pm, yeah building access is weird, students dont get access by default, only if you have a lab or volunteer at the hive afaik
+
+
+[9/10/2024 3:42 PM] kkkkskkskks
+@Alex Peng
+
+
+[9/10/2024 3:48 PM] arct2rus
+Unfortunately we wont be recording the presentation, but we will release the slides after and you can ask me or addison if u need clarification on anything
+
+
+[9/10/2024 3:50 PM] arct2rus
+For people who cant make the meeting times an option is to show up to our monday returning member meetings that we share with DV, (check the design verification channel for meeting details) we will try our best to answer questions then but we wont have the time to really go over presentations, itd be more of a flipped experience
+
+
+[9/10/2024 3:50 PM] justbasics
+Will future team meetings be at the same time?
+
+
+[9/10/2024 3:50 PM] arct2rus
+Yeah itll be weekly same time and place
+
+
+[9/10/2024 3:56 PM] twistietwister.
+Damn
+
+
+[9/10/2024 4:00 PM] additup23
+Yeah, hopefully between our Monday time and Tuesday time, as many people as possible will be able to come
+
+
+[9/10/2024 4:03 PM] kkkkskkskks
+Thank you! Would it be possible to consider changing the time to Tuesday 6:30 or 7:00 in the future? I guess some of us have classes starting at 5
+
+
+[9/10/2024 4:09 PM] enokedgar
+When is the due date of onboarding project?
+
+
+[9/10/2024 4:38 PM] big_badal
+i’m at the classroom rn, ig there’s a class happening rn
+
+
+[9/10/2024 5:29 PM] arct2rus
+https://gtvault.sharepoint.com/:p:/r/sites/SiliconJackets/_layouts/15/Doc.aspx?sourcedoc=%7B54FC1BE5-C390-4864-A8EC-3B6126EE5407%7D&file=DigitalDesignOnBoarding_oct_10_2023.pptx&action=edit&mobileredirect=true
+
+
+[9/10/2024 5:39 PM] additup23
+If linlab isn't working, try ece-rschsrv.ece.gatech.edu
+
+
+[9/10/2024 5:50 PM] additup23
+Otherwise, send me a DM with:
+Gatech email, GTID, full name
+
+
+[9/10/2024 6:27 PM] kirvoltz
+Is this the onboarding project? I don't have permission to access it
+
+
+[9/10/2024 6:33 PM] arct2rus
+that is the presentation, and this is the onboarding https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project/tree/main
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project/tree/main
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project/tree/main
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project/tree/main
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+
+[9/10/2024 6:37 PM] arct2rus
+Due date is set for 9/24 for now, we may shift it if it seems like most people need more time
+
+
+[9/10/2024 6:49 PM] j_c_2003
+Hey, I also do not have access to view this
+
+
+[9/10/2024 6:50 PM] j_c_2003
+Not sure if you just haven’t set viewing permissions yet, just wanted to lyk
+
+
+[9/10/2024 6:57 PM] arct2rus
+are you guys trying with your gatech account, it should be visible to anyone thats "affiliated" with gt supposedly'
+
+
+[9/10/2024 6:57 PM] arct2rus
+if not i can check again
+
+
+[9/10/2024 7:00 PM] j_c_2003
+it was the gatech vpn causing issues, idk why but it kicks me off every like 3 min
+
+
+[9/11/2024 10:58 AM] brenman32
+I've been having trouble cloning the git repo- I can confirm I have access to it on the web with the same account (bklingenberg6), and was able to run source /tools/software/synopsys/setup.csh in tcsh. anyone know what the problem could be?🙏
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1283441654166192239/image.png?ex=66ed8daf&is=66ec3c2f&hm=b8a129b39160b7b38498f3e830469d2d2090e1beae6531769e08bb56ee76c445&
+
+
+[9/11/2024 11:30 AM] additup23
+Kien Dao
+Muthu Adithya Ramnarayanan
+Samuel Xu
+mdoran30
+Taher Yusuf Singaporewala
+asriuma3
+Landon Slater
+Min Han
+ Spencer Alexander Starks
+Bryan Kai-Hao Wang
+John Kim
+Ange Djonou
+
+All of you can now access ece-rschsrv.ece.gatech.edu and any of the ece-linlabXX.ece.gatech.edu desktops in KACB 1448 (https://help.ece.gatech.edu/labs/names).
+
+{Embed}
+Rachel Ponder
+https://help.ece.gatech.edu/labs/names).
+Academic Labs Linux Machine Names
+
+{Reactions}
+🫡 (3)
+
+[9/11/2024 11:31 AM] michaeldoran_84057
+I have access now (mdoran30)
+
+{Reactions}
+👍
+
+[9/11/2024 11:33 AM] additup23
+possible you aren't in the digital design team in Github. I'll check after my classes today
+
+
+[9/11/2024 11:33 AM] michaeldoran_84057
+FWIW: https://code.visualstudio.com/docs/remote/ssh allows you to connect remotely to the environment once you gain access.  You can edit your design/test bench files in VS code versus using vim/nano.  Hope this helps some people out.
+
+{Embed}
+https://code.visualstudio.com/docs/remote/ssh
+Developing on Remote Machines using SSH and Visual Studio Code
+Developing on Remote Machines or VMs using Visual Studio Code Remote Development and SSH
+https://images-ext-1.discordapp.net/external/QDfqtLectECW-uUXthb8tea2_Z4D2DAgjaNJl78iHjI/https/code.visualstudio.com/opengraphimg/opengraph-docs.png
+
+{Reactions}
+👍
+
+[9/11/2024 11:37 AM] arct2rus
+vscode is also already installed on the linlab servers, if you type the command "code" itll open vscode from the directory as long as you are already in some kind of terminal with ssh forwarding(fastx or mobaxterm)
+
+
+[9/11/2024 11:37 AM] additup23
+Thx, yes VSCode is super helpful if you don't like using command line editors. Still need to use FastX/MobaXTerm for viewing waveforms
+
+
+[9/11/2024 11:37 AM] additup23
+True. But if you'd rather, you can run VScode on your own laptop and SSH in. either way
+
+
+[9/11/2024 11:37 AM] arct2rus
+nah
+
+{Reactions}
+🤣
+
+[9/11/2024 11:37 AM] michaeldoran_84057
+We got options boys 🤑
+
+
+[9/11/2024 11:38 AM] arct2rus
+vim is > vscode tho
+
+{Reactions}
+👎 (4)
+
+[9/11/2024 11:38 AM] arct2rus
+vim users on top
+
+{Reactions}
+🤌
+
+[9/11/2024 3:00 PM] _evren
+Viewing waveforms is a skill issue tbh
+
+
+[9/11/2024 3:00 PM] _evren
+(No fr tho automate your testbenches)
+
+
+[9/11/2024 3:02 PM] j_c_2003
+I will simply pull the amazon route. Full AI automation of waveform checking! (i am underpaying someone in india to do it for me)
+
+
+[9/11/2024 9:35 PM] justbasics
+Can I just use Vivado for this onboarding?
+
+
+[9/11/2024 9:35 PM] justbasics
+we just need something that can synthesize and sim SV, right?
+
+
+[9/11/2024 11:12 PM] additup23
+You should have permission. If it's not working, maybe try using SSH to clone instead of HTTPS. That could maybe fix it
+
+
+[9/11/2024 11:12 PM] arct2rus
+One goal of onboarding is also to get new members familiar with the environment that we will be using to design our actual chips and projects. So we highly recommend using the tools (VCS and DVE) and process we described in the readme. If you really prefer to work in vivado you are welcome to do your testing and simulation there while you are working but then at the end we would still like to see that you are familiar with the tools we use for the club
+
+
+[9/11/2024 11:19 PM] justbasics
+Got it, thank you for the explanation
+
+{Reactions}
+👍
+
+[9/11/2024 11:20 PM] justbasics
+I will use VCA/DVE
+
+
+[9/12/2024 2:36 AM] kkkkskkskks
+just curious, can i be on the verification team and the design team simultaneously?
+
+
+[9/12/2024 2:42 PM] zeros.and.ones
+In the onboarding doc it says 
+> Host: ece-linlabsrv01.ece.gatech.edu
+> if that doesn't work try any of the numbers between 01-26 i.e. ece-linlab24.ece.gatech.edu
+In the example it drops the "srv" why?
+
+
+[9/12/2024 2:55 PM] arct2rus
+linlabsrv01 is actually different from linlab01-26, we got sone clarification yesterday and will update it soon but the only real relevant ones should be linlabsrv01 or the rsrch one that addison sent earlier
+
+
+[9/12/2024 2:59 PM] arct2rus
+You can attend both meetings and do the work for both if you want, but i think its better to prioritize one unless you really have the time to do both (if ur interested in both we are trying to get more verif members to balance out our teams so that would be very helpful) but tldr yeah ur welcome to be part of both as long as you can manage it
+
+
+[9/12/2024 4:39 PM] shaanmukherjee
+Im also not able to access this document, while being logged in to my gatech email
+
+
+[9/12/2024 4:39 PM] shaanmukherjee
+My email is smukherjee95@gatech.edu
+
+
+[9/12/2024 4:41 PM] arct2rus
+Just to test a theory are u in the club engage
+
+
+[9/12/2024 4:42 PM] arct2rus
+But just shared as well with ur email
+
+
+[9/12/2024 4:44 PM] shaanmukherjee
+i dont think i am
+
+
+[9/12/2024 5:12 PM] shaanmukherjee
+i just joined the engage
+
+{Reactions}
+👍
+
+[9/12/2024 5:18 PM] quilltheboreal
+hi, just joined the discord after today's ece rush. How do we get onboarded?
+
+
+[9/12/2024 5:54 PM] gingerailment
+Similar story here, just got told about this club by a friend
+
+
+[9/12/2024 6:17 PM] arct2rus (pinned)
+Welcome!
+For now please look over the intro presentation and try and get started on the onboarding project. Let me or addison know if you run into any issues or have any questions, we will also help answer any issues during our meeting next tuesday. The readme in the onboarding is pretty detailed and should lead you step by step through getting setup. If you send me your gt username I can get you added to the github as well
+
+Intro Presentation:
+https://gtvault.sharepoint.com/:p:/r/sites/SiliconJackets/_layouts/15/Doc.aspx?sourcedoc=%7B54FC1BE5-C390-4864-A8EC-3B6126EE5407%7D&file=DigitalDesignOnBoarding_oct_10_2023.pptx&action=edit&mobileredirect=true
+
+Env Setup/Onboarding Project:
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project/tree/main
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project/tree/main
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project/tree/main
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project/tree/main
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+
+[9/13/2024 1:49 PM] big_badal
+don't have access to the slides 😭
+
+
+[9/13/2024 1:55 PM] big_badal
+wait nvm went through github and got it
+
+{Reactions}
+👍
+
+[9/14/2024 1:08 PM] cynicalcape0
+Hey,  are there any returning members I can ask Verilog questions as I am going through the Onboarding Project?
+
+
+[9/14/2024 1:14 PM] darth.daddy
+I'm trying to clone the onboaridng project repo in FastX but it keeps hanging. I assume its bc i dont have permissions on the github?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1284562959967846544/image.png?ex=66edad7b&is=66ec5bfb&hm=6eb40fb37bcb47a4f0876e63485079a878499af4d9db92d21189f697ce218d8c&
+
+
+[9/14/2024 1:35 PM] arct2rus
+Looks like u have a typo in “onboarding” idk if thatll fix it, but if u can access the repo on browser u should have permissions
+
+
+[9/14/2024 1:37 PM] darth.daddy
+i tried in vscode with correct spelling lol and it looks like same issue
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1284568767627792547/image.png?ex=66edb2e4&is=66ec6164&hm=5f41d98fa56e76d91997833e04e786fd2daae0cf6c2af5faf12ed01a814be0ca&
+
+
+[9/14/2024 1:38 PM] darth.daddy
+okay im thinking its just a simple login issue
+
+
+[9/14/2024 1:39 PM] darth.daddy
+yeah that was the issue
+
+{Reactions}
+👍
+
+[9/14/2024 2:13 PM] boiledburntbagel
+I haven't been added to the github, although I got the email and the invite
+
+
+[9/14/2024 2:13 PM] boiledburntbagel
+What do I have to do?
+
+
+[9/14/2024 2:13 PM] boiledburntbagel
+my gatech email is iahmad32@gatech.edu
+
+
+[9/14/2024 10:00 PM] sam_i.am_
+wait, just to clarify, if i'm a new member but can't make it to the Tuesday meetings, I'm allowed to join the monday 5pm-6pm meeting?
+
+
+[9/14/2024 10:22 PM] j_c_2003
+The Monday meeting is for verification, with some digital design members attending. Obviously @Alex Peng or @Addison Elliott need to make the call, but i dont think the monday meeting is a good substitute.
+
+
+[9/14/2024 10:23 PM] j_c_2003
+Hey! Feel free to message me!
+
+{Reactions}
+👍
+
+[9/14/2024 10:29 PM] arct2rus
+you are welcome to attend the monday meetings but like Jack said its a shared meeting for verification and we will be prioritizing our returning member projects. we will still try our best to answer questions and issues but since its mainly verification's time we'd have to respect that, it would just require a bit more commitment outside of our meeting times to catch up on whatever we discuss in our tuesday meetings
+
+{Reactions}
+👍
+
+[9/14/2024 10:43 PM] arct2rus
+it looks like you have the verif role, do you want to be added to verif or design?
+
+
+[9/14/2024 11:32 PM] boiledburntbagel
+I’d like to do verification
+
+
+[9/14/2024 11:32 PM] boiledburntbagel
+Is the GitHub only for design?
+
+
+[9/15/2024 12:24 AM] arct2rus
+all teams are on github but I just wanted to confirm so I could give you the corresponding team tag to access the respective content. Also just for future reference verif mainly communicates through the verif discussions channel #discussions
+
+
+[9/15/2024 2:33 PM] boiledburntbagel
+Gotcha, thanks
+
+
+[9/15/2024 5:02 PM] jingtiandang
+Hello, I have no my own home directory on ece-linlab server. Who should I con contact to solve the problem? Thanks!
+
+
+[9/16/2024 9:18 AM] darth.daddy
+does the Synopsys Software Agreement EULA (End User License Agreement) have to be done every year for DVE to work? im having trouble running my simulation in fastX. I did the EULA last year.
+
+
+[9/16/2024 9:19 AM] darth.daddy
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1285228590392414229/image.png?ex=66ed7666&is=66ec24e6&hm=6c82be8b35e1ccc3557c2a4caa9dbf69953e85783bff20357fef2ffd0a809e85&
+
+
+[9/16/2024 9:22 AM] doctorslingshot
+i think so? i had to do it again this year to fix that error
+
+
+[9/16/2024 9:23 AM] darth.daddy
+Ah okay
+
+
+[9/16/2024 12:04 PM] brenman32
+Has anyone else had trouble cloning the git repo? I am getting a  permission error even though I have access to the git
+
+
+[9/16/2024 12:26 PM] jingtiandang
+solved
+
+
+[9/16/2024 12:52 PM] flygonial
+is this from not having a license, or something related?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1285282218003922997/image.png?ex=66eda858&is=66ec56d8&hm=d49501c055add5dcc115a3eee47f58f7a270c9c14e328d04c21adf2ccb3c3cfb&
+https://cdn.discordapp.com/attachments/1158819200601706516/1285282218276818995/image.png?ex=66eda858&is=66ec56d8&hm=a0a189cf84a3e30d308cd707f671d2802b9087343dc4c6c2094b1172b94689cf&
+
+
+[9/16/2024 12:53 PM] flygonial
+I should have a confirmation email from my request for a license but haven't seen anything show up in my inbox since then
+
+
+[9/16/2024 12:53 PM] j_c_2003
+Ahhh
+
+
+[9/16/2024 12:53 PM] j_c_2003
+Try running “tcsh”
+
+
+[9/16/2024 12:53 PM] flygonial
+oops
+
+{Reactions}
+😂
+
+[9/16/2024 12:54 PM] flygonial
+yeah that works now i'm just seeing angery over my missing semicolons 😄
+
+
+[9/16/2024 3:10 PM] anu7777
+how did you solve that
+
+
+[9/16/2024 3:12 PM] jingtiandang
+> "SiliconJackets must use either the ece-linlabXX.ece.gatech.edu desktops in KACB 1448 or our centralized research server, ece-rschsrv.ece.gatech.edu. ece-linlabsrv01.ece.gatech.edu is reserved for coursework and class labs only. I just verified your account, and you should be good to go."
+The reply from help@ece.gatech.edu
+
+{Reactions}
+👍
+
+[9/17/2024 12:07 PM] ange0043_73860
+Do we have a meeting today from 5 to 7pm?
+
+
+[9/17/2024 1:38 PM] big_badal
+don’t think i can make it today bc of exams tomorrow, hopefully slides will be posted
+
+
+[9/17/2024 2:20 PM] j_c_2003
+Yep!
+
+
+[9/17/2024 2:32 PM] arct2rus
+@Digital Design we will be meeting today same time and place, 5-7pm in Van Leer C457
+
+Todays plan is to have an interactive walkthrough of implementing an fsm in system verilog, it should hopefully be helpful for those with less hdl experience
+
+{Reactions}
+👍 (3)
+
+[9/17/2024 2:55 PM] denpok_c137
+Will this be recorded? I have a class at 5
+
+
+[9/17/2024 3:17 PM] crackedcereal
+yea i got chem lab
+
+
+[9/17/2024 4:37 PM] doctorslingshot
+have you done the eula?
+
+
+[9/17/2024 4:48 PM] parth00067
+Hi, I am a new member. What should I do in terms of onboarding?
+
+
+[9/17/2024 5:16 PM] quilltheboreal
+Yeah I am not able to join today as well, would appreciate if it is recorded.
+
+
+[9/17/2024 5:31 PM] crackedcereal
+no what’s that
+
+
+[9/17/2024 5:31 PM] crackedcereal
+mb i just joined
+
+
+[9/17/2024 5:32 PM] numinal
+read the onboarding
+
+
+[9/17/2024 5:32 PM] _agera
+Its just a contract you need to sign online to be able to use the tools we use on the remote servers. Its all described in the onboarding project github repo
+
+
+[9/17/2024 5:32 PM] numinal
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Onboarding-Project
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+
+[9/17/2024 5:33 PM] numinal
+should really pin this
+
+
+[9/17/2024 5:34 PM] crackedcereal
+thanks
+
+
+[9/17/2024 5:51 PM] additup23
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158819200601706516/1285719707151892575/image.png?ex=66ed4589&is=66ebf409&hm=08b849f0433e2508a93e6a44e5a074aa539a0d560eb4c987caae533febe0119f&
+
+
+[9/17/2024 7:56 PM] arct2rus
+Pinned a message.
+
+
+[9/17/2024 11:40 PM] the_faulty
+Who do we submit the finished onboarding project to?
+
+
+[9/18/2024 11:02 AM] arct2rus
+you can show us during our meeting time or if you cant make it you can schedule a time with me or addison outside of meeting to go over it
+
+
+[9/18/2024 11:02 AM] michaeldoran_84057
+What are the next steps after we've demoed?
+
+
+[9/18/2024 11:03 AM] arct2rus
+We are working on coming up with a project but we will give you more details next meeting. After you are done the plan is to give you a section of a larger project to work on
+
+
+[9/18/2024 12:41 PM] kryifosyres
+hey im a new member that wasn't able to get to the first meeting how can I do onboarding?
+
+
+[9/18/2024 2:55 PM] arct2rus
+Hey, welcome, refer to this^, let me or @Addison Elliott  know if u have any issues
+
+
+[9/18/2024 5:27 PM] shaanmukherjee
+where can we find the presentation materials from yesterdays meeting?
+
+
+[9/18/2024 8:42 PM] arct2rus
+@Digital Design 
+
+Here are the slides and demo repo from yesterday. We didn't get to finish writing the testbench but the SystemVerilog implementation is done. Feel free to use it as reference, we will finish up writing the testbench next meeting. Please let me or @Addison know if anything doesn't make sense and we can explain in more detail.
+
+We promise the testbench next week won't take as long haha
+
+Updates: 
+**Onboarding is due 10/1,** try your best to meet this date but if you can't get it working by then please let us know
+
+Powerpoint:
+https://gtvault.sharepoint.com/:p:/s/SiliconJackets/EfjFlTqfsnpElYfY4fbr8wAB-DaoPqNsjGxXdDhw4bjWmQ?e=Lbf2dv
+
+Repo:
+https://github.gatech.edu/SiliconJackets/Digital-Design-Demo-FSM
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Demo-FSM
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Demo-FSM
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Digital-Design-Demo-FSM
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+
+[9/18/2024 11:48 PM] kryifosyres
+is the onboarding on the github?
+
+
+[9/18/2024 11:48 PM] kryifosyres
+how do i sign in via LDAP
+
+
+[9/18/2024 11:51 PM] arct2rus
+@kryifosyres  yup this message has more details for onboarding. You'll need to login to your gt enterprise github account which is automatically created for you when ur a student. The login will be the same as your gt login
+
+
+[9/19/2024 12:14 AM] kryifosyres
+thnx
+
+
+[9/19/2024 11:28 AM] additup23
+Btw got another wave of people access to the server:
+mdoran30
+syang730
+gchen380
+xxue64
+rwang796
+
+
+[9/19/2024 11:29 AM] additup23
+lmk if I'm missing anyone who needs it
+
+
+==============================================================
+Exported 421 message(s)
+==============================================================

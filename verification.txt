@@ -1,0 +1,1273 @@
+==============================================================
+Guild: SiliconJackets
+Channel: Verification & Emulation / discussions
+==============================================================
+
+[10/5/2023 12:29 PM] alexp5251
+we’re using CircuitSim, right?
+
+
+[10/7/2023 12:54 PM] nihit_dark_knight
+Hi, my name is Nihit. When are we planning to meet ?
+
+
+[10/8/2023 1:23 AM] sirdankphoenix
+Hello everyone! We will release more information after fall break. In the meantime, feel free to note down ideas and look at verilog basics/scripting basics. Thanks!
+
+
+[10/14/2023 1:23 AM] alexp5251
+since we aren't using CircuitSim, I'm a bit lost installing these verilog tools like VCS compiler
+how would I go about installing it?
+
+
+[10/14/2023 12:57 PM] zachellis
+If you sign the approriate EULAs for Synopsis then you will be able to access the tools on ECE servers (linlab). During your first meeting the Verifcation leads will go over the steps
+
+
+[10/16/2023 12:10 PM] zachellis
+For those of you who may be in the discord but did not receive an email from the verification leads due to the time you joined the team. They will be having their first subteam meeting this Friday at 5PM in Klaus 2447 @Verification / Emulation
+
+{Reactions}
+👍 (3)
+
+[10/20/2023 5:25 PM] sirdankphoenix
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1165038087336898681/image.png?ex=66ed3f85&is=66ebee05&hm=2696bf9c6857abdceab5419a1ba8f854611afc959d046af1d56469ca70c63674&
+
+
+[10/20/2023 5:33 PM] sirdankphoenix
+http://cluelogic.com/category/uvm/
+
+
+[10/20/2023 5:34 PM] sirdankphoenix
+https://www.youtube.com/watch?v=qLr8ayWM_Ww
+
+{Embed}
+Doulos Training
+https://www.youtube.com/watch?v=qLr8ayWM_Ww
+First Steps with UVM Part 1
+Doulos co-founder and technical fellow John Aynsley presents a simple, complete SystemVerilog UVM source code example (which you can run on http://www.edaplayground.com/x/Wzp), explaining what is happening and highlighting best practice. You are shown how UVM source code is organized and how to run the example on popular SystemVerilog simulators...
+https://images-ext-1.discordapp.net/external/vcVp9xNwjcbfsclQGRNxBFu08MjibMhwLC7weeTLgPo/https/i.ytimg.com/vi/qLr8ayWM_Ww/maxresdefault.jpg
+
+
+[10/20/2023 5:48 PM] techno_turtle
+1. tcsh
+2. Source the script
+3. vcs
+
+
+[10/20/2023 6:31 PM] techno_turtle
+More concrete instructions:
+```
+>> tcsh
+>> source /tools/software/synopsys/setup.csh
+>> git clone <clone the repo>
+>> cd <repo directory>
+>> cd sim/behav
+>> make link_src
+>> make vcs
+```
+
+{Reactions}
+👍 (3)
+
+[10/20/2023 6:48 PM] hypernova0550
+Thank you
+
+
+[10/22/2023 10:30 PM] tegan2
+So are statements within the task block executed sequentially? Like on the first clock posedge, the reset is set low, the very next clock posedge the a, b, and fire are set, then the very next cycle the a,b, and fire are set to 0, then whenever the next posedge of the valid signal the reset_signals task is called?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1165839736603168858/image.png?ex=66ed871d&is=66ec359d&hm=dc7462bc5dd3fdc7db7376c37d9e0a9849c09c61c9671dae8090367ecffe12e3&
+
+{Reactions}
+👍
+
+[10/22/2023 10:58 PM] sirdankphoenix
+Yeah
+
+
+[10/22/2023 10:58 PM] sirdankphoenix
+That’s exactly what’s happening
+
+
+[10/24/2023 4:23 PM] tegan2
+When I uncomment line 50 so I can see the waveform, I am getting this error. What should I do?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1166471993567219723/image.png?ex=66ed30f3&is=66ebdf73&hm=9382af1c51e6ed0423058fafa18be902da0daf207c8804606aa6c04485ae965c&
+https://cdn.discordapp.com/attachments/1158826421372858398/1166471993848242196/image.png?ex=66ed30f3&is=66ebdf73&hm=e84c9bcd9bc2c2ff971dd8882caaa4a016ff58b114a0c46f28db369b69c353b4&
+
+
+[10/24/2023 4:25 PM] zachellis
+Since you are doing ssh from VSCode it cannot create the xwindow to display the waves. You can install something like FastX or mobaxterm to have both ssh and an xserver on your machine that can display a window
+
+
+[10/24/2023 4:27 PM] zachellis
+You may be able to get it working by installing the xserver on your machine directly and then having vscode use the ssh -X command but that would be more difficult
+
+
+[10/24/2023 4:33 PM] tegan2
+Thanks it shows up through FastX. How can I plot and view signals from here?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1166474673039613984/image.png?ex=66ed3372&is=66ebe1f2&hm=2886cff7260c157b0257fdda8c71d96f55be9fc7a19bb863fa5ca8df819c0de9&
+
+
+[10/24/2023 8:43 PM] additup23
+you can select signals you want to see, and add them to a new wave view by right-clicking on them
+
+
+[10/25/2023 2:18 PM] nikb21
+whenever I do "make vcs" it says failed to obtain license. I have access to linlabs so how could I get access to vcs.
+
+
+[10/25/2023 2:32 PM] sirdankphoenix
+Are you in tcsh
+
+
+[10/25/2023 2:32 PM] sirdankphoenix
+And have you signed the Eula
+
+
+[10/25/2023 2:54 PM] nikb21
+lmao where do i sign that
+
+
+[10/26/2023 12:34 PM] tegan2
+How do we show that we’ve completed the onboarding project/check if we’ve done it correctly? Are we gonna do that at the Friday meeting?
+
+
+[10/26/2023 1:22 PM] hypernova0550
+^
+
+
+[10/26/2023 1:23 PM] arct2rus
+https://eulas.ece.gatech.edu/synopsys/
+
+
+[10/26/2023 1:34 PM] nikb21
+lit thanks
+
+
+[10/26/2023 2:00 PM] techno_turtle
+We'll go over it tomorrow. For now, you can be satisfied if you've found a few bugs
+
+{Reactions}
+👍
+
+[10/26/2023 9:53 PM] hypernova0550
+Is our meeting at klaus 2447 every Friday? Just want to make sure.
+
+
+[10/27/2023 12:58 PM] nikb21
+^^^
+
+
+[10/27/2023 2:16 PM] sirdankphoenix
+Yeah
+
+
+[10/27/2023 2:16 PM] sirdankphoenix
+We will let you know if anything changes
+
+
+[10/27/2023 4:51 PM] sirdankphoenix
+Gonna be a little late. Sorry
+
+
+[10/27/2023 4:57 PM] sirdankphoenix
+Liek 5 mins late
+
+
+[10/27/2023 5:00 PM] techno_turtle
+Sorry I'll be even later
+
+
+[11/1/2023 6:40 PM] sirdankphoenix
+@Verification / Emulation Make sure to fill out the form for the subteam selection before our friday meeting. If you don't fill it out by friday and not show up to the meeting, you won't have a role
+
+{Reactions}
+👍 (2)
+
+[11/1/2023 6:40 PM] sirdankphoenix
+Also finish the onboarding project before the meeting
+
+
+[11/1/2023 6:43 PM] sirdankphoenix
+If you ahve finsihed it, you can submit it here https://forms.office.com/Pages/ResponsePage.aspx?id=u5ghSHuuJUuLem1_Mvqgg2bXO87DYfxGoJiDILayYwNUN1NLTzE4MFE4VFQxODI2SzdRRzBRQjM3WC4u
+
+{Embed}
+https://forms.office.com/Pages/ResponsePage.aspx?id=u5ghSHuuJUuLem1_Mvqgg2bXO87DYfxGoJiDILayYwNUN1NLTzE4MFE4VFQxODI2SzdRRzBRQjM3WC4u
+
+
+[11/2/2023 1:09 PM] nikb21
+if we already selected a team last friday should we fill out the subteam form
+
+
+[11/2/2023 1:51 PM] sirdankphoenix
+Nah
+
+
+[11/3/2023 2:57 PM] lejackster
+The form to submit the onboarding project doesn't allow text or markdown files despite saying to upload one of those two formats
+
+
+[11/3/2023 4:09 PM] sirdankphoenix
+Uuuuh
+
+
+[11/3/2023 4:09 PM] sirdankphoenix
+I’ll fix it
+
+
+[11/3/2023 4:10 PM] sirdankphoenix
+Uuuh Microsoft is stupid. Submit a pdf or word
+
+
+[11/3/2023 4:58 PM] sen15487
+which room r we meeting in?
+
+
+[11/3/2023 5:01 PM] sirdankphoenix
+Klaus 2447
+
+
+[11/3/2023 6:06 PM] techno_turtle
+@Verification / Emulation 
+REMINDER: We are meeting Fridays at 5PM at Klaus 2447
+
+
+[11/3/2023 6:06 PM] techno_turtle
+Pinned a message.
+
+
+[11/5/2023 11:49 AM] techno_turtle
+@Verification / Emulation 
+REMINDER: Please finish the onboarding project and submit it through the form above by today if you would like to be assigned a team.
+
+
+[11/10/2023 2:14 PM] abhipsa_panigrahi
+Do we have meeting at 5 today?
+
+
+[11/10/2023 2:41 PM] techno_turtle
+Yes
+
+
+[11/10/2023 5:10 PM] sirdankphoenix
+https://github.com/rolandbernard/kleine-riscv
+
+{Embed}
+https://github.com/rolandbernard/kleine-riscv
+GitHub - rolandbernard/kleine-riscv: A small and simple rv32i core ...
+A small and simple rv32i core written in Verilog. Contribute to rolandbernard/kleine-riscv development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/6cO3V-UqC0IkzBn6CYM3MQlL8EHPVAmljRzVCntYo4E/https/opengraph.githubassets.com/5cf82e4eab3b4220d1a95d7432b7c24dd37559237380618ff7ea86efdb624064/rolandbernard/kleine-riscv
+
+
+[11/10/2023 5:16 PM] sirdankphoenix
+https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf
+
+
+[11/15/2023 6:17 PM] sirdankphoenix
+Hey everyone. If you're still unsure about which team you are in, it's whatever you put as your first choice
+
+
+[11/17/2023 1:02 PM] sirdankphoenix
+@everyone  todays meeting room is crosland 2111
+
+
+[11/17/2023 1:03 PM] sirdankphoenix
+@everyone
+
+
+[11/17/2023 1:21 PM] technolithic
+why u gotta ping everyone
+
+
+[11/17/2023 2:08 PM] sirdankphoenix
+Why not
+
+
+[11/17/2023 2:14 PM] technolithic
+could ping the verif role :/
+
+
+[11/17/2023 2:57 PM] sirdankphoenix
+It’s gonna be a short meeting today
+
+
+[11/17/2023 3:39 PM] sen15487
+Sorry I might miss the meeting today. Is it possible that I somehow catch up later?
+
+
+[11/17/2023 4:18 PM] sirdankphoenix
+@Verification / Emulation location update: let’s meet in klaus 1448
+
+{Reactions}
+👍
+
+[11/17/2023 5:25 PM] technolithic
+Problem sets for learning how to write Verilog + reading simulations and writing testbenches
+https://hdlbits.01xz.net/wiki/Main_Page
+
+{Embed}
+https://hdlbits.01xz.net/wiki/Main_Page
+Main Page
+
+
+[11/17/2023 5:29 PM] sirdankphoenix
+https://cluelogic.com/2011/07/uvm-tutorial-for-candy-lovers-overview/
+
+{Embed}
+Keisuke Shimizu
+https://cluelogic.com/2011/07/uvm-tutorial-for-candy-lovers-overview/
+UVM Tutorial for Candy Lovers - 1. Overview
+
+
+[11/30/2023 12:32 AM] skid2894
+@Solo @RD I have been sick the past week and a half and am still recovering, so unfortunately I won't be able to write a testbench for the execute stage I was assigned. However, I'll make up for it next semester - apologies!
+
+
+[12/1/2023 2:48 PM] lejackster
+Is there a meeting today?
+
+
+[12/1/2023 3:25 PM] sirdankphoenix
+Yes!
+
+
+[12/1/2023 3:25 PM] sirdankphoenix
+In the Klaus  room
+
+
+[12/1/2023 3:54 PM] sirdankphoenix
+2447
+
+
+[12/7/2023 10:50 PM] sen15487
+Hi, will we meet tomorrow?
+
+
+[12/8/2023 1:04 AM] sirdankphoenix
+We will not
+
+
+[1/10/2024 10:58 AM] lejackster
+Are verification meetings starting this week?
+
+
+[1/10/2024 12:22 PM] techno_turtle
+Not sure, presumably next week once everyone's schedules are set
+
+{Reactions}
+👍
+
+[1/12/2024 11:01 AM] techno_turtle
+@Verification / Emulation Hey guys, please fill out the lettucemeet so we can meet sometime next week
+
+
+[1/12/2024 12:44 PM] techno_turtle
+Whoops forgot to send it
+
+
+[1/12/2024 12:45 PM] techno_turtle
+https://lettucemeet.com/l/R82RX
+
+{Embed}
+https://lettucemeet.com/l/R82RX
+LettuceMeet - Easy Group Scheduling
+The easiest way to schedule group meetings.
+
+
+[1/16/2024 4:25 PM] techno_turtle
+@Verification / Emulation we will have our first meeting in Klaus 1448 (the linux lab) at 5 PM on Wednesday
+
+
+[1/17/2024 5:36 PM] techno_turtle
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1197308403882664057/20240117_173552.jpg?ex=66ed5018&is=66ebfe98&hm=9e2a9770219b3e2889789e12a7d81c3ab187eb0a12bf4360f3d69e770571cd6e&
+https://cdn.discordapp.com/attachments/1158826421372858398/1197308404520202260/20240117_173548.jpg?ex=66ed5018&is=66ebfe98&hm=a03c3a9b2409dda93a26f1d46071f15d42dcf30e3c7abea3c37c9c91fc9eafe5&
+
+
+[1/17/2024 6:56 PM] techno_turtle
+@Verification / Emulation Everyone here is the resource for the Pico riscV processor we will be working with for now
+
+
+[1/17/2024 7:03 PM] techno_turtle
+https://github.com/rolandbernard/kleine-riscv
+
+{Embed}
+https://github.com/rolandbernard/kleine-riscv
+GitHub - rolandbernard/kleine-riscv: A small and simple rv32i core ...
+A small and simple rv32i core written in Verilog. Contribute to rolandbernard/kleine-riscv development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/GP8iweHEIWaCaG4HlSPjeXciM31ywynFO3-7lcaSYrI/https/opengraph.githubassets.com/58407446842e70850bfc437af266433edff9bd27d98cbb99a2129275be5910be/rolandbernard/kleine-riscv
+
+
+[1/17/2024 10:08 PM] hypernova0550
+1/17/24 @Verification / Emulation TODO:
+1. Start learning your assigned stage of the RISC-V pipeline. From here [kleine-riscv](https://github.com/rolandbernard/kleine-riscv)
+2. Start writing your own testbench for your stage.
+3. Research on the below questions
+Q1. What is UVM? Why do industries use UVM?
+Q2.Pick a UVM component: Why is this component important and what are some challenges you might face when implementing it?
+4. Prepare to talk about your progress.
+New member work on onboarding project and #3 and #4
+
+Next meeting: Wed 1/24/2024 5:00-6:00 Location TBD
+
+{Embed}
+https://github.com/rolandbernard/kleine-riscv
+GitHub - rolandbernard/kleine-riscv: A small and simple rv32i core ...
+A small and simple rv32i core written in Verilog. Contribute to rolandbernard/kleine-riscv development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/GP8iweHEIWaCaG4HlSPjeXciM31ywynFO3-7lcaSYrI/https/opengraph.githubassets.com/58407446842e70850bfc437af266433edff9bd27d98cbb99a2129275be5910be/rolandbernard/kleine-riscv
+
+{Reactions}
+👍🏼
+
+[1/22/2024 1:04 PM] hypernova0550
+Meeting location for this week @Verification / Emulation 
+Location: Georgia Tech Library Spaces
+Space: Crosland 2111
+Date: Wednesday, January 24, 2024
+Time: 5:00pm - 6:00pm
+
+
+[1/24/2024 8:35 PM] hypernova0550
+1/24/24 @Verification / Emulation TODO:
+1. Start writing documents for the assigned stage.
+2. Continue working on Testbench.
+3. Read Accellera UVM v1.2 tutorial and manual
+[Accellera manual](https://www.accellera.org/downloads/standards/uvm) \ [tutorial ](https://www.chipverify.com/tutorials/uvm)
+New member work on onboarding project
+
+No meeting next week
+
+{Embed}
+https://www.accellera.org/downloads/standards/uvm
+UVM (Universal Verification Methodology)
+
+{Embed}
+https://www.chipverify.com/tutorials/uvm
+UVM
+UVM is a framework API used to build modular and scalable verification testbenches. Click here to learn UVM concepts ASAP using real simple examples right now !
+https://images-ext-1.discordapp.net/external/CYUxXxu7-6g6hApr61Co_veLR5v4by2VgQ2RC3Ueahw/https/www.chipverify.com/images/uvm/uvm-tb.gif
+
+
+[1/24/2024 8:35 PM] hypernova0550
+Team Contact information
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1199890357576536194/Assignment.png?ex=66ed7a3a&is=66ec28ba&hm=baccfc855e858a4e139cda7f18b051a07eaaf8014f877f1592259837ea0e3a7f&
+
+
+[1/31/2024 9:07 PM] hypernova0550
+@Verification / Emulation Check out the new readme file of "23_24_Core" on our GitHub [Link](https://github.gatech.edu/SiliconJackets/23_24_Core). The Module Assignment and Test Plans section now have a description on how we are going to collaborate with the design team. We will talk about it during next week's meeting but feel free to look into it as well as the interface system verilog header files.
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/23_24_Core).
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/23_24_Core).
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/23_24_Core).
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+
+[2/5/2024 2:32 PM] hypernova0550
+@Verification / Emulation Our meeting this week (5:00pm - 6:00pm Wed 2/7) will take place at CoC building classroom 016
+
+
+[2/5/2024 9:23 PM] hypernova0550
+@Verification / Emulation All current and new members, please fill out this [when2meet](https://www.when2meet.com/?23537501-EoIPq) for this semester by the end of this week! Thank you! (There are no changes made to this weeks meeting.)
+
+
+[2/7/2024 2:40 PM] sen15487
+sry I got conflict this afternoon
+
+
+[2/7/2024 2:40 PM] sen15487
+will sync up through dc later
+
+
+[2/7/2024 4:58 PM] hypernova0550
+Police blocked the road because an accident I might be few minutes late
+
+
+[2/7/2024 5:04 PM] zachellis
+No problem. I’m here we’ll get started in 5 if you are still stuck
+
+
+[2/7/2024 5:14 PM] zachellis
+resources
+https://gtvault.sharepoint.com/sites/SiliconJackets/SitePages/Digital-Design-Resources.aspx
+
+
+[2/7/2024 5:17 PM] hypernova0550
+Omw to coc
+
+
+[2/7/2024 5:22 PM] zachellis
+Onboarding Instructions: https://gtvault.sharepoint.com/:w:/r/sites/SiliconJackets/_layouts/15/Doc.aspx?sourcedoc=%7BDD03D38E-6CA0-487B-A8DD-5DDD50C57F53%7D&file=verification_onboarding.docx&action=default&mobileredirect=true
+
+
+[2/7/2024 5:24 PM] zachellis
+try this one https://gtvault.sharepoint.com/:w:/s/SiliconJackets/EY7TA92gbHtIqN1d3VDFf1MB6SaHcePFebz6mr2DtuRz3g
+
+
+[2/7/2024 5:35 PM] hypernova0550
+Onboarding Project Command Instructions:
+(Use **ece-rschsrv01.ece.gatech.edu** server if you don't have access to linlab)
+```
+>> tcsh
+>> source /tools/software/synopsys/setup.csh
+>> git clone <clone the repo>
+>> cd <repo directory>
+>> cd sim/behav
+>> make link_src
+>> ./run.sh
+```
+
+
+[2/7/2024 10:37 PM] hypernova0550
+2/7/24 @Verification / Emulation TODO:
+1. Go over the **Module Assignment** and **Test Plans** sections in the readme of 23_23_Core [GitHub](https://github.gatech.edu/SiliconJackets/23_24_Core), understand how we are going to work with the design team.
+2. Go over the new UVM example [GitHub](https://github.gatech.edu/SiliconJackets/UVM_example). Consider what can we build upon it and what we can improve from this example to fit our RISC-V testing plan.
+3. New member work on onboarding project and **update your server nickname to your real name** which helps improve our communication.
+
+I will host a **Zoom meeting on Friday 5pm** for new members who missed the meeting today or you just need help with the onboarding. [Link to Join](https://gatech.zoom.us/j/95208129763?pwd=bnRHbjhiMThHcnNwejh2TVMxREUvUT09)
+
+Let me know if you have any questions.
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/23_24_Core),
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/23_24_Core),
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/23_24_Core),
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/UVM_example).
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/UVM_example).
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/UVM_example).
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+{Embed}
+https://gatech.zoom.us/j/95208129763?pwd=bnRHbjhiMThHcnNwejh2TVMxREUvUT09
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+{Reactions}
+👍
+
+[2/8/2024 2:42 AM] zachellis
+@Verification / Emulation I have created a new version of the onboarding project which should be a bit more similar to the structure of our repos and the processes we use to run simulations. If you haven't started onboarding yet or would like to try this new version please clone / pull from the verification onboarding repo https://github.gatech.edu/SiliconJackets/Verification_Onboarding
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Verification_Onboarding
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/kR6aQzvBy_BUDv--M-aVeU8yYU8-lfk2LNsybzrc0-E/https/github.gatech.edu/images/modules/open_graph/github-logo.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Verification_Onboarding
+https://images-ext-1.discordapp.net/external/SVgJ7L2oJwHsz0_HHt75zfVH466oIEoEM5UKVdeJ248/https/github.gatech.edu/images/modules/open_graph/github-mark.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Verification_Onboarding
+https://images-ext-1.discordapp.net/external/5E54YYuxTNaubjQBVuKBjKr811iMvyxJRRGXda5wDrM/https/github.gatech.edu/images/modules/open_graph/github-octocat.png
+
+{Reactions}
+👍
+
+[2/12/2024 7:47 PM] hypernova0550
+Hi @Verification / Emulation team, bases on the when2meet entries we will continue to have our weekly meeting at 5pm every Wednesday. 
+
+The meeting for this week will be online over Zoom due to room availability. 
+Zoom link for this week's meeting (2/14): [Link](https://gatech.zoom.us/j/93294156004?pwd=RlBRV1k1eXMvdlE0TWlVYS94emxZZz09)
+New member working on onboarding please join at 5:00pm, current members can join at 5:30. You are welcome to join early or stay later.
+
+{Embed}
+https://gatech.zoom.us/j/93294156004?pwd=RlBRV1k1eXMvdlE0TWlVYS94emxZZz09
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+
+[2/14/2024 8:14 AM] moungsungim
+hi i'm trying to ssh onto ece-rschsrv01.ece.gatech.edu using mobaXterm but it says "Host does not exist".  Could you please let me know how to solve this issue?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1207314041530224720/image.png?ex=66ed7552&is=66ec23d2&hm=c22f3cc37241862b61348af4e42f4f29a8919f7483307cfc21e7e57eba6e1e56&
+https://cdn.discordapp.com/attachments/1158826421372858398/1207314041916358666/image.png?ex=66ed7552&is=66ec23d2&hm=6bc3cadee3725d64165ef30dc0422483c268e231e63df695564e20f53cabc1d9&
+
+{Reactions}
+😥
+
+[2/14/2024 10:09 AM] hypernova0550
+Have  you tried to connect to the VPN?
+
+https://help.ece.gatech.edu/policies/remote
+
+{Embed}
+Rachel Ponder
+https://help.ece.gatech.edu/policies/remote
+Remote Access
+
+
+[2/14/2024 10:16 AM] moungsungim
+oh it's working at Tech. Thank you 🙂
+
+{Reactions}
+👍
+
+[2/14/2024 10:26 AM] moungsungim
+I can't proceed due to this error. The website you gave says anyone with ece account can access the machine. Would it be the reason that I have this error since I major CS so not an ECE student? 😭
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1207347055215906826/image.png?ex=66ed9411&is=66ec4291&hm=11241fc1d60d0c8c154e9914ceab1dd61c3581bc4ce72868a8f3099a3e90bb10&
+
+
+[2/14/2024 10:58 AM] lejackster
+Are you sure you're connected to the VPN? I believe that message shows up when you don't use the VPN
+
+{Reactions}
+🫡
+
+[2/14/2024 10:59 AM] lejackster
+Also, you'll likely need to reach out to help@ece.gatech.edu to create an account on the ECE Linux servers if you're a CS major
+
+{Reactions}
+👌
+
+[2/14/2024 1:42 PM] zachellis
+@Moungsung Im 🐝 yep I think you will need to send an email to help@ece.gatech.edu. you can let them know you are trying to access the server for SiliconJackets and you can cc me if you like my email is zellis7@gatech.edu
+
+
+[2/14/2024 3:38 PM] moungsungim
+yep i sent it few hours ago and they just created my account! thank you for helps 🙂
+
+
+[2/14/2024 4:02 PM] ct114514
+Is there anything actually wrong with the sv file?
+
+
+[2/14/2024 4:04 PM] ct114514
+Somehow only found error in the script
+
+
+[2/14/2024 4:09 PM] ct114514
+I somehow sweeped through 300 random combinations and it still passed
+
+
+[2/14/2024 4:09 PM] ct114514
+with my own scripts
+
+
+[2/14/2024 4:09 PM] hypernova0550
+Yes, make sure you are adding test cases to verify the gcd module. 
+Reminder, we have online meeting today in an hour.
+
+
+[2/14/2024 4:35 PM] moungsungim
+the mystery error is really mysterious
+
+{Reactions}
+💪
+
+[2/14/2024 4:38 PM] ct114514
+there are nvm
+
+
+[2/14/2024 4:38 PM] ct114514
+not just the python script
+
+{Reactions}
+😱
+
+[2/14/2024 4:59 PM] hypernova0550
+Meeting Link: https://gatech.zoom.us/j/93294156004?pwd=RlBRV1k1eXMvdlE0TWlVYS94emxZZz09
+
+{Embed}
+https://gatech.zoom.us/j/93294156004?pwd=RlBRV1k1eXMvdlE0TWlVYS94emxZZz09
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+
+[2/14/2024 4:59 PM] ct114514
+@Youfei Fu meeting is on zoom
+
+
+[2/14/2024 4:59 PM] ct114514
+not the meeting room vc
+
+
+[2/14/2024 4:59 PM] fredfu.gatech
+I see
+
+
+[2/14/2024 5:12 PM] hypernova0550
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1207449280001085490/image.png?ex=66ed4a85&is=66ebf905&hm=0c1cce3a0c21588b054a615df88fe5b36b7f7f6d56cf14aac38b1b3085cd1b03&
+
+
+[2/14/2024 5:45 PM] hypernova0550
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1207457575575101501/23_24_core.drawio.png?ex=66ed523f&is=66ec00bf&hm=a1148ad4300df7ec65c639fdcf040203444a3f27be5af595b13229dce09898a6&
+
+
+[2/20/2024 4:53 PM] hypernova0550
+@Verification / Emulation  Meeting this week (5:00pm - 6:00pm Wed 2/21)  at CoC classroom 016. If you have time conflict lmk, I can host an additional meeting Thursday 6:30 - 7:00pm.
+
+
+[2/21/2024 12:50 PM] carsonb3420
+There’s supposed to be an error in the python script? It seems to work fine for me
+
+
+[2/21/2024 12:56 PM] ct114514
+the script only run the ip once then reset it and do the next run
+
+
+[2/21/2024 12:57 PM] ct114514
+also need to have more edge cases
+
+
+[2/21/2024 1:08 PM] hypernova0550
+If you are looking at the newest version. Python script is supposed to be bug free, since you want to focus on running the test bench.
+
+{Reactions}
+👍
+
+[2/21/2024 7:20 PM] auxx
+@Verification / Emulation 
+
+I wanted to reach out and have you fill out this form, so we can register you for cadence support accounts (Includes documentation from all their tools Physical Design to Verification and more! )
+
+The form is as follows: https://forms.gle/AG2Cy4EXJXGwvPPm8
+
+Please complete this at your earliest convenience
+Thanks
+
+{Embed}
+https://forms.gle/AG2Cy4EXJXGwvPPm8
+SiliconJackets Cadence Account Registration
+Please send the following information to be registered for a Cadence Support/Documentation Account
+https://images-ext-1.discordapp.net/external/5U8fdc5k-puwknb1vpQuIPdDNmk-52mEfhbxTtm-bbM/https/lh6.googleusercontent.com/79H4tb5Y8_G44Xh8hVG78IiEDst594KGDVO5whaUgDHUDpKN3M5egzcbkr5kLmSsAAjjHLu_GXA%3Dw1200-h630-p
+
+{Reactions}
+💪 (2)
+
+[2/27/2024 5:49 PM] hypernova0550
+@Verification / Emulation We will be meeting at CoC classroom 016, 5:00pm tomorrow. We will make more module assignments and prioritize the verification for the 5 stages (everyone should have at least one module), and also updating on the design-verification collab flow. If you made progress feel free to make slide show to showcase it.
+
+
+[2/28/2024 10:00 AM] carsonb3420
+I won’t be able to make it to the meeting today
+
+{Reactions}
+👍 (2)
+
+[2/28/2024 12:37 PM] ct114514
+same
+
+
+[2/28/2024 3:26 PM] hypernova0550
+@Verification / Emulation We are moving today's meeting online since the thunderstorm outside. I'll send out the zoom link shortly.
+
+
+[2/28/2024 3:30 PM] hypernova0550
+Time: Feb 28, 2024 05:00 PM Eastern Time (US and Canada)
+
+Join Zoom Meeting
+https://gatech.zoom.us/j/94861430580?pwd=SXpjU3d0alR5SFdGUnpLcW5tU3dIUT09
+
+Meeting ID: 948 6143 0580
+Passcode: 246054
+
+{Embed}
+https://gatech.zoom.us/j/94861430580?pwd=SXpjU3d0alR5SFdGUnpLcW5tU3dIUT09
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+
+[2/28/2024 4:59 PM] hypernova0550
+@Verification / Emulation Reminder we are having out meeting today over Zoom now
+
+
+[3/5/2024 7:35 PM] hypernova0550
+@Verification / Emulation Reminder: we are meeting tomorrow at CoC classroom 016, 5:00pm.
+
+
+[3/6/2024 4:58 PM] moungsungim
+i might not be able to make it to the meeting today 😦
+
+{Reactions}
+👍
+
+[3/8/2024 6:50 PM] zachellis
+@Verification / Emulation You may have received an email from cadence today if you signed up for a support account. Please log in and reset your password when you get the chance.
+
+{Reactions}
+🫡
+
+[3/8/2024 6:54 PM] hypernova0550
+btw it says to login within 24 hrs after the email so don't wait'll tomorrow.
+
+{Reactions}
+‼️
+
+[3/9/2024 3:06 AM] ct114514
+Is the ece server down atm?
+
+
+[3/9/2024 3:09 AM] ct114514
+nvm it is back
+
+
+[3/12/2024 7:17 PM] hypernova0550
+@Verification / Emulation We are meeting tomorrow at CoC classroom 016, 5:00pm. Make sure you let us know when is your kick-off meeting with the design member.
+
+
+[3/12/2024 10:28 PM] skid2894
+Padraig and I are meeting with the design team tomorrow at 5:30 PM, so it'll be convenient for us
+
+{Reactions}
+👍
+
+[3/13/2024 5:07 PM] hypernova0550
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1217579839976902856/Sarah_Harris_David_Harris_-_Digital_Design_and_Computer_Architecture__RISC-V_Edition-Morgan_Kaufmann_2021.pdf?ex=66ed3b57&is=66ebe9d7&hm=905c5e72884c03ecf76eb7373981e8f7c6fd3204f6e16deb39412590f92f9832&
+
+
+[3/13/2024 9:13 PM] hypernova0550
+@Verification / Emulation Beginning from tomorrow, I will host a UVM work session every Thursday 6:30 - 7:30pm over zoom. This is for us to work and learn together and the goal is to make progress in building the UVM verification workflow. This work session is not mandatory but encouraged to join!
+
+Link to the meeting: 
+https://gatech.zoom.us/j/99618935996?pwd=czE2c2ZCUVlLOXoxdUg0Ny9acmlRUT09
+
+{Embed}
+https://gatech.zoom.us/j/99618935996?pwd=czE2c2ZCUVlLOXoxdUg0Ny9acmlRUT09
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+
+[3/14/2024 12:49 AM] moungsungim
+Decoder members will likely be meeting on Mar 25 at 5:30 pm.
+
+{Reactions}
+👍 (3)
+
+[3/25/2024 11:01 AM] hypernova0550
+Do you have a meeting link for today?
+
+{Reactions}
+🙃
+
+[3/25/2024 12:20 PM] moungsungim
+Moungsung Im is inviting you to a scheduled Zoom meeting.
+
+Join Zoom Meeting
+https://us05web.zoom.us/j/6130423983?pwd=0ABAPnl4v3CQaCOA7ur6W05545TGku.1&omn=84552901988
+
+Meeting ID: 613 042 3983
+Passcode: tech
+
+
+[3/25/2024 12:27 PM] hypernova0550
+Thanks!
+
+{Reactions}
+🫡
+
+[3/25/2024 6:48 PM] auxx
+@Verification / Emulation  as @Zach Ellis said a couple weeks back, we are collecting questions to compile and send to Cadence for an info/QnA session if you have any questions regarding implementation of things/tool capabilities/ or Electronic design automation in general feel free to reply to this post with them (Posting here as verification may use xcelium etc... in the future for simulation)
+
+
+[3/26/2024 11:13 PM] hypernova0550
+@Verification / Emulation Tomorrow's meeting will be over Zoom due to room availability.  Starting at the same time 5:00pm!
+
+https://gatech.zoom.us/j/97134368653?pwd=aVBPZnU5NHdqUjlwRUplenVjdHhYUT09
+
+{Embed}
+https://gatech.zoom.us/j/97134368653?pwd=aVBPZnU5NHdqUjlwRUplenVjdHhYUT09
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+{Reactions}
+🫡
+
+[4/3/2024 10:49 AM] lejackster
+@Verification / Emulation Reminder that we have a meeting today at CoC classroom 016 at 5:00 pm. We'll go over any updates for every module that you're verifying and then it'll be a work session where you can ask me any questions. Zeyan won't be there, so I'll be running the meeting.
+
+
+[4/3/2024 4:51 PM] moungsungim
+hi 
+I'm working in Decode team and just understood how things are working in matthew-decode branch.
+I looked up decode_stage.sv at src/Decode directory, and at the bottom of the file, it looks like these are the outputs of the file.
+
+I looked at decode_tb.sv at sim/Tests and at the bottom of the file, it is checking  the five  outputs which are little bit different from the outputs of decode_stage.sv. 
+
+Is this how I am supposed to verify or is it just a sample code?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1225185860689985536/image.png?ex=66ed3780&is=66ebe600&hm=18df1cc6522732674b7d3ee0fe2f8e1a2ee44b17866f984d78556359b4b70f4e&
+
+
+[4/4/2024 11:02 AM] 0x6f69
+the one sample test certainly does not test every signal the decode stage updates, it only tests that rs1, rs2, and the opcode are correct.
+You should extend this to test multiple instruction types (this one test is just R-type). However, signals like reg_write_en or rs1_used will be in the control unit.
+
+{Reactions}
+🫡
+
+[4/4/2024 2:30 PM] moungsungim
+thank you for clarification 🙂
+
+
+[4/9/2024 5:58 PM] hypernova0550
+@Verification / Emulation We are meeting tomorrow at CoC classroom 016 at 5:00 pm. This will be the second last meeting of the semester.
+
+{Reactions}
+😥
+
+[4/16/2024 4:22 PM] hypernova0550
+@Verification / Emulation We are meeting tomorrow at CoC classroom 016 at 5:00 pm. I encourage everyone who has worked on their module testbench to join us tomorrow to discuss about a final report for your work since this is the last meeting we will have for this semester.
+
+
+[4/17/2024 12:10 AM] additup23
+Hey @Verification / Emulation check out the main branch, we've got a working pipeline that does an Add instruction!
+There are still probably a whole bunch of things wrong with all the pipeline stages though, so we're *excited* for you all to let us know our mistakes
+
+
+[4/18/2024 9:45 PM] hypernova0550
+@Verification / Emulation For those of you who missed yesterday's meeting. We are asking members who has verification work assigned to write a report of what you have done. It shouldn't take you too much time. Please send the report to me before the last day of the final week.
+
+{Reactions}
+🫡 (2)
+
+[8/28/2024 8:26 PM] hypernova0550
+Welcome back @Verification / Emulation, hope everyone had a great summer. We are going to have our club info session next week Wednesday 9/4 7:30PM at Van Leer C456. For Verification team, we will be meeting weekly on Monday 5pm beginning the week after the info session, location TBD. For returning members please leave a thumbs up if the meeting time works for you or thumbs down if not.
+
+{Reactions}
+👍 (10)
+
+[9/5/2024 4:11 PM] hypernova0550
+@Verification / Emulation 
+We are going to have our first weekly meeting for RETURNING MEMBERS next Monday, September 9, 5:00 PM - 6:00 PM at C241 Classroom Van Leer
+
+This meeting is aiming for returning members, Verification team onboarding meeting for the new members is going to take place one week after this on September 16.
+
+
+[9/5/2024 11:18 PM] jack__8012
+When is the verification onboarding project due?
+
+
+[9/6/2024 10:42 AM] lejackster
+Here's the timeline for onboarding:
+We'll have our first meeting for new members on 9/16 in Van Leer C241 at our normal meeting time (5-6 PM). We'll tell you how to get access to the required tools to be able to start the onboarding project.
+The next week on 9/23 (same room and time), we'll go over the onboarding project and how to write a testbench.
+The **due date for the onboarding project will be 9/30** since it shouldn't take too long after we introduce it. After you finish the onboarding project, we'll assign you to verify a module that's part of the CPU being designed.
+We'll be sending reminders about upcoming meetings and the onboarding deadline so you won't need to worry about that.
+
+
+[9/6/2024 12:20 PM] jack__8012
+That cleared everything up thanks 🙏
+
+
+[9/8/2024 1:45 AM] drakowu
+@Jackie Mac Hale can i get verification role?
+
+
+[9/8/2024 8:58 AM] hypernova0550
+You can get roles by click in “Channel & Role” thats on the top of the channel list of this discord.
+
+
+[9/8/2024 4:09 PM] drakowu
+Bet thanks
+
+
+[9/9/2024 5:04 PM] hypernova0550
+@Verification / Emulation Returning member meeting is happening rn @ 241  Van Leer
+
+
+[9/15/2024 1:23 AM] drakowu
+@Zeyan Wu do u know how i can fix this? im trying to ssh onto ece-rschsrv01.ece.gatech.edu but it just times out
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1284746444158533633/image.png?ex=66edaf9d&is=66ec5e1d&hm=c0344a5289d1900184830e97971fa4af445d9591b878b03c5706baaaf339e4bd&
+
+
+[9/15/2024 2:02 AM] flygonial
+sorry if you already are but connected to gatech VPN, right?
+
+
+[9/15/2024 2:08 AM] drakowu
+i am not, but im on campus
+
+
+[9/15/2024 2:08 AM] drakowu
+should i still connect?
+
+
+[9/15/2024 2:10 AM] flygonial
+iirc with the ece linux machines you still need to be 😭
+
+{Reactions}
+👍
+
+[9/15/2024 2:10 AM] flygonial
+that had me tripping first week of classes for architecture but i didn’t even get in the class anyways lmao
+
+
+[9/15/2024 2:16 AM] drakowu
+oh bet thanks
+
+
+[9/15/2024 2:16 AM] drakowu
+damn 😭
+
+
+[9/15/2024 11:03 AM] hypernova0550
+Yes you need VPN to connect to the server even if you are on campus. Did VPN fixed your problem?
+
+
+[9/15/2024 1:53 PM] tyro6
+Hello verification team, I will be attending the meeting tomorrow -- at 5 right? also, it will be my first meeting and I honestly don't know anything, how should I prepare?
+
+
+[9/15/2024 2:12 PM] lejackster
+Yup, tomorrow’s meeting starts at 5 in Van Leer C241. It will be onboarding for new members and we’ll introduce what verification as a team will do, so you won’t need to prepare anything. Just remember to bring your computer since we’ll be giving you access to the GitHub
+
+{Reactions}
+👍 (2) ❤️
+
+[9/15/2024 2:13 PM] tyro6
+awesome, thank you so much!
+
+
+[9/15/2024 11:05 PM] drakowu
+it stopped timing out right away, but now it closes out after i try to put in my password
+
+
+[9/15/2024 11:05 PM] drakowu
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1285074075751940156/image.png?ex=66ed8f3f&is=66ec3dbf&hm=f41cfc0ab4a140740ef96b1c3847fc7c432a09fa9e10df0bb60a4183797b99f1&
+
+
+[9/15/2024 11:05 PM] drakowu
+this was the old error before vpn ^
+
+
+[9/15/2024 11:08 PM] hypernova0550
+Are you an ECE student can you try this server and see if it works for you 
+
+ece-linlabsrv01.ece.gatech.edu
+
+
+[9/15/2024 11:08 PM] drakowu
+i am an ECE student, ill try that
+
+
+[9/15/2024 11:09 PM] drakowu
+oh bet that worked
+
+
+[9/15/2024 11:09 PM] drakowu
+appreciate it thanks
+
+
+[9/15/2024 11:11 PM] hypernova0550
+Great! Np
+
+
+[9/15/2024 11:39 PM] drakowu
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1285082584136810537/image.png?ex=66ed972b&is=66ec45ab&hm=113df46e5d456384c000e35ef03fc4f39db4e32a57e5853d22da1b6931bf24e5&
+
+
+[9/15/2024 11:39 PM] drakowu
+not letting me clone
+
+
+[9/15/2024 11:39 PM] drakowu
+😭
+
+
+[9/15/2024 11:43 PM] hypernova0550
+I just dm you
+
+
+[9/16/2024 3:15 PM] hypernova0550
+@Verification / Emulation Just a reminder for all the new members, we are going to have our onboarding meeting tonight 5:00 PM - 6:00 PM at C241 Van Leer.
+
+{Reactions}
+❤️ (10) 👍 (6)
+
+[9/16/2024 5:29 PM] hypernova0550
+Tools
+https://eulas.ece.gatech.edu/synopsys/
+
+
+[9/16/2024 5:29 PM] hypernova0550
+VPN
+https://gatech.service-now.com/home?id=kb_article_view&sysparm_article=KB0026837
+
+
+[9/16/2024 5:30 PM] hypernova0550
+Visvesh Sathe; sathe@gatech.edu
+
+
+[9/16/2024 5:34 PM] hypernova0550
+https://github.gatech.edu/SiliconJackets
+
+{Embed}
+https://github.gatech.edu/SiliconJackets
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+
+[9/16/2024 5:35 PM] hypernova0550
+https://github.gatech.edu/SiliconJackets/Verification_Onboarding
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Verification_Onboarding
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
+https://images-ext-1.discordapp.net/external/6vE04NNrsu32NvcgPXDwn9-MjpnH0jKC8C3T4E6gANw/https/github.gatech.edu/assets/github-logo-55c5b9a1fe52.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Verification_Onboarding
+https://images-ext-1.discordapp.net/external/8ZLn-afKvWZXb_0DU0bWNwJA93faqHBIluSJftu9-J4/https/github.gatech.edu/assets/github-mark-57519b92ca4e.png
+
+{Embed}
+https://github.gatech.edu/SiliconJackets/Verification_Onboarding
+https://images-ext-1.discordapp.net/external/oGTp9aAOVDOgva4B5J2RSgZLiv-n0vUSfFPQCHt6MnY/https/github.gatech.edu/assets/github-octocat-13c86b8b336d.png
+
+
+[9/16/2024 5:40 PM] joemama19136
+@Zach Ellis Hello, I do not have github access currently-- could I get added to the github?
+
+
+[9/16/2024 5:46 PM] arct2rus
+ece-rschsrv.ece.gatech.edu
+
+
+[9/16/2024 7:44 PM] hypernova0550
+@Verification / Emulation Attachment is our slides for todays meeting, and this is the [link for the recording](https://gtvault-my.sharepoint.com/:v:/g/personal/zwu477_gatech_edu/EUPWLAmKlyFAn631ZPD08_EBRbE-x10b9lLN9IwgHozCaA?e=OFNCqI)
+
+For server access try both:
+[GT ID/User Name]@ece-rschsrv.ece.gatech.edu,
+[GT ID/User Name]@ece-linlabsrv01.ece.gatech.edu
+
+If any of these works just use the working one, if you have problems DM me with a description of your issue and GT email.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1158826421372858398/1285385752334569543/DV_OnBoarding_1.pdf?ex=66ed6004&is=66ec0e84&hm=d757bbbc5aa3e523e292aa57b2479f17bf9c60abc2254d3326f596a735ed9fa0&
+
+
+[9/17/2024 12:55 AM] zachellis
+what is your GT username? You can also ask one of the leads to add you at the meeting
+
+
+[9/17/2024 1:54 PM] brenman32
+Lmk if u still have trouble with this I just figured it out after a week 💀
+
+
+[9/17/2024 3:33 PM] drakowu
+whatd u do?
+
+
+[9/17/2024 3:33 PM] drakowu
+i think my issue is with the home directory
+
+
+[9/17/2024 3:33 PM] drakowu
+i dont have one
+
+
+[9/17/2024 3:34 PM] drakowu
+unless u found another way
+
+
+[9/17/2024 3:42 PM] brenman32
+i had to email help@ece.gatech.edu to activate my linux account (this might only work if youre ece btw), told them my gt username, that Im using this for siliconjackets, and the name of the research advisor
+
+
+[9/17/2024 3:43 PM] brenman32
+then i ssh through ece-rschsrv.ece.gatech.edu
+
+
+[9/17/2024 3:46 PM] hypernova0550
+We are planning on gathering emails of all the members that don't have access to the server and send them together to ECE Help. If you want to do it yourself to get it resolved faster feel free to do it.
+
+
+[9/17/2024 5:52 PM] drakowu
+Ah I see I see
+
+
+[9/17/2024 5:52 PM] drakowu
+Bet thanks yall
+
+
+[9/18/2024 10:16 PM] hypernova0550
+@Verification / Emulation Just a reminder, please try connect to these servers to check if you have access. If you don't send me a DM with your GT email and the problem you encountered. We are sending out the names this Friday to ECE help and hopefully by next Monday meeting everyone have access to the server.
+
+
+[9/18/2024 10:36 PM] hypernova0550
+@Verification / Emulation For everyone, please use this link to sign up for Cadence support account. You can access Cadence online training with the account. For example, SystemVerilog and UVM trainings.
+
+https://forms.gle/XYhUBMCb3vfWccTb6
+
+{Embed}
+https://forms.gle/XYhUBMCb3vfWccTb6
+SiliconJackets Cadence Account Registration
+Please send the following information to be registered for a Cadence Support/Documentation Account
+https://images-ext-1.discordapp.net/external/ZcGdENg2hU9xjcw8RIMIDMUclsppAxh-_knXv6N3RQE/https/lh4.googleusercontent.com/Qts01J5dz9SrTTrz55gpzAGkNdd7kdiO9z8cH-XWGJGZ2_xs3mP59EJ-vcEOobpioSiKIMbPjA4%3Dw1200-h630-p
+
+
+==============================================================
+Exported 213 message(s)
+==============================================================
