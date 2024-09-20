@@ -28,16 +28,17 @@ def load_chat_logs(log_files):
             chat_logs[log_file] = file.read()
     return chat_logs
 
-log_files = ["digitaldesign.txt", "general.txt", "physicaldesign.txt", "verification.txt"]
+log_files = ["Training Data/digitaldesign.txt", "Training Data/general.txt", "Training Data/physicaldesign.txt", "Training Data/verification.txt", "Training Data/faq.txt"]
 chat_logs = load_chat_logs(log_files)
 
-digitaldesign_logs = chat_logs["digitaldesign.txt"]
-general_logs = chat_logs["general.txt"]
-physicaldesign_logs = chat_logs["physicaldesign.txt"]
-verification_logs = chat_logs["verification.txt"]
+digitaldesign_logs = chat_logs["Training Data/digitaldesign.txt"]
+general_logs = chat_logs["Training Data/general.txt"]
+physicaldesign_logs = chat_logs["Training Data/physicaldesign.txt"]
+verification_logs = chat_logs["Training Data/verification.txt"]
+faq_logs = chat_logs["Training Data/faq.txt"]
 
 historical_context = f"\nHere is the message history of the server. Remember to give people help using only previous messages because its been answered before:\n\n" \
-                     f"**FAQ Logs**:\n{'If you cannot access our Github at https://github.gatech.edu/SiliconJackets please first make sure you have a GT GitHub account by logging in with your GT credentials at https://github.gatech.edu/ to confirm your account has been created. Use the form at this link to submit your info https://forms.gle/67bb4srzNdyyh2V9A'}\n\n" \
+                     f"**FAQ Logs**:\n{faq_logs}\n\n" \
                      f"**General Logs**:\n{general_logs}\n\n" \
                      f"**Digital Design Logs**:\n{digitaldesign_logs}\n\n" \
                      f"**Physical Design Logs**:\n{physicaldesign_logs}\n\n" \
